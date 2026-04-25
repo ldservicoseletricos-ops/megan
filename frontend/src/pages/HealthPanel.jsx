@@ -1,0 +1,1 @@
+import React from 'react'; export default function HealthPanel(){ return <div className='panel-card'><h2>Painel Saúde</h2><p>Alertas, lembretes e acompanhamento.</p></div>; }

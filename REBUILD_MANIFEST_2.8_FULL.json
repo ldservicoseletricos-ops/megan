@@ -1,0 +1,13 @@
+{
+  "name": "megan-autonomy-core-2.8-full-source",
+  "version": "2.8.0",
+  "base": "2.7.0",
+  "features": [
+    "constituição interna",
+    "regras de exceção",
+    "tribunal de conflitos",
+    "ledger de precedentes",
+    "revisão constitucional de ações"
+  ],
+  "validation": "backend syntax, health route, 2.8 autonomy endpoints, frontend build"
+}

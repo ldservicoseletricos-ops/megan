@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1776834885695,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo manual: 0/3 aprovados, 0 aplicados, build ok, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:45.695Z"
+  },
+  {
+    "id": 1776834885691,
+    "type": "build_check_ok",
+    "source": "build_check_service",
+    "content": "Build real/controlado executado com sucesso.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:45.691Z"
+  },
+  {
+    "id": 1776834883893,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.893Z"
+  },
+  {
+    "id": 1776834883891,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.891Z"
+  },
+  {
+    "id": 1776834883890,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.890Z"
+  },
+  {
+    "id": 1776834883889,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.889Z"
+  },
+  {
+    "id": 1776834883888,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.888Z"
+  },
+  {
+    "id": 1776834883886,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.886Z"
+  },
+  {
+    "id": 1776834883874,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.874Z"
+  },
+  {
+    "id": 1776834883466,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.466Z"
+  },
+  {
+    "id": 1776834883463,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.463Z"
+  },
+  {
+    "id": 1776834883459,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.459Z"
+  },
+  {
+    "id": 1776834883457,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.457Z"
+  },
+  {
+    "id": 1776834883452,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-22T05:14:43.452Z"
+  },
+  {
+    "id": 1776834883450,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.450Z"
+  },
+  {
+    "id": 1776834883401,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan.",
+    "impact": "high",
+    "timestamp": "2026-04-22T05:14:43.401Z"
+  },
+  {
+    "id": 1776812825173,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo manual: 0/3 aprovados, 0 aplicados, build ok, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T23:07:05.173Z"
+  },
+  {
+    "id": 1776812825168,
+    "type": "build_check_ok",
+    "source": "build_check_service",
+    "content": "Build real/controlado executado com sucesso.",
+    "impact": "high",
+    "timestamp": "2026-04-21T23:07:05.168Z"
+  },
+  {
+    "id": 1776812824076,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T23:07:04.076Z"
+  },
+  {
+    "id": 1776812824072,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T23:07:04.072Z"
+  },
+  {
+    "id": 1776812824069,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T23:07:04.069Z"
+  },
+  {
+    "id": 1776812824063,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T23:07:04.063Z"
+  },
+  {
+    "id": 1776812824059,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T23:07:04.059Z"
+  },
+  {
+    "id": 1776812824055,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T23:07:04.055Z"
+  },
+  {
+    "id": 1776812824043,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan.",
+    "impact": "high",
+    "timestamp": "2026-04-21T23:07:04.043Z"
+  },
+  {
+    "id": 1776804072286,
+    "type": "git_commit_skipped",
+    "source": "git_ops_service",
+    "content": "Commit real pulado: pasta .git não encontrada.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T20:41:12.286Z"
+  },
+  {
+    "id": 1776804072251,
+    "type": "git_commit_skipped",
+    "source": "git_ops_service",
+    "content": "Commit real pulado: pasta .git não encontrada.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T20:41:12.251Z"
+  },
+  {
+    "id": 1776802078222,
+    "type": "autonomy_plan",
+    "source": "autonomous_execution_service",
+    "content": "Plano autônomo atualizado com foco em self_heal e 4 ação(ões) priorizadas.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T20:07:58.222Z"
+  },
+  {
+    "id": 1776786981640,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo manual: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:56:21.640Z"
+  },
+  {
+    "id": 1776786981636,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em /tmp/megan_hotfix/megan_consolidated/backend frontend=Dependências ausentes em /tmp/megan_hotfix/megan_consolidated/frontend. Execute npm install antes do build real.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:56:21.636Z"
+  },
+  {
+    "id": 1776786981632,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:56:21.632Z"
+  },
+  {
+    "id": 1776786981631,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:56:21.631Z"
+  },
+  {
+    "id": 1776786981628,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:56:21.628Z"
+  },
+  {
+    "id": 1776786981626,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:56:21.626Z"
+  },
+  {
+    "id": 1776786981625,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:56:21.625Z"
+  },
+  {
+    "id": 1776786981622,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:56:21.622Z"
+  },
+  {
+    "id": 1776786981615,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em /tmp/megan_hotfix/megan_consolidated.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:56:21.615Z"
+  },
+  {
+    "id": 1776786544345,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo manual: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:49:04.345Z"
+  },
+  {
+    "id": 1776786544339,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em /tmp/megan_hotfix/megan_consolidated/backend frontend=Dependências ausentes em /tmp/megan_hotfix/megan_consolidated/frontend. Execute npm install antes do build real.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:49:04.339Z"
+  },
+  {
+    "id": 1776786544334,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:49:04.334Z"
+  },
+  {
+    "id": 1776786544332,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:49:04.332Z"
+  },
+  {
+    "id": 1776786544330,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:49:04.330Z"
+  },
+  {
+    "id": 1776786544328,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:49:04.328Z"
+  },
+  {
+    "id": 1776786544315,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T15:49:04.315Z"
+  },
+  {
+    "id": 1776786544313,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:49:04.313Z"
+  },
+  {
+    "id": 1776786544281,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em /tmp/megan_hotfix/megan_consolidated.",
+    "impact": "high",
+    "timestamp": "2026-04-21T15:49:04.281Z"
+  },
+  {
+    "id": 1776744251518,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:11.518Z"
+  },
+  {
+    "id": 1776744251518,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:11.518Z"
+  },
+  {
+    "id": 1776744251517,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:11.517Z"
+  },
+  {
+    "id": 1776744251516,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:11.516Z"
+  },
+  {
+    "id": 1776744251515,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:11.515Z"
+  },
+  {
+    "id": 1776744251514,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:11.514Z"
+  },
+  {
+    "id": 1776744251512,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:11.512Z"
+  },
+  {
+    "id": 1776744247318,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:07.318Z"
+  },
+  {
+    "id": 1776744247312,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:07.312Z"
+  },
+  {
+    "id": 1776744246528,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:06.528Z"
+  },
+  {
+    "id": 1776744246524,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:06.524Z"
+  },
+  {
+    "id": 1776744246521,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:06.521Z"
+  },
+  {
+    "id": 1776744246518,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:06.518Z"
+  },
+  {
+    "id": 1776744246514,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:06.514Z"
+  },
+  {
+    "id": 1776744246511,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:06.511Z"
+  },
+  {
+    "id": 1776744246504,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:06.504Z"
+  },
+  {
+    "id": 1776744242267,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:02.267Z"
+  },
+  {
+    "id": 1776744242262,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:02.262Z"
+  },
+  {
+    "id": 1776744241511,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:01.511Z"
+  },
+  {
+    "id": 1776744241510,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:01.510Z"
+  },
+  {
+    "id": 1776744241508,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:01.508Z"
+  },
+  {
+    "id": 1776744241507,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:01.507Z"
+  },
+  {
+    "id": 1776744241505,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:04:01.505Z"
+  },
+  {
+    "id": 1776744241504,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:01.504Z"
+  },
+  {
+    "id": 1776744241499,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:04:01.499Z"
+  },
+  {
+    "id": 1776744237329,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:57.329Z"
+  },
+  {
+    "id": 1776744237323,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:57.323Z"
+  },
+  {
+    "id": 1776744236523,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:56.523Z"
+  },
+  {
+    "id": 1776744236521,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:56.521Z"
+  },
+  {
+    "id": 1776744236518,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:56.518Z"
+  },
+  {
+    "id": 1776744236516,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:56.516Z"
+  },
+  {
+    "id": 1776744236514,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:56.514Z"
+  },
+  {
+    "id": 1776744236511,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:56.511Z"
+  },
+  {
+    "id": 1776744236505,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:56.505Z"
+  },
+  {
+    "id": 1776744232343,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:52.343Z"
+  },
+  {
+    "id": 1776744232335,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:52.335Z"
+  },
+  {
+    "id": 1776744231528,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:51.528Z"
+  },
+  {
+    "id": 1776744231525,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:51.525Z"
+  },
+  {
+    "id": 1776744231522,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:51.522Z"
+  },
+  {
+    "id": 1776744231520,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:51.520Z"
+  },
+  {
+    "id": 1776744231516,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:51.516Z"
+  },
+  {
+    "id": 1776744231512,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:51.512Z"
+  },
+  {
+    "id": 1776744231504,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:51.504Z"
+  },
+  {
+    "id": 1776744227358,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:47.358Z"
+  },
+  {
+    "id": 1776744227353,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:47.353Z"
+  },
+  {
+    "id": 1776744226527,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:46.527Z"
+  },
+  {
+    "id": 1776744226524,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:46.524Z"
+  },
+  {
+    "id": 1776744226521,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:46.521Z"
+  },
+  {
+    "id": 1776744226517,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:46.517Z"
+  },
+  {
+    "id": 1776744226514,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:46.514Z"
+  },
+  {
+    "id": 1776744226511,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:46.511Z"
+  },
+  {
+    "id": 1776744226502,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:46.502Z"
+  },
+  {
+    "id": 1776744222298,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:42.298Z"
+  },
+  {
+    "id": 1776744222293,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:42.293Z"
+  },
+  {
+    "id": 1776744221510,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:41.510Z"
+  },
+  {
+    "id": 1776744221507,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:41.507Z"
+  },
+  {
+    "id": 1776744221503,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:41.503Z"
+  },
+  {
+    "id": 1776744221500,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:41.500Z"
+  },
+  {
+    "id": 1776744221496,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:41.496Z"
+  },
+  {
+    "id": 1776744221493,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:41.493Z"
+  },
+  {
+    "id": 1776744221487,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:41.487Z"
+  },
+  {
+    "id": 1776744217307,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:37.307Z"
+  },
+  {
+    "id": 1776744217300,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:37.300Z"
+  },
+  {
+    "id": 1776744216501,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:36.501Z"
+  },
+  {
+    "id": 1776744216497,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:36.497Z"
+  },
+  {
+    "id": 1776744216493,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em deploy. Patch rejeitado; ganho 0.6 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:36.494Z"
+  },
+  {
+    "id": 1776744216490,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para deploy.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:36.490Z"
+  },
+  {
+    "id": 1776744216486,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em build. Patch rejeitado; ganho 0.7 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:36.486Z"
+  },
+  {
+    "id": 1776744216483,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para build.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:36.483Z"
+  },
+  {
+    "id": 1776744216474,
+    "type": "repo_validation_ok",
+    "source": "repo_validation_service",
+    "content": "Estrutura mínima validada para ciclo mestre real. Score 100 em C:/megan2.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:36.474Z"
+  },
+  {
+    "id": 1776744212331,
+    "type": "master_cycle",
+    "source": "master_cycle_service",
+    "content": "Ciclo auto: 0/3 aprovados, 0 aplicados, build falhou, deploy bloqueado.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:32.331Z"
+  },
+  {
+    "id": 1776744212324,
+    "type": "build_check_failed",
+    "source": "build_check_service",
+    "content": "Build não aprovado. backend=Build inexistente em C:\\megan2\\backend frontend=Build frontend falhou.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:32.324Z"
+  },
+  {
+    "id": 1776744211483,
+    "type": "rejected_patch",
+    "source": "promotion_service",
+    "content": "Patch rejeitado em real_patch. Patch rejeitado; ganho 1 abaixo do mínimo 1.2.",
+    "impact": "medium",
+    "timestamp": "2026-04-21T04:03:31.483Z"
+  },
+  {
+    "id": 1776744211482,
+    "type": "rollback_ready",
+    "source": "rollback_service",
+    "content": "Rollback preparado para real_patch.",
+    "impact": "high",
+    "timestamp": "2026-04-21T04:03:31.482Z"
+  }
+]

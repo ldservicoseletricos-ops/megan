@@ -1,0 +1,16 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "orchestrationMode": "steady_intent_flow",
+      "activeIntent": null,
+      "pendingIntents": [],
+      "intentCards": [],
+      "lastSync": null,
+      "lastCommit": null,
+      "history": []
+    }
+  },
+  "updatedAt": "2026-04-16T01:30:59.356Z",
+  "version": "67.0.0"
+}

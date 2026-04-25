@@ -1,0 +1,8 @@
+MEGAN AUTONOMY CORE 2.1 - rebuilt package
+
+This package was rebuilt from the available source tree in the environment and repackaged to restore a valid downloadable ZIP artifact.
+
+Validation performed:
+- ZIP created from scratch
+- archive integrity tested with unzip -t
+- file exists at the published download path

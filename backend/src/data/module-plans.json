@@ -1,0 +1,40 @@
+[
+  {
+    "id": "navigation",
+    "name": "Painel Navegação",
+    "price": 29,
+    "interval": "monthly",
+    "modules": [
+      "navigation"
+    ]
+  },
+  {
+    "id": "health",
+    "name": "Painel Saúde",
+    "price": 49,
+    "interval": "monthly",
+    "modules": [
+      "health"
+    ]
+  },
+  {
+    "id": "adm",
+    "name": "Painel ADM",
+    "price": 99,
+    "interval": "monthly",
+    "modules": [
+      "adm"
+    ]
+  },
+  {
+    "id": "full",
+    "name": "Megan Full",
+    "price": 149,
+    "interval": "monthly",
+    "modules": [
+      "adm",
+      "navigation",
+      "health"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "megan-os-4.0-full-source",
+  "version": "4.0.0",
+  "base": "3.9 available source",
+  "added": [
+    "backend/src/modules/core",
+    "frontend/src/pages/CoreDashboardPage.jsx",
+    "/api/core routes"
+  ],
+  "validated": [
+    "zip integrity",
+    "node syntax",
+    "core service import"
+  ]
+}

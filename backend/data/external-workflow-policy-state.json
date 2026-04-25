@@ -1,0 +1,14 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "lastAnalysis": null,
+      "lastApplied": null,
+      "activePolicies": [],
+      "policyHints": [],
+      "history": []
+    }
+  },
+  "updatedAt": "2026-04-16T01:30:59.353Z",
+  "version": "59.0.0"
+}

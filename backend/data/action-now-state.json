@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "title": "Validar rotas reais do backend",
+  "reason": "Maior gargalo atual identificado",
+  "expectedImpact": "Desbloqueia expansão segura",
+  "predictedRisk": "baixo",
+  "decidedBy": "Controlled Autonomy",
+  "sourceFocus": "Estabilizar o runtime antes da próxima expansão"
+}

@@ -1,0 +1,23 @@
+MEGAN OS 4.6 — AGENTES AUTÔNOMOS REAIS
+
+Foco:
+Agentes executam ciclos recorrentes sem depender de comando manual, mantendo supervisão para ações sensíveis.
+
+Incluído:
+- Agente de vendas autônomo
+- Agente de suporte autônomo
+- Agente de deploy supervisionado
+- Agente financeiro de acompanhamento de caixa
+- Fila de tarefas autônomas
+- Logs auditáveis de execução
+- Aprovação para ações sensíveis
+- Backend: /api/autonomous-agents
+- Frontend: aba Agentes Autônomos 4.6
+
+Stack preservada:
+- Node + Express
+- React + Vite
+- Backend porta 10000
+
+Observação:
+Esta fase prepara a execução real por conectores. Ações externas críticas ficam em modo supervisionado por segurança.

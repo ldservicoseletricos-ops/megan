@@ -1,0 +1,23 @@
+[
+  {
+    "id": "goal-001",
+    "department": "Megan Growth",
+    "title": "Gerar leads iniciais",
+    "target": "30 leads/semana",
+    "status": "active"
+  },
+  {
+    "id": "goal-002",
+    "department": "Megan Tech",
+    "title": "Conectar Supabase",
+    "target": "infra online",
+    "status": "active"
+  },
+  {
+    "id": "goal-003",
+    "department": "Megan Ops AI",
+    "title": "Configurar deploy",
+    "target": "Render + Vercel",
+    "status": "active"
+  }
+]

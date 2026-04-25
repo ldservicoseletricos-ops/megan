@@ -1,0 +1,144 @@
+{
+  "score": 92,
+  "mode": "assisted_live",
+  "lastScanAt": "2026-04-22T05:44:31.319Z",
+  "lastRunAt": "2026-04-21T20:07:58.223Z",
+  "weeklyGoal": "Aumentar conversão do Money Mode e estabilizar operação online.",
+  "focus": "Converter trials e checkouts em cliente ativo",
+  "observers": [
+    {
+      "id": "backend",
+      "name": "Backend uptime",
+      "status": "watching",
+      "summary": "API online e respondendo health/overview."
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend UX",
+      "status": "watching",
+      "summary": "Validar percepção premium e densidade visual."
+    },
+    {
+      "id": "money",
+      "name": "Money Mode",
+      "status": "watching",
+      "summary": "Medir leads, trials e checkouts gerados."
+    },
+    {
+      "id": "deploy",
+      "name": "Deploy monitor",
+      "status": "watching",
+      "summary": "Confirmar estabilidade Render/Vercel."
+    }
+  ],
+  "detectedIssues": [
+    {
+      "id": "issue-readiness",
+      "severity": "medium",
+      "title": "Readiness abaixo do ideal",
+      "description": "Readiness atual em 72%. Ainda há espaço para consolidar produto e operação.",
+      "owner": "core"
+    }
+  ],
+  "suggestedUpgrades": [
+    {
+      "id": "upgrade-scan-1",
+      "lane": "revenue",
+      "title": "Automatizar conversão dos leads atuais",
+      "impact": "high",
+      "effort": "medium",
+      "action": "ligar CRM + follow-up + oferta Pro"
+    },
+    {
+      "id": "upgrade-scan-2",
+      "lane": "product",
+      "title": "Aumentar percepção premium do produto",
+      "impact": "high",
+      "effort": "medium",
+      "action": "refinar interface, copy, KPIs e prova operacional"
+    },
+    {
+      "id": "upgrade-scan-3",
+      "lane": "ops",
+      "title": "Automatizar checks de saúde",
+      "impact": "medium",
+      "effort": "low",
+      "action": "rodar scans periódicos e logs de evolução"
+    }
+  ],
+  "actionQueue": [
+    {
+      "id": "queued-1",
+      "type": "execute_cycle",
+      "title": "Executar ciclo técnico e reavaliar readiness",
+      "status": "pending",
+      "lane": "dev"
+    },
+    {
+      "id": "queued-2",
+      "type": "improve_revenue",
+      "title": "Atualizar motor comercial e follow-up",
+      "status": "pending",
+      "lane": "revenue"
+    },
+    {
+      "id": "queued-3",
+      "type": "plan_autonomy",
+      "title": "Replanejar autonomia operacional",
+      "status": "pending",
+      "lane": "core"
+    }
+  ],
+  "learningLog": [
+    {
+      "id": "learn-1776836671319",
+      "createdAt": "2026-04-22T05:44:31.319Z",
+      "title": "Scan executado",
+      "summary": "Readiness 72% • leads 4 • backend online."
+    },
+    {
+      "id": "learn-1776829431108",
+      "createdAt": "2026-04-22T03:43:51.108Z",
+      "title": "Scan executado",
+      "summary": "Readiness 71% • leads 4 • backend online."
+    },
+    {
+      "id": "learn-1776813749658",
+      "createdAt": "2026-04-21T23:22:29.658Z",
+      "title": "Scan executado",
+      "summary": "Readiness 71% • leads 4 • backend online."
+    },
+    {
+      "id": "learn-1776812865738",
+      "createdAt": "2026-04-21T23:07:45.738Z",
+      "title": "Scan executado",
+      "summary": "Readiness 71% • leads 4 • backend online."
+    },
+    {
+      "id": "learn-1776802078191",
+      "createdAt": "2026-04-21T20:07:58.191Z",
+      "title": "Scan executado",
+      "summary": "Readiness 71% • leads 4 • backend online."
+    },
+    {
+      "id": "learn-1",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "title": "Online real ativado",
+      "summary": "A Megan passou a operar com frontend e backend públicos."
+    },
+    {
+      "id": "learn-2",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "title": "Money Mode validado",
+      "summary": "Leads, trials e checkouts começaram a rodar na base comercial."
+    }
+  ],
+  "lastExecutions": [
+    {
+      "id": "exec-1776802078223",
+      "action": "plan_autonomy",
+      "status": "done",
+      "createdAt": "2026-04-21T20:07:58.223Z"
+    }
+  ]
+}

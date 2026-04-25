@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user_001",
+    "name": "Luiz Rosa",
+    "email": "luiz@megan.local",
+    "planId": "full",
+    "modules": [
+      "admin",
+      "navigation",
+      "health"
+    ],
+    "createdAt": "2026-04-22T00:00:00.000Z",
+    "updatedAt": "2026-04-22T00:00:00.000Z"
+  },
+  {
+    "id": "user_002",
+    "name": "Cliente Navegação",
+    "email": "cliente.nav@megan.local",
+    "planId": "nav",
+    "modules": [
+      "navigation"
+    ],
+    "createdAt": "2026-04-22T00:00:00.000Z",
+    "updatedAt": "2026-04-22T00:00:00.000Z"
+  }
+]

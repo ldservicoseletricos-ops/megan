@@ -1,0 +1,4 @@
+Megan Autonomy Core 1.8
+
+Inclui metas compostas, planejador multi-etapas, previsão de impacto futuro e roadmap autogerado.
+Pacote fonte limpo para instalar com npm install no backend e no frontend.

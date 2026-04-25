@@ -1,0 +1,54 @@
+[
+  {
+    "id": "lead_1776800827020_ged55g",
+    "name": "Luiz",
+    "email": "luiz@example.com",
+    "company": "",
+    "segment": "empresa",
+    "interest": "checkout",
+    "planId": "pro",
+    "notes": "",
+    "source": "money-mode",
+    "status": "new",
+    "createdAt": "2026-04-21T19:47:07.020Z"
+  },
+  {
+    "id": "lead_1776800492080_6n28na",
+    "name": "Luiz",
+    "email": "luiz.checkout@example.com",
+    "company": "LR",
+    "segment": "empresa",
+    "interest": "checkout",
+    "planId": "starter",
+    "notes": "",
+    "source": "money-mode",
+    "status": "new",
+    "createdAt": "2026-04-21T19:41:32.080Z"
+  },
+  {
+    "id": "lead_1776800492062_c5zkdn",
+    "name": "Luiz",
+    "email": "luiz@example.com",
+    "company": "LR",
+    "segment": "empresa",
+    "interest": "trial",
+    "planId": "pro",
+    "notes": "",
+    "source": "money-mode",
+    "status": "new",
+    "createdAt": "2026-04-21T19:41:32.063Z"
+  },
+  {
+    "id": "lead_1776800097829_jk90km",
+    "name": "Luiz Teste",
+    "email": "luiz@example.com",
+    "company": "Megan Labs",
+    "segment": "empresa",
+    "interest": "trial",
+    "planId": "pro",
+    "notes": "",
+    "source": "money-mode",
+    "status": "new",
+    "createdAt": "2026-04-21T19:34:57.829Z"
+  }
+]

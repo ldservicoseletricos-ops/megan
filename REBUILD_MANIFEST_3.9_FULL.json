@@ -1,0 +1,12 @@
+{
+  "version": "3.9.0",
+  "features": [
+    "multi-company",
+    "multi-unit",
+    "central-command",
+    "benchmark",
+    "enterprise-ledger"
+  ],
+  "source": "rebuilt from 3.8 available base",
+  "noNodeModules": true
+}

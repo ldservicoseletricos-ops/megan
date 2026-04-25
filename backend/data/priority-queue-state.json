@@ -1,0 +1,58 @@
+{
+  "version": "91.0.0",
+  "updatedAt": "2026-04-19T08:06:45.782Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "items": [
+        {
+          "id": "queue-1776295207751-2yy7sy",
+          "title": "Revisar backlog externo e prioridades",
+          "type": "backlog_review",
+          "level": "urgent_important",
+          "status": "queued",
+          "source": "mission_hub",
+          "priorityScore": 100,
+          "note": "",
+          "createdAt": "2026-04-15T23:20:07.751Z",
+          "updatedAt": "2026-04-15T23:20:07.751Z",
+          "startedAt": null,
+          "completedAt": null,
+          "blockedAt": null
+        },
+        {
+          "id": "queue-1776577453908-z9wfyn",
+          "title": "Definir escopo de: Evoluir Megan OS",
+          "type": "goal_roadmap",
+          "level": "urgent_important",
+          "status": "queued",
+          "source": "execution_roadmap",
+          "priorityScore": 100,
+          "note": "Evoluir Megan OS",
+          "createdAt": "2026-04-19T05:44:13.908Z",
+          "updatedAt": "2026-04-19T05:44:13.908Z",
+          "startedAt": null,
+          "completedAt": null,
+          "blockedAt": null
+        },
+        {
+          "id": "queue-1776586005782-chqmgx",
+          "title": "Quebrar Evoluir Megan OS em etapas menores",
+          "type": "goal_roadmap",
+          "level": "urgent_important",
+          "status": "queued",
+          "source": "execution_roadmap",
+          "priorityScore": 100,
+          "note": "Evoluir Megan OS",
+          "createdAt": "2026-04-19T08:06:45.782Z",
+          "updatedAt": "2026-04-19T08:06:45.782Z",
+          "startedAt": null,
+          "completedAt": null,
+          "blockedAt": null
+        }
+      ],
+      "updatedAt": "2026-04-19T08:06:45.782Z",
+      "createdAt": "2026-04-15T20:28:16.735Z"
+    }
+  }
+}

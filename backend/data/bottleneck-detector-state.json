@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "overallRisk": "moderado",
+  "primaryBottleneck": "Nenhum gargalo priorizado",
+  "bottlenecks": [
+    {
+      "id": "runtime-stability",
+      "title": "Validação incompleta de rotas",
+      "impact": "alto",
+      "urgency": "alta",
+      "unblockRecommendation": "Validar cada nova rota antes de expandir o frontend"
+    },
+    {
+      "id": "module-sprawl",
+      "title": "Expansão excessiva de módulos",
+      "impact": "médio",
+      "urgency": "média",
+      "unblockRecommendation": "Adicionar módulos novos somente sobre base estável"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import React from 'react'; export default function ProtectedRoute({ user, children }) { return user ? children : null; }

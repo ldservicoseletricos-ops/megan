@@ -1,0 +1,75 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "connector": {
+        "ready": true,
+        "provider": "gmail_api",
+        "safeMode": true,
+        "requiresApproval": true,
+        "configuredAt": "2026-04-14T01:46:11.993Z",
+        "lastHealthCheckAt": "2026-04-14T01:46:11.993Z"
+      },
+      "lastDraft": {
+        "draftId": "draft-1",
+        "to": "teste@exemplo.com",
+        "toMasked": "te***@exemplo.com",
+        "cc": "",
+        "subject": "Atualiza��o Megan",
+        "body": "Segue atualiza��o do projeto.",
+        "label": "projeto",
+        "status": "draft",
+        "approved": false,
+        "preparedOnly": false,
+        "createdAt": "2026-04-14T01:47:09.433Z",
+        "updatedAt": "2026-04-14T01:47:09.433Z"
+      },
+      "lastSend": {
+        "draftId": "draft-1",
+        "mode": "safe_dispatch",
+        "connectorReady": true,
+        "safeMode": true,
+        "requiresApproval": true,
+        "status": "sent",
+        "toMasked": "te***@exemplo.com",
+        "subject": "Atualiza��o Megan",
+        "generatedAt": "2026-04-14T01:47:52.860Z"
+      },
+      "drafts": [
+        {
+          "draftId": "draft-1",
+          "to": "teste@exemplo.com",
+          "toMasked": "te***@exemplo.com",
+          "cc": "",
+          "subject": "Atualiza��o Megan",
+          "body": "Segue atualiza��o do projeto.",
+          "label": "projeto",
+          "status": "sent",
+          "approved": true,
+          "preparedOnly": false,
+          "createdAt": "2026-04-14T01:47:09.433Z",
+          "updatedAt": "2026-04-14T01:47:52.860Z"
+        }
+      ],
+      "sent": [
+        {
+          "draftId": "draft-1",
+          "toMasked": "te***@exemplo.com",
+          "subject": "Atualiza��o Megan",
+          "mode": "safe_dispatch",
+          "sentAt": "2026-04-14T01:47:52.860Z"
+        }
+      ],
+      "analysisHistory": [],
+      "counters": {
+        "configurations": 1,
+        "drafts": 1,
+        "sends": 1,
+        "safeDispatches": 1,
+        "preparedOnly": 0
+      },
+      "createdAt": "2026-04-14T01:46:00.767Z",
+      "updatedAt": "2026-04-14T01:47:52.860Z"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1776664129016,
+    "relativePath": "backend/src/services/deploy-gate.service.js",
+    "reason": "Patch seguro de autoevolução aplicado em backend/src/services/deploy-gate.service.js.",
+    "backupId": 1776664129012,
+    "createdAt": "2026-04-20T05:48:49.016Z",
+    "mode": "full_content"
+  },
+  {
+    "id": 1776664128997,
+    "relativePath": "backend/src/app.js",
+    "reason": "Patch seguro de autoevolução aplicado em backend/src/app.js.",
+    "backupId": 1776664128992,
+    "createdAt": "2026-04-20T05:48:48.997Z",
+    "mode": "full_content"
+  },
+  {
+    "id": 1776647719495,
+    "relativePath": "frontend/src/App.jsx",
+    "reason": "patch manual",
+    "backupId": 1776647719485,
+    "createdAt": "2026-04-20T01:15:19.495Z"
+  },
+  {
+    "id": 1776647682031,
+    "relativePath": "frontend/src/App.jsx",
+    "reason": "patch manual",
+    "backupId": 1776647682027,
+    "createdAt": "2026-04-20T01:14:42.031Z"
+  },
+  {
+    "id": 1776647171434,
+    "relativePath": "frontend/src/App.tsx",
+    "reason": "teste controlado",
+    "backupId": 1776647171386,
+    "createdAt": "2026-04-20T01:06:11.434Z"
+  },
+  {
+    "id": 1776642349151,
+    "relativePath": "frontend/src/App.jsx",
+    "reason": "teste controlado",
+    "backupId": 1776642349144,
+    "createdAt": "2026-04-19T23:45:49.151Z"
+  }
+]

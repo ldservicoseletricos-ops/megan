@@ -1,0 +1,1 @@
+import { getCommandCenter, updateCommandCenter } from '../services/command-center.service.js'; export function getCommandCenterController(req, res) { res.json({ ok: true, commandCenter: getCommandCenter() }); } export function updateCommandCenterController(req, res) { res.json({ ok: true, commandCenter: updateCommandCenter(req.body || {}) }); }

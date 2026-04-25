@@ -1,0 +1,2 @@
+function buildMemoryIndex(episodes = []) { const byTag = {}; const byImpact = {}; for (const episode of episodes || []) { byImpact[episode.impact || 'unknown'] = (byImpact[episode.impact || 'unknown'] || 0) + 1; for (const tag of episode.tags || []) byTag[tag] = (byTag[tag] || 0) + 1; } return { ok: true, totalEpisodes: episodes.length, byTag, byImpact, generatedAt: new Date().toISOString() }; }
+module.exports = { buildMemoryIndex };

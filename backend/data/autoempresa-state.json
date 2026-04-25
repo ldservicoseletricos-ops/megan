@@ -1,0 +1,127 @@
+{
+  "leads": [
+    {
+      "id": "lead_1777037018089",
+      "name": "Teste",
+      "company": "Teste",
+      "channel": "Manual",
+      "email": "",
+      "phone": "",
+      "need": "Necessidade comercial ainda não detalhada",
+      "valueEstimate": 2500,
+      "stage": "follow_up",
+      "score": 76,
+      "createdAt": "2026-04-24T13:23:38.089Z",
+      "lastAction": "Follow-up agendado"
+    },
+    {
+      "id": "lead_001",
+      "name": "Clínica Vida Plena",
+      "company": "Clínica Vida Plena",
+      "channel": "WhatsApp",
+      "email": "contato@vidaplena.local",
+      "phone": "+55 11 90000-0001",
+      "need": "automatizar atendimento, agenda e cobrança",
+      "valueEstimate": 2800,
+      "stage": "proposal",
+      "score": 92,
+      "createdAt": "2026-04-24T09:00:00.000Z",
+      "lastAction": "Proposta automática pronta para envio"
+    },
+    {
+      "id": "lead_002",
+      "name": "Rosa Consultoria",
+      "company": "Rosa Consultoria",
+      "channel": "Gmail",
+      "email": "diretoria@rosaconsultoria.local",
+      "phone": "+55 11 90000-0002",
+      "need": "CRM vivo e follow-up automático para vendas B2B",
+      "valueEstimate": 4200,
+      "stage": "follow_up",
+      "score": 87,
+      "createdAt": "2026-04-24T10:30:00.000Z",
+      "lastAction": "Follow-up consultivo agendado"
+    }
+  ],
+  "proposals": [
+    {
+      "id": "proposal_1777037018092",
+      "leadId": "lead_1777037018089",
+      "company": "Teste",
+      "title": "Proposta Megan OS AUTOEMPRESA",
+      "value": 2500,
+      "recurrence": "mensal",
+      "scope": [
+        "CRM vivo com pipeline comercial",
+        "Atendimento inicial automático",
+        "Follow-up inteligente",
+        "Métricas executivas",
+        "Cobrança organizada"
+      ],
+      "status": "draft_ready",
+      "createdAt": "2026-04-24T13:23:38.092Z"
+    }
+  ],
+  "followUps": [
+    {
+      "id": "follow_1777037018093",
+      "leadId": "lead_1777037018089",
+      "company": "Teste",
+      "channel": "Manual",
+      "when": "2026-04-25T13:23:38.093Z",
+      "message": "Follow-up consultivo: confirmar recebimento da proposta e remover objeções.",
+      "status": "scheduled",
+      "createdAt": "2026-04-24T13:23:38.093Z"
+    }
+  ],
+  "billing": [],
+  "replies": [
+    {
+      "id": "reply_1777037018091",
+      "leadId": "lead_1777037018089",
+      "channel": "Manual",
+      "subject": "Resposta comercial Megan OS",
+      "message": "Olá Teste, a Megan analisou sua necessidade e pode preparar uma solução com atendimento, CRM, follow-up e cobrança automatizada. Posso te enviar uma proposta objetiva?",
+      "status": "draft_ready",
+      "createdAt": "2026-04-24T13:23:38.091Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_1777037018093",
+      "type": "follow_up",
+      "text": "Follow-up agendado para Teste",
+      "createdAt": "2026-04-24T13:23:38.093Z"
+    },
+    {
+      "id": "act_1777037018092",
+      "type": "proposal",
+      "text": "Proposta criada para Teste",
+      "createdAt": "2026-04-24T13:23:38.092Z"
+    },
+    {
+      "id": "act_1777037018091",
+      "type": "reply",
+      "text": "Resposta criada para Teste",
+      "createdAt": "2026-04-24T13:23:38.091Z"
+    },
+    {
+      "id": "act_1777037018090",
+      "type": "lead",
+      "text": "Lead captado: Teste",
+      "createdAt": "2026-04-24T13:23:38.090Z"
+    },
+    {
+      "id": "act_001",
+      "type": "lead",
+      "text": "Lead qualificado: Clínica Vida Plena",
+      "createdAt": "2026-04-24T09:03:00.000Z"
+    },
+    {
+      "id": "act_002",
+      "type": "proposal",
+      "text": "Proposta sugerida para automação comercial",
+      "createdAt": "2026-04-24T09:15:00.000Z"
+    }
+  ]
+}

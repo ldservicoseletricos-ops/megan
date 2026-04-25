@@ -1,0 +1,20 @@
+MEGAN OS 8.5 - SELF GROWTH AI
+
+Adicionado sobre a base 8.0 Self Infrastructure AI.
+
+Arquivos adicionados:
+- backend/src/modules/self-growth/self-growth.service.js
+- backend/src/modules/self-growth/self-growth.routes.js
+- frontend/src/features/selfGrowth/SelfGrowthPage.jsx
+
+Arquivos atualizados:
+- backend/src/app.js
+- frontend/src/App.jsx
+- frontend/src/styles.css
+
+Rotas:
+- GET /api/self-growth/dashboard
+- POST /api/self-growth/analyze
+- GET /api/self-growth/plan
+- POST /api/self-growth/execute-safe
+- POST /api/self-growth/mode

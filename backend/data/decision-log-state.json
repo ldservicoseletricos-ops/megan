@@ -1,0 +1,76 @@
+{
+  "version": "90.0.0",
+  "updatedAt": "2026-04-15T23:20:07.754Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "decisions": [
+        {
+          "id": "decision-1776295207754-wdhzgp",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T23:20:07.754Z"
+        },
+        {
+          "id": "decision-1776294880431-fq9khz",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T23:14:40.431Z"
+        },
+        {
+          "id": "decision-1776290804618-slyd4n",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T22:06:44.618Z"
+        },
+        {
+          "id": "decision-1776290231512-fptjat",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T21:57:11.512Z"
+        },
+        {
+          "id": "decision-1776285911685-n9apiy",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T20:45:11.685Z"
+        },
+        {
+          "id": "decision-1776284915672-r1xxyj",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T20:28:35.672Z"
+        },
+        {
+          "id": "decision-1776284915199-r03t8n",
+          "title": "Revisar backlog externo e prioridades",
+          "reason": "ready_action:backlog_review",
+          "impact": "operational",
+          "reversible": true,
+          "source": "mission_hub",
+          "createdAt": "2026-04-15T20:28:35.199Z"
+        }
+      ],
+      "updatedAt": "2026-04-15T23:20:07.754Z",
+      "createdAt": "2026-04-15T20:28:16.736Z"
+    }
+  }
+}

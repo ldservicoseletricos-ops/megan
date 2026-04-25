@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getBoardController, createBoardController } from '../controllers/board.controller.js'; const router = Router(); router.get('/board', getBoardController); router.post('/board', createBoardController); export default router;

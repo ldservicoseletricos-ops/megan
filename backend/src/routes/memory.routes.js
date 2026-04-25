@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getMemoryController, updateMemoryController } from '../controllers/memory.controller.js'; import { requireLocalAuth } from '../middleware/auth.middleware.js'; const router = Router(); router.get('/memory', getMemoryController); router.post('/memory', requireLocalAuth, updateMemoryController); export default router;

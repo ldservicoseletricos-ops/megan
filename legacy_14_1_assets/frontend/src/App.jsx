@@ -1,0 +1,1 @@
+export default function App(){return <div><h1>Megan OS 14.1</h1><p>Executive Neural Control</p></div>}

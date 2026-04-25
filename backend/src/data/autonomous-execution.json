@@ -1,0 +1,51 @@
+{
+  "updatedAt": "2026-04-21T20:07:58.222Z",
+  "mode": "assisted-autonomy",
+  "priorityFocus": "self_heal",
+  "confidence": 55,
+  "learningCount": 0,
+  "lastAction": "plan_refreshed",
+  "queue": [
+    {
+      "id": "self_heal",
+      "title": "Ativar recuperação de falhas recentes",
+      "type": "self_heal",
+      "priority": 97,
+      "command": "reparar sistema",
+      "reason": "Há ciclos recentes com build falhando. Autonomia precisa reduzir atrito antes de escalar.",
+      "status": "queued",
+      "updatedAt": "2026-04-21T20:07:58.221Z"
+    },
+    {
+      "id": "env_guard",
+      "title": "Auditar ambiente operacional",
+      "type": "env_audit",
+      "priority": 91,
+      "command": "env status",
+      "reason": "Build readiness em 10%. Vale garantir .env, portas e dependências.",
+      "status": "queued",
+      "updatedAt": "2026-04-21T20:07:58.221Z"
+    },
+    {
+      "id": "cycle_real",
+      "title": "Executar ciclo real aprovado",
+      "type": "real_cycle",
+      "priority": 86,
+      "command": "executar ciclo",
+      "reason": "Readiness atual em 71%. O próximo ganho vem de um ciclo real com patches seguros.",
+      "status": "queued",
+      "updatedAt": "2026-04-21T20:07:58.221Z"
+    },
+    {
+      "id": "repo_guard",
+      "title": "Blindar raiz do repositório",
+      "type": "repo_validation",
+      "priority": 82,
+      "command": "validar repo",
+      "reason": "Manter score do repositório em nível alto.",
+      "status": "queued",
+      "updatedAt": "2026-04-21T20:07:58.221Z"
+    }
+  ],
+  "learning": []
+}

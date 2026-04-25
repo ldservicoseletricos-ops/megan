@@ -1,0 +1,12 @@
+{
+  "connected": true,
+  "repoPath": "C:/megan",
+  "branch": "main",
+  "lastSnapshotId": 1776834883884,
+  "changedFiles": [
+    "backend/src/app.js",
+    "backend/src/services/orchestrator.service.js",
+    "frontend/src/App.jsx"
+  ],
+  "autoDetected": false
+}

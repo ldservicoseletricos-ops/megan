@@ -1,0 +1,16 @@
+[
+  {
+    "id": "forecast-001",
+    "period": "7 dias",
+    "projected_leads": 40,
+    "projected_sales": 6,
+    "projected_revenue": 2970
+  },
+  {
+    "id": "forecast-002",
+    "period": "30 dias",
+    "projected_leads": 180,
+    "projected_sales": 24,
+    "projected_revenue": 11880
+  }
+]

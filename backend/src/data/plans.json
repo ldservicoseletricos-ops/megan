@@ -1,0 +1,47 @@
+{
+  "plans": [
+    {
+      "id": "nav",
+      "name": "Navegação",
+      "modules": [
+        "navegacao"
+      ],
+      "priceEnv": "STRIPE_PRICE_NAV"
+    },
+    {
+      "id": "saude",
+      "name": "Saúde",
+      "modules": [
+        "saude"
+      ],
+      "priceEnv": "STRIPE_PRICE_SAUDE"
+    },
+    {
+      "id": "adm",
+      "name": "ADM",
+      "modules": [
+        "adm"
+      ],
+      "priceEnv": "STRIPE_PRICE_ADM"
+    },
+    {
+      "id": "duo",
+      "name": "Duo",
+      "modules": [
+        "navegacao",
+        "saude"
+      ],
+      "priceEnv": "STRIPE_PRICE_DUO"
+    },
+    {
+      "id": "full",
+      "name": "Full",
+      "modules": [
+        "adm",
+        "navegacao",
+        "saude"
+      ],
+      "priceEnv": "STRIPE_PRICE_FULL"
+    }
+  ]
+}

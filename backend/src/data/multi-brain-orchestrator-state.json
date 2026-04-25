@@ -1,0 +1,98 @@
+{
+  "updatedAt": "2026-04-21T19:20:01.491Z",
+  "round": 6,
+  "mode": "cooperative",
+  "brains": [
+    {
+      "id": "healing_brain",
+      "name": "Healing Brain",
+      "focus": "self_healing",
+      "priority": 99,
+      "task": "Ativar recuperação de falhas e estabilizar build.",
+      "command": "reparar sistema",
+      "reason": "Último ciclo teve falha de build."
+    },
+    {
+      "id": "operational_brain",
+      "name": "Operational Brain",
+      "focus": "execution",
+      "priority": 97,
+      "task": "Ativar recuperação de falhas recentes",
+      "command": "reparar sistema",
+      "reason": "Há ciclos recentes com build falhando. Autonomia precisa reduzir atrito antes de escalar."
+    },
+    {
+      "id": "strategic_brain",
+      "name": "Strategic Brain",
+      "focus": "priorities",
+      "priority": 96,
+      "task": "Replanejar prioridades e elevar readiness.",
+      "command": "planejar autonomia",
+      "reason": "Readiness atual 71% exige direção clara para a próxima rodada."
+    },
+    {
+      "id": "deployment_brain",
+      "name": "Deployment Brain",
+      "focus": "release_readiness",
+      "priority": 72,
+      "task": "Aguardar maturidade maior antes de liberar deploy.",
+      "command": "git status",
+      "reason": "Deploy readiness em 10%."
+    }
+  ],
+  "lastPlan": [
+    {
+      "round": 6,
+      "slot": 1,
+      "brainId": "healing_brain",
+      "name": "Healing Brain",
+      "focus": "self_healing",
+      "priority": 99,
+      "command": "reparar sistema",
+      "task": "Ativar recuperação de falhas e estabilizar build.",
+      "reason": "Último ciclo teve falha de build.",
+      "plannedAt": "2026-04-21T19:20:01.491Z",
+      "status": "planned"
+    },
+    {
+      "round": 6,
+      "slot": 2,
+      "brainId": "operational_brain",
+      "name": "Operational Brain",
+      "focus": "execution",
+      "priority": 97,
+      "command": "reparar sistema",
+      "task": "Ativar recuperação de falhas recentes",
+      "reason": "Há ciclos recentes com build falhando. Autonomia precisa reduzir atrito antes de escalar.",
+      "plannedAt": "2026-04-21T19:20:01.491Z",
+      "status": "planned"
+    },
+    {
+      "round": 6,
+      "slot": 3,
+      "brainId": "strategic_brain",
+      "name": "Strategic Brain",
+      "focus": "priorities",
+      "priority": 96,
+      "command": "planejar autonomia",
+      "task": "Replanejar prioridades e elevar readiness.",
+      "reason": "Readiness atual 71% exige direção clara para a próxima rodada.",
+      "plannedAt": "2026-04-21T19:20:01.491Z",
+      "status": "planned"
+    },
+    {
+      "round": 6,
+      "slot": 4,
+      "brainId": "deployment_brain",
+      "name": "Deployment Brain",
+      "focus": "release_readiness",
+      "priority": 72,
+      "command": "git status",
+      "task": "Aguardar maturidade maior antes de liberar deploy.",
+      "reason": "Deploy readiness em 10%.",
+      "plannedAt": "2026-04-21T19:20:01.491Z",
+      "status": "planned"
+    }
+  ],
+  "executionLog": []
+}

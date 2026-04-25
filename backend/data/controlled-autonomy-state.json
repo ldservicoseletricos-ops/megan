@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "autonomyMode": "guarded",
+  "confidenceScore": 72,
+  "currentCycleFocus": "Estabilizar o runtime antes da próxima expansão",
+  "recommendedTrigger": "Executar memória executiva e detector de gargalos antes de novos módulos",
+  "nextAutonomousAction": "Atualizar prioridades operacionais",
+  "allowedActions": [
+    "reordenar prioridades",
+    "sugerir próximo passo",
+    "disparar análise de gargalos",
+    "atualizar foco executivo"
+  ],
+  "blockedActions": [
+    "ativar módulos inexistentes",
+    "expandir rotas sem validação",
+    "reestruturar frontend sem hotfix"
+  ],
+  "guardrails": [
+    "somente ações de baixo risco",
+    "não quebrar o visual atual",
+    "não chamar rotas ausentes"
+  ]
+}

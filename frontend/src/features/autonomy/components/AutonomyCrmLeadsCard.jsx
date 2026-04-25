@@ -1,0 +1,4 @@
+export default function AutonomyCrmLeadsCard({ leads, loading, onCreate }) {
+  const items = leads?.leads || leads || [];
+  return <article className="autonomy-card"><header className="autonomy-card-header"><div><span className="autonomy-eyebrow">CRM 3.8</span><h3>Leads ativos</h3></div><p>Leads priorizados por valor, chance e próximo passo.</p></header><div className="autonomy-list">{items.slice(0,5).map((lead)=><div className="autonomy-list-item" key={lead.id}><strong>{lead.name}</strong><span>{lead.company} · {lead.stage} · {lead.probability}%</span><small>{lead.nextAction}</small></div>)}</div><button disabled={loading} onClick={()=>onCreate?.({ name:'Lead Megan Enterprise', company:'Nova oportunidade', value:15000, probability:72, stage:'qualified' })}>Criar lead exemplo</button></article>;
+}

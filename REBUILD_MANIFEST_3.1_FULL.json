@@ -1,0 +1,10 @@
+{
+  "version": "3.1.0",
+  "package": "megan-autonomy-core-3.1-full-source.zip",
+  "features": [
+    "memoria episodica profunda",
+    "narrativa interna",
+    "experience recall",
+    "lessons ledger"
+  ]
+}

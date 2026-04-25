@@ -1,0 +1,1 @@
+require('http').createServer((q,s)=>{s.setHeader('Content-Type','application/json');s.end(JSON.stringify({ok:true,version:'14.1'}))}).listen(10000)

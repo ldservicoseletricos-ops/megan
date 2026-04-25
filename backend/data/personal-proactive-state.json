@@ -1,0 +1,108 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "currentFocus": "crescimento Megan OS",
+      "currentMode": "blocker_cleanup",
+      "urgencyScore": 100,
+      "blockerCount": 3,
+      "backlogPressure": 70,
+      "progress": 25,
+      "delayedFocus": true,
+      "alerts": [
+        "multiple_blockers_detected",
+        "main_focus_delayed",
+        "external_backlog_pressure",
+        "slow_daily_progress"
+      ],
+      "recurringPressure": [],
+      "nextBestAction": {
+        "type": "resolve_blockers",
+        "title": "Resolver bloqueios antes de avançar",
+        "reason": "Há 3 bloqueio(s) impactando o progresso atual."
+      },
+      "lastAnalysis": {
+        "userId": "luiz",
+        "currentFocus": "crescimento Megan OS",
+        "currentMode": "blocker_cleanup",
+        "urgencyScore": 100,
+        "blockerCount": 3,
+        "backlogPressure": 70,
+        "progress": 25,
+        "delayedFocus": true,
+        "connectorReady": false,
+        "deliveryReady": false,
+        "signals": [
+          "foco principal parado",
+          "bloqueio no fluxo externo"
+        ],
+        "recurringPressure": [],
+        "alerts": [
+          "multiple_blockers_detected",
+          "main_focus_delayed",
+          "external_backlog_pressure",
+          "slow_daily_progress"
+        ],
+        "nextBestAction": {
+          "type": "resolve_blockers",
+          "title": "Resolver bloqueios antes de avançar",
+          "reason": "Há 3 bloqueio(s) impactando o progresso atual."
+        },
+        "recommendedSystemActions": [
+          "personal_proactive_cycle",
+          "resolve_personal_blockers",
+          "reduce_daily_scope",
+          "configure_external_connectors",
+          "prepare_external_delivery"
+        ],
+        "generatedAt": "2026-04-14T01:18:09.649Z"
+      },
+      "lastAction": null,
+      "analysisHistory": [
+        {
+          "userId": "luiz",
+          "currentFocus": "crescimento Megan OS",
+          "currentMode": "blocker_cleanup",
+          "urgencyScore": 100,
+          "blockerCount": 3,
+          "backlogPressure": 70,
+          "progress": 25,
+          "delayedFocus": true,
+          "connectorReady": false,
+          "deliveryReady": false,
+          "signals": [
+            "foco principal parado",
+            "bloqueio no fluxo externo"
+          ],
+          "recurringPressure": [],
+          "alerts": [
+            "multiple_blockers_detected",
+            "main_focus_delayed",
+            "external_backlog_pressure",
+            "slow_daily_progress"
+          ],
+          "nextBestAction": {
+            "type": "resolve_blockers",
+            "title": "Resolver bloqueios antes de avançar",
+            "reason": "Há 3 bloqueio(s) impactando o progresso atual."
+          },
+          "recommendedSystemActions": [
+            "personal_proactive_cycle",
+            "resolve_personal_blockers",
+            "reduce_daily_scope",
+            "configure_external_connectors",
+            "prepare_external_delivery"
+          ],
+          "generatedAt": "2026-04-14T01:18:09.649Z"
+        }
+      ],
+      "actionHistory": [],
+      "counters": {
+        "analyses": 1,
+        "actions": 0
+      },
+      "updatedAt": "2026-04-14T01:18:09.649Z",
+      "createdAt": "2026-04-14T01:17:57.098Z"
+    }
+  }
+}

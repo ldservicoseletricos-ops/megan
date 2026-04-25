@@ -1,0 +1,20 @@
+MEGAN OS 5.4 — MEGAN VOICE
+
+Foco:
+Assistente por voz total com wake word “Ok Megan”, preparado para celular, carro, casa e escritório.
+
+Incluído:
+- Backend /api/megan-voice/dashboard
+- Backend /api/megan-voice/wake
+- Backend /api/megan-voice/command
+- Backend /api/megan-voice/device
+- Backend /api/megan-voice/mode
+- Backend /api/megan-voice/safety/confirm
+- Frontend Megan Voice 5.4
+- Wake word supervisionada
+- Comandos por voz
+- Ambientes: celular, carro, casa e escritório
+- Fila de confirmação para ações sensíveis
+
+Observação importante:
+Wake word real em app nativo Android/iPhone depende de permissões do sistema operacional e implementação mobile nativa. Esta fase deixa a base web/PWA e backend prontos, com execução supervisionada e segura.

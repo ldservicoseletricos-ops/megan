@@ -1,0 +1,32 @@
+Megan OS 4.4 — COPILOTO PESSOAL TOTAL
+
+Foco:
+Sua vida organizada.
+
+Entrega:
+- Agenda inteligente
+- Metas
+- Foco diário
+- Saúde
+- Finanças pessoais
+- Lembretes reais
+- Decisões assistidas
+
+Backend:
+- GET  /api/personal-copilot/dashboard
+- GET  /api/personal-copilot/agenda
+- GET  /api/personal-copilot/metrics
+- POST /api/personal-copilot/daily-focus
+- POST /api/personal-copilot/goal
+- POST /api/personal-copilot/health-checkin
+- POST /api/personal-copilot/finance
+- POST /api/personal-copilot/reminder
+- POST /api/personal-copilot/decision
+- POST /api/personal-copilot/life-cycle
+
+Frontend:
+- Nova aba: Copiloto Pessoal 4.4
+- Painel visual com agenda, metas, saúde, finanças, lembretes e decisões.
+
+Observação:
+A fase 4.4 mantém o restante do projeto e adiciona somente o módulo de copiloto pessoal.

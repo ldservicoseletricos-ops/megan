@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getDecisionEngineController } from '../controllers/decision-engine.controller.js'; const router = Router(); router.get('/decision-engine', getDecisionEngineController); export default router;

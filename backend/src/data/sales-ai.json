@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sale-001",
+    "title": "Oferta Megan Starter",
+    "offer": "Plano Starter + setup",
+    "status": "active"
+  },
+  {
+    "id": "sale-002",
+    "title": "Oferta Megan Pro",
+    "offer": "Plano Pro + onboarding",
+    "status": "active"
+  }
+]

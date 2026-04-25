@@ -1,0 +1,1 @@
+import { getBoard, createBoardItem } from '../services/board.service.js'; export function getBoardController(req, res) { res.json({ ok: true, board: getBoard() }); } export function createBoardController(req, res) { res.json({ ok: true, item: createBoardItem(req.body || {}) }); }

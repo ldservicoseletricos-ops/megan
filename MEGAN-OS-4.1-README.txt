@@ -1,0 +1,40 @@
+MEGAN OS 4.1 — AGENTES ESPECIALIZADOS REAIS
+
+Base: Megan OS 4.0.
+Stack preservada: Node + React + Vite.
+Backend: porta 10000.
+
+Novidades:
+- Backend /api/agents/dashboard
+- Backend /api/agents/plan
+- Backend /api/agents/run
+- Frontend com aba “Agentes 4.1”
+- Catálogo de agentes especializados reais
+- Seleção automática de agente principal
+- Plano de execução supervisionado
+
+Arquivos principais alterados/adicionados:
+- backend/src/app.js
+- backend/package.json
+- backend/src/modules/agents/agents.routes.js
+- backend/src/modules/agents/agents.controller.js
+- backend/src/modules/agents/services/agent-registry.service.js
+- backend/src/modules/agents/services/agent-orchestrator.service.js
+- frontend/src/App.jsx
+- frontend/src/features/agents/pages/AgentsCenterPage.jsx
+- frontend/src/features/agents/services/agentsApi.js
+- frontend/src/styles.css
+
+Teste local PowerShell:
+1) cd backend
+2) npm install
+3) npm run dev
+4) abrir outro terminal
+5) cd frontend
+6) npm install
+7) npm run dev
+
+Validar:
+- http://localhost:10000/api/health
+- http://localhost:10000/api/agents/dashboard
+- Frontend: aba Agentes 4.1

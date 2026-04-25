@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: megan-empresa-real-v19-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true

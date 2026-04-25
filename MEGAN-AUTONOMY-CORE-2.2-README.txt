@@ -1,0 +1,4 @@
+Megan Autonomy Core 2.2
+- autoexpansao de habilidades
+- criacao de novos cerebros especializados
+- auditor interno permanente

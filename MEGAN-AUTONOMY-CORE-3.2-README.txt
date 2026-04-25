@@ -1,0 +1,4 @@
+MEGAN AUTONOMY CORE 3.2
+
+Pacote novo gerado sem reutilizar o arquivo 3.2 anterior.
+Inclui previsão avançada de cenários, simulações futuras, matriz de probabilidade, melhor caminho previsto e histórico de previsões.

@@ -1,0 +1,3 @@
+function appendWorkforceLedger(state = {}, event = {}) { const item = { id: event.id || `workforce-${Date.now()}`, type: event.type || 'team_event', title: event.title || 'Evento de equipe registrado', summary: event.summary || 'Registro operacional de coordenação humana.', createdAt: new Date().toISOString() }; return { item, history: [item, ...(state.workforceLedger || [])].slice(0, 50) }; }
+function buildWorkforceLedger(state = {}) { const history = state.workforceLedger || []; return { ok: true, version: '3.7.0', count: history.length, history }; }
+module.exports = { appendWorkforceLedger, buildWorkforceLedger };

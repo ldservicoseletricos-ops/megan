@@ -1,0 +1,1 @@
+import { getLogs, appendLog } from '../services/logs.service.js'; export function getLogsController(req, res) { res.json({ ok: true, logs: getLogs() }); } export function appendLogController(req, res) { res.json({ ok: true, log: appendLog(req.body || {}) }); }

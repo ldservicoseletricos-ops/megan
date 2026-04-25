@@ -1,0 +1,59 @@
+{
+  "version": "4.0.0",
+  "updatedAt": "2026-04-19T06:28:27.954Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "decision": "approve",
+      "consensusScore": 94,
+      "approvedAction": "Quebrar Evoluir Megan OS em etapas menores",
+      "coordinationLeadBrain": "strategic",
+      "rationale": [
+        "Cérebro líder: strategic. Meta ativa: Evoluir Megan OS. Ação foco: Quebrar Evoluir Megan OS em etapas menores. Sem falhas recentes relevantes.",
+        "Ação avaliada: Quebrar Evoluir Megan OS em etapas menores.",
+        "Score final de consenso: 94.",
+        "Consenso suficiente para avançar."
+      ],
+      "votes": [
+        {
+          "module": "execution_roadmap",
+          "stance": "approve",
+          "reason": "Há ação candidata: Quebrar Evoluir Megan OS em etapas menores.",
+          "weight": 18
+        },
+        {
+          "module": "memory_core",
+          "stance": "approve",
+          "reason": "Nenhum bloqueio forte na memória operacional.",
+          "weight": 8
+        },
+        {
+          "module": "decision_memory",
+          "stance": "approve",
+          "reason": "Validação estável registrada: Validação com priorização adaptativa integrada aprovada com score 96..",
+          "weight": 10
+        },
+        {
+          "module": "brain_coordinator",
+          "stance": "approve",
+          "reason": "Liderança atual: strategic.",
+          "weight": 8
+        }
+      ],
+      "conflicts": [],
+      "blockers": [],
+      "updatedAt": "2026-04-19T06:28:27.954Z",
+      "createdAt": "2026-04-19T06:28:27.954Z",
+      "history": [
+        {
+          "createdAt": "2026-04-19T06:28:27.954Z",
+          "source": "manual",
+          "decision": "approve",
+          "consensusScore": 94,
+          "approvedAction": "Quebrar Evoluir Megan OS em etapas menores",
+          "leadBrain": "strategic"
+        }
+      ]
+    }
+  }
+}

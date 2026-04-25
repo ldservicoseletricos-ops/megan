@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getAutomationController } from '../controllers/automation.controller.js'; const router = Router(); router.get('/automation', getAutomationController); export default router;

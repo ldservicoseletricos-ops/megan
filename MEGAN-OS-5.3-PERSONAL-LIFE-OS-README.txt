@@ -1,0 +1,25 @@
+Megan OS 5.3 — MEGAN PERSONAL LIFE OS
+
+Versão pessoal com:
+- rotina
+- metas
+- saúde
+- dinheiro
+- foco
+- produtividade
+- decisões assistidas
+
+Backend:
+- porta padrão: 10000
+- rota principal: /api/personal-life/dashboard
+- ações: /api/personal-life/routine/task, /goals/progress, /health/checkin, /money/entry, /focus/session, /productivity/action
+
+Frontend:
+- aba: Personal Life OS 5.3
+- painel integrado ao App.jsx
+
+Validação executada:
+- backend require app: OK
+- personal-life service: OK
+- frontend vite build: OK
+- ZIP gerado e testado.

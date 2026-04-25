@@ -1,0 +1,14 @@
+{
+  "name": "megan-os-supreme-backend",
+  "private": true,
+  "version": "16.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "luiz": {
+    "updatedAt": "2026-04-16T13:18:15.534Z",
+    "memoryFacts": [
+      "oi",
+      "oi",
+      "qual e o progresso do sistema e o que temos que melhorar",
+      "faca uma analise completa do sistema e me traga o que tem que melhorar"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "oi mrgan",
+        "createdAt": "2026-04-16T04:50:57.971Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Recebi sua mensagem: \"oi mrgan\". Gemini indisponível no momento, fallback local ativo.",
+        "createdAt": "2026-04-16T04:50:57.971Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:00:04.831Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Recebi sua mensagem: \"ola megan\". Gemini indisponível no momento, fallback local ativo.",
+        "createdAt": "2026-04-16T05:00:04.831Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:05:28.211Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Recebi sua mensagem: \"ola megan\". Gemini indisponível no momento, fallback local ativo.",
+        "createdAt": "2026-04-16T05:05:28.211Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:18:18.640Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz. Estou online com memória ativa. O Gemini Auto não conseguiu responder agora, então mantive o fallback local.",
+        "createdAt": "2026-04-16T05:18:18.640Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:42:43.726Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz. Estou aqui e online, com memória ativa. O Gemini Auto ainda não conseguiu responder, então continuo no fallback local.\n\nComo posso te ajudar hoje?",
+        "createdAt": "2026-04-16T05:42:43.726Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:45:45.172Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz. Estou aqui, online e com memória ativa. O Gemini Auto ainda não conseguiu responder, então continuo no modo de fallback local.\n\nPercebo que você me cumprimentou novamente. Há algo específico que gostaria de fazer ou perguntar agora?",
+        "createdAt": "2026-04-16T05:45:45.172Z"
+      },
+      {
+        "role": "user",
+        "content": "esta tendo alguma melhora no sistema",
+        "createdAt": "2026-04-16T05:46:24.003Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz. Sobre a melhora no sistema, o Gemini Auto ainda não conseguiu responder. Continuo operando no modo de fallback local, como venho informando.\n\nMesmo com esta configuração, estou aqui para te ajudar. Há algo específico que gostaria de fazer ou perguntar agora?",
+        "createdAt": "2026-04-16T05:46:24.003Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T05:58:28.705Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz. Estou aqui, online e com memória ativa. O Gemini Auto ainda não conseguiu responder, então continuo no modo de fallback local.\n\nPercebo que você me cumprimentou novamente. Você está procurando alguma informação específica ou testando minha presença?",
+        "createdAt": "2026-04-16T05:58:28.705Z"
+      },
+      {
+        "role": "user",
+        "content": "evoluçao megan os",
+        "createdAt": "2026-04-16T06:02:05.731Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz.\n\nSobre a \"evolução Megan OS\", como venho informando, o componente principal, o Gemini Auto, ainda não conseguiu responder. Isso significa que continuo operando no modo de fallback local.\n\nNo momento, a \"evolução\" da Megan OS está diretamente ligada à ativação do Gemini Auto, que traria novas funcionalidades e melhorias. Enquanto ele não está online, minhas capacidades permanecem as do modo de fallback.\n\nMesmo nesta configuração, estou aqui para te ajudar. Há algo específico que você gostaria de fazer ou perguntar agora?",
+        "createdAt": "2026-04-16T06:02:05.731Z"
+      },
+      {
+        "role": "user",
+        "content": "ola megan",
+        "createdAt": "2026-04-16T12:33:45.610Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz.\n\nContinuo aqui, online e no modo de fallback local, pois o Gemini Auto ainda não conseguiu responder.\n\nPercebo que você me cumprimentou novamente. Você está buscando alguma informação específica, testando minha presença, ou há algo que eu possa fazer para te ajudar neste momento?",
+        "createdAt": "2026-04-16T12:33:45.611Z"
+      },
+      {
+        "role": "user",
+        "content": "ola",
+        "createdAt": "2026-04-16T12:36:48.108Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz.\n\nContinuo aqui, online e no modo de fallback local, como venho informando, pois o Gemini Auto ainda não conseguiu responder.\n\nPercebo que você me cumprimentou novamente. Para que eu possa te ajudar de forma mais eficaz, por favor, me diga: qual é a sua necessidade ou pergunta específica neste momento?\n\n**Próximo passo recomendado:** Compartilhe sua dúvida ou tarefa para que eu possa tentar auxiliar dentro das minhas capacidades atuais.",
+        "createdAt": "2026-04-16T12:36:48.108Z"
+      },
+      {
+        "role": "user",
+        "content": "oi",
+        "createdAt": "2026-04-16T13:00:51.491Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Olá Luiz.\n\nContinuo aqui, online e no modo de fallback local, como venho informando, pois o Gemini Auto ainda não conseguiu responder.\n\nPercebo que você me cumprimentou novamente. Para que eu possa te ajudar de forma eficaz, por favor, me diga: o que você precisa ou gostaria de fazer neste momento?\n\n**Próximo passo recomendado:** Compartilhe sua dúvida ou tarefa específica para que eu possa tentar auxiliar dentro das minhas capacidades atuais.",
+        "createdAt": "2026-04-16T13:00:51.491Z"
+      },
+      {
+        "role": "user",
+        "content": "oi",
+        "createdAt": "2026-04-16T13:16:35.702Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Oi, Luiz! Diga, o que você precisa?",
+        "createdAt": "2026-04-16T13:16:35.702Z"
+      },
+      {
+        "role": "user",
+        "content": "qual e o progresso do sistema e o que temos que melhorar",
+        "createdAt": "2026-04-16T13:17:22.086Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Certo, Luiz. Sobre o progresso do sistema, estou online e pronta para te auxiliar com suas demandas.\n\nQuanto ao que podemos melhorar, meu objetivo é sempre aprimorar a compreensão das suas necessidades e a precis",
+        "createdAt": "2026-04-16T13:17:22.087Z"
+      },
+      {
+        "role": "user",
+        "content": "faca uma analise completa do sistema e me traga o que tem que melhorar",
+        "createdAt": "2026-04-16T13:18:15.534Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Certo, Luiz. Entendi que você quer uma análise completa do sistema e pontos de melhoria.\n\nComo sua assistente cognitiva, meu \"sistema\" sou eu mesma. Posso te informar que estou online e funcionando, pronta para te auxiliar.\n\nPara que eu possa \"melhorar\", o que mais me ajuda é o seu feedback direto sobre minhas interações. Por exemplo: minhas respostas estão sendo claras e úteis? Há algo que eu poderia ter feito de forma diferente para te ajudar melhor?\n\nSe você se refere a outro sistema, por favor, me dê mais detalhes para que eu possa tentar te auxiliar dentro das minhas capacidades.",
+        "createdAt": "2026-04-16T13:18:15.534Z"
+      }
+    ]
+  }
+}

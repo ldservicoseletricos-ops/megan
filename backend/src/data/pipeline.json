@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pipe-001",
+    "stage": "backlog",
+    "title": "Conectar Supabase",
+    "owner": "Megan Tech",
+    "status": "waiting"
+  },
+  {
+    "id": "pipe-002",
+    "stage": "doing",
+    "title": "Landing page oficial",
+    "owner": "Megan Growth",
+    "status": "running"
+  },
+  {
+    "id": "pipe-003",
+    "stage": "review",
+    "title": "Painel executivo V10",
+    "owner": "Megan Product",
+    "status": "review"
+  },
+  {
+    "id": "pipe-004",
+    "stage": "done",
+    "title": "Runtime endpoint",
+    "owner": "Megan Ops AI",
+    "status": "done"
+  }
+]

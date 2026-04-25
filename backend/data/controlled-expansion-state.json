@@ -1,0 +1,86 @@
+{
+  "version": "7.0.0",
+  "updatedAt": "2026-04-19T08:06:45.747Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "expansionMode": "controlled",
+      "expansionReadiness": "guarded",
+      "releaseWindow": "semiaberta",
+      "activeLane": "core_stability",
+      "safeBudget": 1,
+      "expansionScore": 10,
+      "approvedExpansions": [
+        {
+          "laneId": "core_stability",
+          "label": "Estabilidade do núcleo",
+          "reason": "Liberado com score 10 e modo guided_safe."
+        }
+      ],
+      "blockedExpansions": [
+        {
+          "laneId": "guided_automation",
+          "label": "Automação guiada",
+          "reason": "Bloqueado por score 10, modo guided_safe ou bloqueio de governança."
+        },
+        {
+          "laneId": "controlled_scaling",
+          "label": "Escala controlada",
+          "reason": "Bloqueado por score 10, modo guided_safe ou bloqueio de governança."
+        },
+        {
+          "laneId": "aggressive_exploration",
+          "label": "Exploração agressiva",
+          "reason": "Bloqueado por score 10, modo guided_safe ou bloqueio de governança."
+        }
+      ],
+      "releaseChecklist": [
+        {
+          "label": "Governança sem bloqueio crítico",
+          "ok": true
+        },
+        {
+          "label": "Consenso mínimo para expansão",
+          "ok": false
+        },
+        {
+          "label": "Revisão estratégica acima do limiar",
+          "ok": false
+        },
+        {
+          "label": "Prontidão diferente de guarded",
+          "ok": false
+        }
+      ],
+      "lastExpansionSummary": "Faixa ativa core_stability. Janela semiaberta. Score 10. Orçamento seguro 1.",
+      "updatedAt": "2026-04-19T08:06:45.747Z",
+      "createdAt": "2026-04-19T07:48:25.848Z",
+      "history": [
+        {
+          "id": "controlled-expansion-1776586005747-owtc",
+          "expansionScore": 10,
+          "activeLane": "core_stability",
+          "releaseWindow": "semiaberta",
+          "source": "frontend_panel",
+          "createdAt": "2026-04-19T08:06:45.747Z"
+        },
+        {
+          "id": "controlled-expansion-1776586003520-z1n3",
+          "expansionScore": 10,
+          "activeLane": "core_stability",
+          "releaseWindow": "semiaberta",
+          "source": "frontend_panel",
+          "createdAt": "2026-04-19T08:06:43.520Z"
+        },
+        {
+          "id": "controlled-expansion-1776584905848-v98y",
+          "expansionScore": 10,
+          "activeLane": "core_stability",
+          "releaseWindow": "semiaberta",
+          "source": "frontend_panel",
+          "createdAt": "2026-04-19T07:48:25.848Z"
+        }
+      ]
+    }
+  }
+}

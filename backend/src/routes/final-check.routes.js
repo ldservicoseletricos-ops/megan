@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { finalCheckController } from '../controllers/final-check.controller.js'; const router = Router(); router.get('/final-check', finalCheckController); export default router;

@@ -1,0 +1,11 @@
+{
+  "version": "3.8.0",
+  "base": "3.7 rebuilt clean source",
+  "features": [
+    "smart_crm",
+    "sales_operator",
+    "conversion_intelligence",
+    "deal_pipeline",
+    "revenue_ledger"
+  ]
+}

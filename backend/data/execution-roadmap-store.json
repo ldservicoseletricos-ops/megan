@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-04-19T08:06:45.780Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "currentActionId": "roadmap-1776577453808-1-b1zd",
+      "actions": [
+        {
+          "id": "roadmap-1776577453808-0-if3e",
+          "goalId": "goal-evoluir-megan-os-1776577453805",
+          "subtaskId": "subtask-1776577453805-0-l1f6",
+          "title": "Definir escopo de: Evoluir Megan OS",
+          "status": "done",
+          "priority": "high",
+          "blockedReason": "",
+          "createdAt": "2026-04-19T05:44:13.808Z",
+          "updatedAt": "2026-04-19T08:06:45.780Z"
+        },
+        {
+          "id": "roadmap-1776577453808-1-b1zd",
+          "goalId": "goal-evoluir-megan-os-1776577453805",
+          "subtaskId": "subtask-1776577453805-1-elht",
+          "title": "Quebrar Evoluir Megan OS em etapas menores",
+          "status": "queued",
+          "priority": "high",
+          "blockedReason": "",
+          "createdAt": "2026-04-19T05:44:13.808Z",
+          "updatedAt": "2026-04-19T08:06:45.780Z"
+        },
+        {
+          "id": "roadmap-1776577453808-2-b7ju",
+          "goalId": "goal-evoluir-megan-os-1776577453805",
+          "subtaskId": "subtask-1776577453805-2-hn7n",
+          "title": "Executar primeiro passo de Evoluir Megan OS",
+          "status": "queued",
+          "priority": "medium",
+          "blockedReason": "",
+          "createdAt": "2026-04-19T05:44:13.808Z",
+          "updatedAt": "2026-04-19T08:06:45.780Z"
+        },
+        {
+          "id": "roadmap-1776577453808-3-p9uh",
+          "goalId": "goal-evoluir-megan-os-1776577453805",
+          "subtaskId": "subtask-1776577453805-3-nj02",
+          "title": "Validar resultado inicial de Evoluir Megan OS",
+          "status": "queued",
+          "priority": "medium",
+          "blockedReason": "",
+          "createdAt": "2026-04-19T05:44:13.808Z",
+          "updatedAt": "2026-04-19T08:06:45.780Z"
+        }
+      ],
+      "updatedAt": "2026-04-19T08:06:45.780Z",
+      "createdAt": "2026-04-19T05:44:13.808Z"
+    }
+  }
+}

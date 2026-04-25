@@ -1,0 +1,30 @@
+[
+  {
+    "id": "board-001",
+    "title": "Conectar Supabase",
+    "area": "infra",
+    "priority": "critical",
+    "status": "planned"
+  },
+  {
+    "id": "board-002",
+    "title": "Deploy backend Render",
+    "area": "deploy",
+    "priority": "high",
+    "status": "planned"
+  },
+  {
+    "id": "board-003",
+    "title": "Deploy frontend Vercel",
+    "area": "deploy",
+    "priority": "high",
+    "status": "planned"
+  },
+  {
+    "id": "board-004",
+    "title": "Lançar página de vendas",
+    "area": "growth",
+    "priority": "high",
+    "status": "in_progress"
+  }
+]

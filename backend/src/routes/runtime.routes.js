@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getRuntimeController } from '../controllers/runtime.controller.js'; const router = Router(); router.get('/runtime', getRuntimeController); export default router;

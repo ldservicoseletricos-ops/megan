@@ -1,0 +1,7 @@
+{
+  "version": "5.4.0",
+  "name": "Megan OS 5.4 — MEGAN VOICE",
+  "backend": ["backend/src/modules/megan-voice", "backend/src/app.js"],
+  "frontend": ["frontend/src/features/meganVoice/MeganVoicePage.jsx", "frontend/src/App.jsx", "frontend/src/styles.css"],
+  "status": "validated"
+}

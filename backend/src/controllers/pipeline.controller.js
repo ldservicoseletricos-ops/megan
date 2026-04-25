@@ -1,0 +1,1 @@
+import { getPipeline, createPipelineItem } from '../services/pipeline.service.js'; export function getPipelineController(req, res) { res.json({ ok: true, pipeline: getPipeline() }); } export function createPipelineController(req, res) { res.json({ ok: true, item: createPipelineItem(req.body || {}) }); }

@@ -1,0 +1,30 @@
+Megan OS 4.5 — APRENDIZADO CONTÍNUO REAL
+
+Foco:
+Megan aprende com uso diário.
+
+Faz:
+- detecta padrões seus
+- prevê necessidades
+- melhora respostas
+- otimiza rotinas
+- aprende preferências
+
+Backend:
+- GET  /api/continuous-learning/dashboard
+- GET  /api/continuous-learning/patterns
+- GET  /api/continuous-learning/predictions
+- GET  /api/continuous-learning/preferences
+- POST /api/continuous-learning/record-use
+- POST /api/continuous-learning/optimize-routine
+- POST /api/continuous-learning/improve-response
+- POST /api/continuous-learning/learning-cycle
+
+Frontend:
+- Nova aba: Aprendizado 4.5
+- Painel com score de aprendizado, padrões, previsões, preferências e otimizações.
+
+Base mantida:
+Node + React + Vite.
+Backend porta 10000.
+Alterado somente o necessário para incluir a fase 4.5.

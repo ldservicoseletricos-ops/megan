@@ -1,0 +1,14 @@
+{
+  "version": "94.0.0",
+  "updatedAt": "2026-04-15T20:28:16.763Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "currentMission": null,
+      "lastPlannedRoute": null,
+      "outcomes": [],
+      "updatedAt": "2026-04-15T20:28:16.763Z",
+      "createdAt": "2026-04-15T20:28:16.763Z"
+    }
+  }
+}

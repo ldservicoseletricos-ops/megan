@@ -1,0 +1,297 @@
+{
+  "version": "7.0.0",
+  "enabled": true,
+  "activeBrain": "operational",
+  "activeMission": "Quero evoluir a Megan para autonomia máxima",
+  "routingReason": "Missão roteada inicialmente para Operational Brain por classificação operational.",
+  "consensusMode": "weighted-supervised",
+  "lastConsensusAt": null,
+  "lastCycleAt": null,
+  "evolutionScore": 0,
+  "brains": [
+    {
+      "id": "strategic",
+      "label": "Strategic Brain",
+      "specialty": "planejamento, priorização, direção macro",
+      "baseWeight": 1.18,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 0,
+      "lastAssignmentAt": null,
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "",
+      "history": []
+    },
+    {
+      "id": "technical",
+      "label": "Technical Brain",
+      "specialty": "backend, frontend, APIs, correções",
+      "baseWeight": 1.22,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 0,
+      "lastAssignmentAt": null,
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "",
+      "history": []
+    },
+    {
+      "id": "commercial",
+      "label": "Commercial Brain",
+      "specialty": "monetização, vendas, crescimento",
+      "baseWeight": 1.08,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 0,
+      "lastAssignmentAt": null,
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "",
+      "history": []
+    },
+    {
+      "id": "research",
+      "label": "Research Brain",
+      "specialty": "benchmarking, exploração, hipóteses",
+      "baseWeight": 1.03,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 0,
+      "lastAssignmentAt": null,
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "",
+      "history": []
+    },
+    {
+      "id": "defense",
+      "label": "Defense Brain",
+      "specialty": "risco, rollback, contenção",
+      "baseWeight": 1.14,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 0,
+      "lastAssignmentAt": null,
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "",
+      "history": []
+    },
+    {
+      "id": "operational",
+      "label": "Operational Brain",
+      "specialty": "execução, cadência, fila, entrega",
+      "baseWeight": 1.16,
+      "enabled": true,
+      "score": 82,
+      "confidence": 70,
+      "wins": 0,
+      "failures": 0,
+      "assignments": 2,
+      "lastAssignmentAt": "2026-04-19T02:14:09.056Z",
+      "lastResultAt": null,
+      "lastProposal": "",
+      "lastReason": "Roteamento inicial baseado na missão detectada como operational.",
+      "history": []
+    }
+  ],
+  "history": [
+    {
+      "type": "route",
+      "createdAt": "2026-04-19T02:14:09.056Z",
+      "activeBrain": "operational",
+      "mission": "Quero evoluir a Megan para autonomia máxima",
+      "missionType": "operational",
+      "routingReason": "Missão roteada inicialmente para Operational Brain por classificação operational."
+    },
+    {
+      "type": "route",
+      "createdAt": "2026-04-19T02:14:05.588Z",
+      "activeBrain": "operational",
+      "mission": "Sugira a próxima melhoria da Megan OS",
+      "missionType": "operational",
+      "routingReason": "Missão roteada inicialmente para Operational Brain por classificação operational."
+    },
+    {
+      "createdAt": "2026-04-18T03:04:39.129Z",
+      "message": "Quero evoluir a Megan para autonomia máxima",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T03:04:10.295Z",
+      "message": "oi",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T03:01:41.667Z",
+      "message": "quantos cerebros voce tem?",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T02:47:12.220Z",
+      "message": "Mostre o gargalo principal agora",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:46.423Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:43.316Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:39.965Z",
+      "message": "Sugira a próxima melhoria da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.434Z",
+      "message": "Sugira a próxima melhoria da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.594Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.244Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:36.986Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.208Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.651Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.419Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.467Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.567Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.743Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-17T16:33:36.375Z",
+      "message": "Quero evoluir a Megan para autonomia máxima",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-17T16:33:18.932Z",
+      "message": "Resuma o estado atual da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    },
+    {
+      "createdAt": "2026-04-16T22:59:06.398Z",
+      "message": "Sugira a próxima melhoria da Megan OS",
+      "activeBrain": "operational",
+      "confidence": 86,
+      "routingReason": "Missão detectada como operacional por envolver execução e andamento geral."
+    }
+  ],
+  "updatedAt": "2026-04-19T02:14:09.056Z",
+  "confidence": 86,
+  "availableBrains": [
+    {
+      "id": "strategic",
+      "label": "Strategic Brain",
+      "specialty": "planejamento, priorização, direção"
+    },
+    {
+      "id": "technical",
+      "label": "Technical Brain",
+      "specialty": "backend, frontend, rotas, correções"
+    },
+    {
+      "id": "operational",
+      "label": "Operational Brain",
+      "specialty": "execução, tarefas, fluxo"
+    },
+    {
+      "id": "editorial",
+      "label": "Editorial Brain",
+      "specialty": "livros, conteúdo, KDP, texto"
+    }
+  ]
+}

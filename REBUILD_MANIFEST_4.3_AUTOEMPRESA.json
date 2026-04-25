@@ -1,0 +1,8 @@
+{
+  "version": "4.3.0",
+  "name": "Megan OS 4.3 AUTOEMPRESA",
+  "validated": true,
+  "backendPort": 10000,
+  "stack": ["Node", "Express", "React", "Vite"],
+  "result": "Megan opera negócios semi-autônomos para empresas."
+}

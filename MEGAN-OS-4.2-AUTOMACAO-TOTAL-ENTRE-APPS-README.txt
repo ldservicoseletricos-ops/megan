@@ -1,0 +1,11 @@
+Megan OS 4.2 — Automação Total Entre Apps
+
+Inclui integração real preparada para: Gmail, WhatsApp, Google Calendar, Sheets, Stripe, Supabase, Render, Vercel, GitHub, Telegram e CRM externo.
+
+Rotas adicionadas:
+GET /api/app-automation/dashboard
+POST /api/app-automation/workflow
+POST /api/app-automation/run
+GET /api/app-automation/history
+
+Segurança: por padrão roda em dry-run. Execução real somente com execute=true e credenciais configuradas no .env.

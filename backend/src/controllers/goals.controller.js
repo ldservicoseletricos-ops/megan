@@ -1,0 +1,1 @@
+import { getGoals, createGoal } from '../services/goals.service.js'; export function getGoalsController(req, res) { res.json({ ok: true, goals: getGoals() }); } export function createGoalController(req, res) { res.json({ ok: true, goal: createGoal(req.body || {}) }); }

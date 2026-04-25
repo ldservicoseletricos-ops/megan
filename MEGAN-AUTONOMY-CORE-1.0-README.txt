@@ -1,0 +1,37 @@
+MEGAN AUTONOMY CORE 1.0
+
+O que foi adicionado nesta fase:
+- backend principal com rotas /api/autonomy/*
+- monitoramento de saúde do core
+- diagnóstico supervisionado
+- reparos seguros de baixo risco
+- memória operacional persistida em backend/src/data/autonomy-core.json
+- painel de autonomia dentro do Painel ADM do frontend principal
+
+Endpoints principais:
+- GET  /api/autonomy/dashboard
+- GET  /api/autonomy/health/overview
+- GET  /api/autonomy/events
+- GET  /api/autonomy/errors
+- GET  /api/autonomy/repairs
+- GET  /api/autonomy/improvements
+- GET  /api/autonomy/policies
+- POST /api/autonomy/run-diagnostics
+- POST /api/autonomy/run-safe-repair
+
+Como rodar:
+1. Backend
+   cd backend
+   npm install
+   npm run dev
+
+2. Frontend
+   cd frontend
+   npm install
+   npm run dev
+
+3. Abrir a Megan principal e entrar em Painel ADM > Autonomia.
+
+Observações:
+- Esta fase aplica apenas reparos seguros e reversíveis.
+- Billing, auth, banco destrutivo e mudanças críticas continuam bloqueados pela política de autonomia.

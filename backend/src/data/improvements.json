@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Evoluir Memory Core",
+    "area": "memory_core",
+    "impact": "very_high",
+    "priorityScore": 97,
+    "status": "improving",
+    "why": "A continuidade contextual ainda está abaixo do ideal.",
+    "action": "Persistir contexto, relevância e recuperação por prioridade."
+  },
+  {
+    "id": 2,
+    "title": "Reduzir variância do Critic",
+    "area": "critic",
+    "impact": "high",
+    "priorityScore": 91,
+    "status": "improving",
+    "why": "Oscilação de consistência trava evolução segura.",
+    "action": "Adicionar validação em múltiplas camadas e score de confiança."
+  },
+  {
+    "id": 3,
+    "title": "Aumentar testes de regressão",
+    "area": "quality",
+    "impact": "high",
+    "priorityScore": 87,
+    "status": "improving",
+    "why": "Expansão sem proteção aumenta risco de quebra.",
+    "action": "Criar suíte automática para endpoints e fluxos críticos."
+  }
+]

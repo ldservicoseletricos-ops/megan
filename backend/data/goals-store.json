@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-04-19T05:44:18.399Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "goals": [
+        {
+          "id": "goal-evoluir-megan-os-1776577453805",
+          "slug": "evoluir-megan-os",
+          "title": "Evoluir Megan OS",
+          "summary": "Meta criada para Evoluir Megan OS.",
+          "status": "active",
+          "priority": "high",
+          "source": "manual",
+          "createdAt": "2026-04-19T05:44:13.805Z",
+          "updatedAt": "2026-04-19T05:44:18.399Z",
+          "subtasks": [
+            {
+              "id": "subtask-1776577453805-0-l1f6",
+              "title": "Definir escopo de: Evoluir Megan OS",
+              "status": "done",
+              "priority": "high",
+              "dependsOn": [],
+              "createdAt": "2026-04-19T05:44:13.805Z",
+              "updatedAt": "2026-04-19T05:44:18.399Z"
+            },
+            {
+              "id": "subtask-1776577453805-1-elht",
+              "title": "Quebrar Evoluir Megan OS em etapas menores",
+              "status": "queued",
+              "priority": "high",
+              "dependsOn": [
+                "Definir escopo de: Evoluir Megan OS"
+              ],
+              "createdAt": "2026-04-19T05:44:13.805Z",
+              "updatedAt": "2026-04-19T05:44:13.805Z"
+            },
+            {
+              "id": "subtask-1776577453805-2-hn7n",
+              "title": "Executar primeiro passo de Evoluir Megan OS",
+              "status": "queued",
+              "priority": "medium",
+              "dependsOn": [
+                "Quebrar Evoluir Megan OS em etapas menores"
+              ],
+              "createdAt": "2026-04-19T05:44:13.805Z",
+              "updatedAt": "2026-04-19T05:44:13.805Z"
+            },
+            {
+              "id": "subtask-1776577453805-3-nj02",
+              "title": "Validar resultado inicial de Evoluir Megan OS",
+              "status": "queued",
+              "priority": "medium",
+              "dependsOn": [
+                "Executar primeiro passo de Evoluir Megan OS"
+              ],
+              "createdAt": "2026-04-19T05:44:13.805Z",
+              "updatedAt": "2026-04-19T05:44:13.805Z"
+            }
+          ],
+          "progress": 25
+        }
+      ],
+      "activeGoalId": "goal-evoluir-megan-os-1776577453805",
+      "updatedAt": "2026-04-19T05:44:18.399Z",
+      "createdAt": "2026-04-19T05:44:13.805Z"
+    }
+  }
+}

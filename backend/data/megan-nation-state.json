@@ -1,0 +1,221 @@
+{
+  "updatedAt": "2026-04-24T16:02:59.311Z",
+  "version": "6.0.0",
+  "title": "Megan OS 6.0 — MEGAN NATION",
+  "focus": "Rede global de usuários com IA conectada, marketplace humano + IA, times formados por IA e jobs executados.",
+  "mode": "global_ai_network",
+  "readiness": {
+    "score": 96,
+    "status": "pronto_para_ecossistema_global",
+    "governance": "jobs reais continuam supervisionados, auditáveis e com confirmação para ações críticas",
+    "monetization": "preparado para assinatura, comissão por job, marketplace e white-label global"
+  },
+  "community": {
+    "totalUsers": 12840,
+    "activeCreators": 940,
+    "activeCompanies": 312,
+    "countries": 18,
+    "circles": [
+      {
+        "id": "circle-founders",
+        "name": "Fundadores Megan Nation",
+        "members": 220,
+        "focus": "crescimento, produto e negócios com IA"
+      },
+      {
+        "id": "circle-automation",
+        "name": "Automação Total",
+        "members": 1860,
+        "focus": "fluxos entre apps, vendas e atendimento"
+      },
+      {
+        "id": "circle-agents",
+        "name": "Agentes Especializados",
+        "members": 1440,
+        "focus": "criação, venda e operação de agentes"
+      },
+      {
+        "id": "circle-business",
+        "name": "Empresas e Times",
+        "members": 980,
+        "focus": "implantação B2B, CRM, BI e processos"
+      }
+    ],
+    "members": [
+      {
+        "id": "member-luiz-master",
+        "name": "Luiz Rosa",
+        "role": "fundador_operador",
+        "reputation": 100,
+        "status": "online",
+        "skills": [
+          "produto",
+          "negócios",
+          "Megan OS"
+        ]
+      },
+      {
+        "id": "member-company-ops",
+        "name": "Empresa Piloto",
+        "role": "cliente_empresa",
+        "reputation": 88,
+        "status": "ativo",
+        "skills": [
+          "vendas",
+          "suporte",
+          "CRM"
+        ]
+      },
+      {
+        "id": "member-creator-001",
+        "name": "Criador de Automações",
+        "role": "creator",
+        "reputation": 91,
+        "status": "ativo",
+        "skills": [
+          "Make",
+          "Gmail",
+          "Sheets"
+        ]
+      }
+    ]
+  },
+  "marketplace": {
+    "categories": [
+      "humano",
+      "ia",
+      "hibrido",
+      "consultoria",
+      "automacao",
+      "implantacao"
+    ],
+    "offers": [
+      {
+        "id": "offer-ai-sales-squad",
+        "type": "ia",
+        "title": "Squad IA de Vendas",
+        "price": 299,
+        "currency": "USD",
+        "delivery": "mensal",
+        "rating": 4.9,
+        "description": "Agentes de captação, qualificação, proposta e follow-up para empresas."
+      },
+      {
+        "id": "offer-human-automation",
+        "type": "humano",
+        "title": "Especialista em Automação",
+        "price": 120,
+        "currency": "USD",
+        "delivery": "por_job",
+        "rating": 4.8,
+        "description": "Configura integrações Gmail, Sheets, CRM, WhatsApp e Stripe."
+      },
+      {
+        "id": "offer-hybrid-business-cloud",
+        "type": "hibrido",
+        "title": "Implantação Megan Business Cloud",
+        "price": 799,
+        "currency": "USD",
+        "delivery": "projeto",
+        "rating": 5,
+        "description": "Time humano + IA instala dashboard, metas, CRM, BI e rotina operacional."
+      },
+      {
+        "id": "offer-ai-support-agent",
+        "type": "ia",
+        "title": "Agente IA de Suporte 24/7",
+        "price": 199,
+        "currency": "USD",
+        "delivery": "mensal",
+        "rating": 4.7,
+        "description": "Atende, classifica, responde e escala tickets com logs auditáveis."
+      }
+    ]
+  },
+  "aiTeams": [
+    {
+      "id": "team-growth-global",
+      "name": "Time IA Growth Global",
+      "objective": "gerar demanda, captar leads e converter empresas para Megan OS",
+      "status": "operando_supervisionado",
+      "agents": [
+        "estrategista",
+        "copywriter",
+        "closer",
+        "analista_crm",
+        "followup"
+      ],
+      "weeklyCapacity": 420,
+      "successRate": 87
+    },
+    {
+      "id": "team-ops-deploy",
+      "name": "Time IA Deploy + Operações",
+      "objective": "publicar, monitorar, corrigir e documentar implantações de clientes",
+      "status": "pronto_para_execucao",
+      "agents": [
+        "deploy",
+        "qa",
+        "documentador",
+        "suporte_tecnico"
+      ],
+      "weeklyCapacity": 160,
+      "successRate": 91
+    },
+    {
+      "id": "team-finance-admin",
+      "name": "Time IA Financeiro Administrativo",
+      "objective": "acompanhar caixa, cobrança, assinaturas, propostas e métricas",
+      "status": "monitorando",
+      "agents": [
+        "financeiro",
+        "cobranca",
+        "metricas",
+        "risco"
+      ],
+      "weeklyCapacity": 220,
+      "successRate": 84
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-001",
+      "title": "Implantar CRM vivo para cliente",
+      "type": "implantacao",
+      "status": "em_execucao_supervisionada",
+      "assignedTeam": "Time IA Deploy + Operações",
+      "progress": 64,
+      "value": 450,
+      "currency": "USD"
+    },
+    {
+      "id": "job-002",
+      "title": "Criar funil de vendas com agentes",
+      "type": "growth",
+      "status": "pronto_para_aprovacao",
+      "assignedTeam": "Time IA Growth Global",
+      "progress": 78,
+      "value": 299,
+      "currency": "USD"
+    },
+    {
+      "id": "job-003",
+      "title": "Conectar cobrança recorrente Stripe",
+      "type": "financeiro",
+      "status": "fila_prioritaria",
+      "assignedTeam": "Time IA Financeiro Administrativo",
+      "progress": 35,
+      "value": 180,
+      "currency": "USD"
+    }
+  ],
+  "activity": [
+    {
+      "id": "nation-act-001",
+      "type": "nation_boot",
+      "title": "Megan Nation 6.0 iniciada",
+      "detail": "Rede global, marketplace humano + IA, times IA e jobs executados foram ativados.",
+      "createdAt": "2026-04-24T16:02:59.311Z"
+    }
+  ]
+}

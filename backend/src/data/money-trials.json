@@ -1,0 +1,16 @@
+[
+  {
+    "id": "trial_1776800097829_btvuc0",
+    "leadId": "lead_1776800097829_jk90km",
+    "planId": "pro",
+    "planName": "Pro",
+    "status": "active",
+    "startedAt": "2026-04-21T19:34:57.829Z",
+    "endsAt": "2026-04-28T19:34:57.829Z",
+    "activationChecklist": [
+      "Criar onboarding inicial",
+      "Executar demo guiada",
+      "Validar percepção de valor"
+    ]
+  }
+]

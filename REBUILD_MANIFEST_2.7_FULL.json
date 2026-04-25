@@ -1,0 +1,21 @@
+{
+  "rebuilt_from": "megan-autonomy-core-2.6-hotfix-visual-organized.zip",
+  "version": "2.7.0",
+  "generated_at": "2026-04-23T21:50:21Z",
+  "features": [
+    "governança interna",
+    "política multi-camadas",
+    "pesos de voto por contexto",
+    "ledger de governança"
+  ],
+  "validated": {
+    "backend_syntax": true,
+    "backend_endpoints": [
+      "/api/health",
+      "/api/autonomy/governance/status",
+      "/api/autonomy/governance/voting-weights",
+      "/api/autonomy/governance/vote"
+    ],
+    "frontend_build": true
+  }
+}

@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { prepareDeploy, runDeploySimulation } from '../controllers/deploy.controller.js'; const router = Router(); router.post('/deploy/prepare', prepareDeploy); router.post('/deploy/simulate', runDeploySimulation); export default router;

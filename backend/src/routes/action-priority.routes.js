@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { actionPriorityController } from '../controllers/action-priority.controller.js'; const router = Router(); router.get('/action-priority', actionPriorityController); export default router;

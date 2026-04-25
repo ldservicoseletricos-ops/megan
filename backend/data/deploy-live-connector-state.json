@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-04-20T23:56:03.065603+00:00",
+  "lastUpdatedAt": "2026-04-21T02:22:05.181Z",
+  "connectors": {
+    "render": {
+      "connected": false,
+      "mode": "not_configured",
+      "hookPreview": ""
+    },
+    "vercel": {
+      "connected": false,
+      "mode": "not_configured",
+      "hookPreview": "",
+      "tokenConfigured": false,
+      "projectIdConfigured": false,
+      "teamIdConfigured": false
+    },
+    "github": {
+      "connected": false,
+      "repo": "",
+      "tokenConfigured": false
+    },
+    "supabase": {
+      "connected": false,
+      "urlConfigured": false,
+      "serviceRoleConfigured": false
+    }
+  },
+  "readiness": {
+    "score": 0,
+    "checks": {
+      "render": false,
+      "vercel": false,
+      "github": false,
+      "supabase": false
+    },
+    "ready": false
+  },
+  "monitors": {
+    "autoDeployEnabled": false,
+    "autoMonitorEnabled": false,
+    "lastProbeAt": "2026-04-21T02:22:05.181Z"
+  },
+  "history": []
+}

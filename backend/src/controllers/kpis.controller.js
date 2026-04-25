@@ -1,0 +1,1 @@
+import { getKpis, createKpi } from '../services/kpis.service.js'; export function getKpisController(req, res) { res.json({ ok: true, kpis: getKpis() }); } export function createKpiController(req, res) { res.json({ ok: true, kpi: createKpi(req.body || {}) }); }

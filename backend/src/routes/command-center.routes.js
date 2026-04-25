@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getCommandCenterController, updateCommandCenterController } from '../controllers/command-center.controller.js'; const router = Router(); router.get('/command-center', getCommandCenterController); router.post('/command-center', updateCommandCenterController); export default router;

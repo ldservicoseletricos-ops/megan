@@ -1,0 +1,9 @@
+{
+  "rebuilt_from": "megan-autonomy-core-2.5-full-source.zip",
+  "version": "2.6.0",
+  "validated": [
+    "zip_integrity",
+    "backend_syntax"
+  ],
+  "notes": "frontend includes 2.6 components and API bindings; rebuilt from available stable base"
+}

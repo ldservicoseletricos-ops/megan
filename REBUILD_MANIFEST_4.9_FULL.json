@@ -1,0 +1,6 @@
+{
+  "name": "megan-os-4.9-central-de-comando-global",
+  "version": "4.9.0",
+  "base": "Megan OS 4.8",
+  "validated": false
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "auto-001",
+    "department": "Megan Growth",
+    "title": "Planejar posts do dia",
+    "status": "ready",
+    "frequency": "daily"
+  },
+  {
+    "id": "auto-002",
+    "department": "Megan Ops AI",
+    "title": "Verificar deploy readiness",
+    "status": "ready",
+    "frequency": "daily"
+  },
+  {
+    "id": "auto-003",
+    "department": "Megan Tech",
+    "title": "Validar integrações",
+    "status": "ready",
+    "frequency": "daily"
+  }
+]

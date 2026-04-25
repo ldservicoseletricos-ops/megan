@@ -1,0 +1,13 @@
+Megan OS 5.2 — MEGAN BUSINESS CLOUD
+
+Incluído:
+- dashboard executivo
+- times
+- CRM
+- financeiro
+- metas
+- BI
+- backend /api/business-cloud
+- frontend Business Cloud 5.2
+
+Stack mantida: Node + React + Vite. Backend porta 10000.

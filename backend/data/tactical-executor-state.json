@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "actionNow": "Validar base atual antes de expandir",
+  "estimatedTime": "15-30 min",
+  "predictedRisk": "baixo",
+  "expectedImpact": "alto",
+  "threeStepPlan": [
+    "Atualizar estado executivo",
+    "Executar detector de gargalos",
+    "Escolher a próxima melhoria de baixo risco"
+  ],
+  "executionNotes": [
+    "Evitar mudanças estruturais sem hotfix",
+    "Priorizar o que mantém o runtime limpo"
+  ]
+}

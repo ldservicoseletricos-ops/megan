@@ -1,0 +1,12 @@
+{
+  "name": "megan-autonomy-core-3.7-new-clean-source.zip",
+  "version": "3.7.0",
+  "source": "reconstruido a partir da base 3.6 disponivel; nao reutiliza o ZIP 3.7 descartado",
+  "features": [
+    "coordenacao de times humanos",
+    "distribuicao inteligente de tarefas",
+    "performance de equipe",
+    "workload manager",
+    "workforce ledger"
+  ]
+}

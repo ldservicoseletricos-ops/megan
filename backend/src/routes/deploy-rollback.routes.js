@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { deployRollbackController } from '../controllers/deploy-rollback.controller.js'; const r=Router(); r.get('/deploy-rollback',deployRollbackController); export default r;

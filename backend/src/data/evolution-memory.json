@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1776641013886,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:33.886Z"
+  },
+  {
+    "id": 1776641008871,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:28.871Z"
+  },
+  {
+    "id": 1776641003862,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:23.862Z"
+  },
+  {
+    "id": 1776640998852,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:18.852Z"
+  },
+  {
+    "id": 1776640993838,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:13.838Z"
+  },
+  {
+    "id": 1776640988829,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:08.829Z"
+  },
+  {
+    "id": 1776640983815,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:23:03.815Z"
+  },
+  {
+    "id": 1776640978811,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:58.811Z"
+  },
+  {
+    "id": 1776640973810,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:53.810Z"
+  },
+  {
+    "id": 1776640968801,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:48.801Z"
+  },
+  {
+    "id": 1776640963789,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:43.789Z"
+  },
+  {
+    "id": 1776640958786,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:38.786Z"
+  },
+  {
+    "id": 1776640953782,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:33.782Z"
+  },
+  {
+    "id": 1776640948778,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:28.778Z"
+  },
+  {
+    "id": 1776640943761,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:23.761Z"
+  },
+  {
+    "id": 1776640938758,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:18.758Z"
+  },
+  {
+    "id": 1776640933743,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:13.743Z"
+  },
+  {
+    "id": 1776640928740,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:08.740Z"
+  },
+  {
+    "id": 1776640923724,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:22:03.724Z"
+  },
+  {
+    "id": 1776640918722,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:58.722Z"
+  },
+  {
+    "id": 1776640913719,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:53.719Z"
+  },
+  {
+    "id": 1776640908708,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:48.708Z"
+  },
+  {
+    "id": 1776640903695,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:43.695Z"
+  },
+  {
+    "id": 1776640898684,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:38.684Z"
+  },
+  {
+    "id": 1776640893684,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:33.684Z"
+  },
+  {
+    "id": 1776640888673,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:28.673Z"
+  },
+  {
+    "id": 1776640883661,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:23.661Z"
+  },
+  {
+    "id": 1776640878647,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:18.647Z"
+  },
+  {
+    "id": 1776640873637,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:13.637Z"
+  },
+  {
+    "id": 1776640868639,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:08.639Z"
+  },
+  {
+    "id": 1776640863635,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:21:03.635Z"
+  },
+  {
+    "id": 1776640858629,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:58.629Z"
+  },
+  {
+    "id": 1776640853623,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:53.623Z"
+  },
+  {
+    "id": 1776640848615,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:48.615Z"
+  },
+  {
+    "id": 1776640843604,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:43.604Z"
+  },
+  {
+    "id": 1776640838602,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:38.602Z"
+  },
+  {
+    "id": 1776640833589,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:33.589Z"
+  },
+  {
+    "id": 1776640828577,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:28.577Z"
+  },
+  {
+    "id": 1776640823574,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:23.574Z"
+  },
+  {
+    "id": 1776640818581,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:18.581Z"
+  },
+  {
+    "id": 1776640813546,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:13.546Z"
+  },
+  {
+    "id": 1776640808533,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:08.533Z"
+  },
+  {
+    "id": 1776640803522,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:20:03.522Z"
+  },
+  {
+    "id": 1776640798512,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:58.512Z"
+  },
+  {
+    "id": 1776640793511,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:53.511Z"
+  },
+  {
+    "id": 1776640788502,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:48.502Z"
+  },
+  {
+    "id": 1776640783495,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:43.495Z"
+  },
+  {
+    "id": 1776640778490,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:38.490Z"
+  },
+  {
+    "id": 1776640773487,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:33.487Z"
+  },
+  {
+    "id": 1776640768474,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:28.474Z"
+  },
+  {
+    "id": 1776640763459,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:23.459Z"
+  },
+  {
+    "id": 1776640758458,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:18.458Z"
+  },
+  {
+    "id": 1776640753458,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:13.458Z"
+  },
+  {
+    "id": 1776640748456,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:08.456Z"
+  },
+  {
+    "id": 1776640743453,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:19:03.453Z"
+  },
+  {
+    "id": 1776640738436,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:58.436Z"
+  },
+  {
+    "id": 1776640733427,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:53.427Z"
+  },
+  {
+    "id": 1776640728423,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:48.423Z"
+  },
+  {
+    "id": 1776640723424,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:43.424Z"
+  },
+  {
+    "id": 1776640718425,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:38.425Z"
+  },
+  {
+    "id": 1776640713411,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:33.411Z"
+  },
+  {
+    "id": 1776640708409,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:28.409Z"
+  },
+  {
+    "id": 1776640703397,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:23.397Z"
+  },
+  {
+    "id": 1776640698383,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:18.383Z"
+  },
+  {
+    "id": 1776640693373,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:13.373Z"
+  },
+  {
+    "id": 1776640688365,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:08.365Z"
+  },
+  {
+    "id": 1776640683360,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:18:03.360Z"
+  },
+  {
+    "id": 1776640678360,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:58.360Z"
+  },
+  {
+    "id": 1776640673352,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:53.352Z"
+  },
+  {
+    "id": 1776640668349,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:48.349Z"
+  },
+  {
+    "id": 1776640663337,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:43.337Z"
+  },
+  {
+    "id": 1776640658330,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:38.330Z"
+  },
+  {
+    "id": 1776640653320,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:33.320Z"
+  },
+  {
+    "id": 1776640648311,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:28.311Z"
+  },
+  {
+    "id": 1776640643299,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:23.299Z"
+  },
+  {
+    "id": 1776640638291,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:18.291Z"
+  },
+  {
+    "id": 1776640633284,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:13.284Z"
+  },
+  {
+    "id": 1776640628277,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:08.277Z"
+  },
+  {
+    "id": 1776640623276,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:17:03.276Z"
+  },
+  {
+    "id": 1776640618268,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:58.268Z"
+  },
+  {
+    "id": 1776640613263,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:53.263Z"
+  },
+  {
+    "id": 1776640608251,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:48.251Z"
+  },
+  {
+    "id": 1776640603247,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:43.247Z"
+  },
+  {
+    "id": 1776640598242,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:38.242Z"
+  },
+  {
+    "id": 1776640593233,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:33.233Z"
+  },
+  {
+    "id": 1776640588221,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:28.221Z"
+  },
+  {
+    "id": 1776640583219,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:23.219Z"
+  },
+  {
+    "id": 1776640578215,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:18.215Z"
+  },
+  {
+    "id": 1776640573203,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:13.203Z"
+  },
+  {
+    "id": 1776640568200,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:08.200Z"
+  },
+  {
+    "id": 1776640563187,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:16:03.187Z"
+  },
+  {
+    "id": 1776640558187,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:58.187Z"
+  },
+  {
+    "id": 1776640553179,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:53.179Z"
+  },
+  {
+    "id": 1776640548165,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:48.165Z"
+  },
+  {
+    "id": 1776640543153,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:43.153Z"
+  },
+  {
+    "id": 1776640538142,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:38.142Z"
+  },
+  {
+    "id": 1776640533133,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:33.133Z"
+  },
+  {
+    "id": 1776640528119,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:28.119Z"
+  },
+  {
+    "id": 1776640523799,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo manual: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:23.799Z"
+  },
+  {
+    "id": 1776640523107,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:23.107Z"
+  },
+  {
+    "id": 1776640518099,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:18.099Z"
+  },
+  {
+    "id": 1776640513098,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:13.098Z"
+  },
+  {
+    "id": 1776640508092,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:08.092Z"
+  },
+  {
+    "id": 1776640503083,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:15:03.083Z"
+  },
+  {
+    "id": 1776640498070,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:14:58.070Z"
+  },
+  {
+    "id": 1776640493068,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:14:53.069Z"
+  },
+  {
+    "id": 1776640488071,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:14:48.072Z"
+  },
+  {
+    "id": 1776640283426,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:11:23.426Z"
+  },
+  {
+    "id": 1776640278416,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:11:18.416Z"
+  },
+  {
+    "id": 1776640273403,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:11:13.403Z"
+  },
+  {
+    "id": 1776640268394,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:11:08.394Z"
+  },
+  {
+    "id": 1776640263390,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:11:03.390Z"
+  },
+  {
+    "id": 1776640258388,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:58.388Z"
+  },
+  {
+    "id": 1776640253375,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:53.375Z"
+  },
+  {
+    "id": 1776640248367,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:48.367Z"
+  },
+  {
+    "id": 1776640243363,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:43.363Z"
+  },
+  {
+    "id": 1776640238361,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:38.361Z"
+  },
+  {
+    "id": 1776640233353,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:33.353Z"
+  },
+  {
+    "id": 1776640228342,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 89.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:28.342Z"
+  },
+  {
+    "id": 1776640223336,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:23.336Z"
+  },
+  {
+    "id": 1776640218333,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:18.333Z"
+  },
+  {
+    "id": 1776640213330,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:13.330Z"
+  },
+  {
+    "id": 1776640208318,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:08.318Z"
+  },
+  {
+    "id": 1776640203316,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:10:03.316Z"
+  },
+  {
+    "id": 1776640198308,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:58.308Z"
+  },
+  {
+    "id": 1776640193304,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:53.304Z"
+  },
+  {
+    "id": 1776640188299,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 88.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:48.299Z"
+  },
+  {
+    "id": 1776640183287,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:43.287Z"
+  },
+  {
+    "id": 1776640178274,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:38.274Z"
+  },
+  {
+    "id": 1776640173270,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:33.270Z"
+  },
+  {
+    "id": 1776640168257,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:28.257Z"
+  },
+  {
+    "id": 1776640163255,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:23.255Z"
+  },
+  {
+    "id": 1776640158253,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:18.253Z"
+  },
+  {
+    "id": 1776640153248,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 87.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:13.248Z"
+  },
+  {
+    "id": 1776640148243,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 86.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:08.243Z"
+  },
+  {
+    "id": 1776640143235,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 86.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:09:03.235Z"
+  },
+  {
+    "id": 1776640138225,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 85.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:58.225Z"
+  },
+  {
+    "id": 1776640133215,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 85.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:53.215Z"
+  },
+  {
+    "id": 1776640128201,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 85.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:48.201Z"
+  },
+  {
+    "id": 1776640123189,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 84.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:43.189Z"
+  },
+  {
+    "id": 1776640118175,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 84.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:38.175Z"
+  },
+  {
+    "id": 1776640113162,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 83.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:33.162Z"
+  },
+  {
+    "id": 1776640108152,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/0 mudanças promovidas. Readiness 83.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:28.152Z"
+  },
+  {
+    "id": 1776640103147,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/1 mudanças promovidas. Readiness 83.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:23.147Z"
+  },
+  {
+    "id": 1776640103146,
+    "type": "rejected_change",
+    "source": "promotion_engine",
+    "content": "Mudança rejeitada em growth. Melhoria rejeitada; ganho 0.4 insuficiente.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:23.146Z"
+  },
+  {
+    "id": 1776640098148,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/1 mudanças promovidas. Readiness 82.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:18.148Z"
+  },
+  {
+    "id": 1776640098145,
+    "type": "rejected_change",
+    "source": "promotion_engine",
+    "content": "Mudança rejeitada em growth. Melhoria rejeitada; ganho 0.4 insuficiente.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:18.145Z"
+  },
+  {
+    "id": 1776640093133,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/1 mudanças promovidas. Readiness 82.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:13.133Z"
+  },
+  {
+    "id": 1776640093131,
+    "type": "rejected_change",
+    "source": "promotion_engine",
+    "content": "Mudança rejeitada em growth. Melhoria rejeitada; ganho 0.4 insuficiente.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:13.131Z"
+  },
+  {
+    "id": 1776640088130,
+    "type": "cycle_summary",
+    "source": "cycle_runner",
+    "content": "Ciclo auto: 0/1 mudanças promovidas. Readiness 82.",
+    "impact": "medium",
+    "timestamp": "2026-04-19T23:08:08.130Z"
+  }
+]

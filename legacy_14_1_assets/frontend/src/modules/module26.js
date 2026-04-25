@@ -1,0 +1,1 @@
+export const module26 = "ok";

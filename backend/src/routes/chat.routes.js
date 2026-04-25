@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { chatController, memoryController } from '../controllers/chat.controller.js'; const r=Router(); r.post('/chat', chatController); r.get('/memory', memoryController); export default r;

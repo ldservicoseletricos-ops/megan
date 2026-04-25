@@ -1,0 +1,55 @@
+{
+  "version": "4.0.0",
+  "updatedAt": "2026-04-19T06:28:27.951Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "leadBrain": "strategic",
+      "leadReason": "Meta ativa com progresso baixo pede coordenação estratégica do roadmap.",
+      "supportBrains": [
+        "goal_decomposer",
+        "execution_priority"
+      ],
+      "observers": [
+        "feedback_loop",
+        "operational"
+      ],
+      "riskLevel": "controlled",
+      "confidence": 88,
+      "blockers": [],
+      "coordinationSummary": "Cérebro líder: strategic. Meta ativa: Evoluir Megan OS. Ação foco: Quebrar Evoluir Megan OS em etapas menores. Sem falhas recentes relevantes.",
+      "consultedModules": [
+        "memory_core",
+        "decision_memory",
+        "execution_priority",
+        "learning_loop",
+        "goal_decomposer",
+        "execution_roadmap",
+        "tactical_adjuster",
+        "feedback_loop",
+        "operational"
+      ],
+      "cycleCount": 2,
+      "history": [
+        {
+          "createdAt": "2026-04-19T06:28:27.951Z",
+          "source": "consensus:manual",
+          "leadBrain": "strategic",
+          "confidence": 88,
+          "riskLevel": "controlled",
+          "leadReason": "Meta ativa com progresso baixo pede coordenação estratégica do roadmap."
+        },
+        {
+          "createdAt": "2026-04-19T06:28:27.908Z",
+          "source": "manual",
+          "leadBrain": "strategic",
+          "confidence": 88,
+          "riskLevel": "controlled",
+          "leadReason": "Meta ativa com progresso baixo pede coordenação estratégica do roadmap."
+        }
+      ],
+      "createdAt": "2026-04-19T06:28:27.904Z",
+      "updatedAt": "2026-04-19T06:28:27.951Z"
+    }
+  }
+}

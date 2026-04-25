@@ -1,0 +1,2 @@
+function getLifeOperations(){return {ok:true,version:'4.0.0',areas:[{name:'agenda',status:'ready',focus:'prioridades do dia'},{name:'execucao',status:'ready',focus:'tarefas críticas'},{name:'decisoes',status:'ready',focus:'recomendações objetivas'}],today:{focus:'Estabilizar Megan OS, validar deploy e organizar próximos passos.',risk:'medium',energy:'balanced'}};}
+module.exports={getLifeOperations};

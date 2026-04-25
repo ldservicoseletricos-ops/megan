@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "mode": "supervision-first",
+  "delegationScore": 0,
+  "currentFocus": "Nenhuma missão delegada",
+  "eligibleTasks": [],
+  "delegatedTasks": [],
+  "blockedTasks": [],
+  "rules": {
+    "maxAutoDelegationsPerRun": 2,
+    "requireStrategicConfidence": 70,
+    "requireRiskLevelBelow": "high"
+  }
+}

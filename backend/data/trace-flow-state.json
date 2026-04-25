@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "focus": "Estabilizar o runtime",
+  "bottleneck": "Validação incompleta de rotas",
+  "decision": "Validar endpoints reais",
+  "plan": "Checklist técnico em 3 passos"
+}

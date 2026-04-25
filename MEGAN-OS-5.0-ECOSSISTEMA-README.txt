@@ -1,0 +1,28 @@
+MEGAN OS 5.0 — ECOSSISTEMA MEGAN OS
+
+Foco:
+Produto vendável mundial.
+
+Inclui:
+- Multiusuário
+- Multiempresa
+- Planos mensais
+- Marketplace de módulos
+- White-label
+
+Backend:
+- /api/ecosystem/dashboard
+- /api/ecosystem/tenant
+- /api/ecosystem/user
+- /api/ecosystem/plan/subscribe
+- /api/ecosystem/marketplace/install
+- /api/ecosystem/white-label/apply
+- /api/ecosystem/world-ready/checklist
+
+Frontend:
+- Aba Ecossistema 5.0
+- Painel SaaS mundial
+- Métricas de MRR, empresas, usuários, marketplace e marcas
+
+Observação:
+As ações críticas continuam supervisionadas. Integrações reais como Stripe, Vercel, Render, Supabase e GitHub devem usar variáveis de ambiente próprias no deploy.

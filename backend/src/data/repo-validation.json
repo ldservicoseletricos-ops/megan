@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "checkedAt": "2026-04-22T05:14:43.873Z",
+  "repoPath": "C:/megan",
+  "score": 100,
+  "summary": "Estrutura mínima validada para ciclo mestre real.",
+  "checks": [
+    {
+      "id": "backend",
+      "label": "Pasta backend",
+      "ok": true,
+      "weight": 12,
+      "path": "C:\\megan\\backend"
+    },
+    {
+      "id": "backend/src",
+      "label": "Backend src",
+      "ok": true,
+      "weight": 10,
+      "path": "C:\\megan\\backend\\src"
+    },
+    {
+      "id": "backend/package.json",
+      "label": "Backend package.json",
+      "ok": true,
+      "weight": 10,
+      "path": "C:\\megan\\backend\\package.json"
+    },
+    {
+      "id": "backend/server.js",
+      "label": "Backend server.js",
+      "ok": true,
+      "weight": 12,
+      "path": "C:\\megan\\backend\\server.js"
+    },
+    {
+      "id": "frontend",
+      "label": "Pasta frontend",
+      "ok": true,
+      "weight": 12,
+      "path": "C:\\megan\\frontend"
+    },
+    {
+      "id": "frontend/src",
+      "label": "Frontend src",
+      "ok": true,
+      "weight": 10,
+      "path": "C:\\megan\\frontend\\src"
+    },
+    {
+      "id": "frontend/package.json",
+      "label": "Frontend package.json",
+      "ok": true,
+      "weight": 10,
+      "path": "C:\\megan\\frontend\\package.json"
+    },
+    {
+      "id": "frontend/src/App.jsx",
+      "label": "Frontend App.jsx",
+      "ok": true,
+      "weight": 12,
+      "path": "C:\\megan\\frontend\\src\\App.jsx"
+    },
+    {
+      "id": ".gitignore",
+      "label": ".gitignore",
+      "ok": true,
+      "weight": 6,
+      "path": "C:\\megan\\.gitignore"
+    },
+    {
+      "id": "autoDetect",
+      "label": "Auto detecção",
+      "ok": true,
+      "weight": 6,
+      "path": "C:/megan"
+    }
+  ],
+  "frontend": {
+    "exists": true,
+    "srcExists": true,
+    "packageJsonExists": true
+  },
+  "backend": {
+    "exists": true,
+    "srcExists": true,
+    "packageJsonExists": true
+  }
+}

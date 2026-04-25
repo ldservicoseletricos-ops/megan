@@ -1,0 +1,28 @@
+MEGAN OS 4.9 — CENTRAL DE COMANDO GLOBAL
+
+Foco:
+Painel único com vida, empresas, equipes, vendas, alertas, metas e agentes.
+
+Backend adicionado:
+- /api/global-command-center/dashboard
+- /api/global-command-center/command
+- /api/global-command-center/goal
+- /api/global-command-center/alert/resolve
+
+Frontend adicionado:
+- Aba Central Global 4.9
+- Score global
+- Métricas consolidadas
+- Mapa de áreas
+- Alertas vivos
+- Metas
+- Agentes
+- Linha do tempo operacional
+
+Stack preservada:
+- Node + Express
+- React + Vite
+- Backend porta 10000
+
+Observação:
+Ações críticas continuam supervisionadas para evitar execução insegura sem confirmação.

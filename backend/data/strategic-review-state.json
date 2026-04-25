@@ -1,0 +1,67 @@
+{
+  "version": "7.0.0",
+  "updatedAt": "2026-04-19T08:06:45.744Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "activeStrategicFocus": "Concluir meta ativa: Evoluir Megan OS",
+      "executionReadiness": "guarded",
+      "reviewScore": 9,
+      "strengths": [],
+      "risks": [],
+      "opportunities": [
+        "Acelerar execução da meta Evoluir Megan OS"
+      ],
+      "strategicPriorities": [
+        {
+          "title": "Concluir meta ativa: Evoluir Megan OS",
+          "lane": "core_execution",
+          "owner": "goal_decomposer",
+          "urgency": "medium"
+        },
+        {
+          "title": "Desbloquear próxima ação: Quebrar Evoluir Megan OS em etapas menores",
+          "lane": "execution_roadmap",
+          "owner": "execution_priority",
+          "urgency": "high"
+        }
+      ],
+      "recommendations": [
+        "Reforçar foco em execução básica antes de expandir escopo.",
+        "Permitir pequenas expansões controladas.",
+        "Pode promover melhorias seguras automaticamente."
+      ],
+      "lastReviewSummary": "Foco Concluir meta ativa: Evoluir Megan OS. Prontidão guarded. Score 9. Modo guided_safe.",
+      "lastReviewAt": "2026-04-19T08:06:45.744Z",
+      "reviewCount": 3,
+      "history": [
+        {
+          "id": "strategic-review-1776586005744-pv9x",
+          "source": "controlled_expansion",
+          "reviewScore": 9,
+          "executionReadiness": "guarded",
+          "summary": "Foco Concluir meta ativa: Evoluir Megan OS. Prontidão guarded. Score 9. Modo guided_safe.",
+          "createdAt": "2026-04-19T08:06:45.744Z"
+        },
+        {
+          "id": "strategic-review-1776586003515-djwb",
+          "source": "controlled_expansion",
+          "reviewScore": 9,
+          "executionReadiness": "guarded",
+          "summary": "Foco Concluir meta ativa: Evoluir Megan OS. Prontidão guarded. Score 9. Modo guided_safe.",
+          "createdAt": "2026-04-19T08:06:43.515Z"
+        },
+        {
+          "id": "strategic-review-1776584905845-vzb1",
+          "source": "controlled_expansion",
+          "reviewScore": 9,
+          "executionReadiness": "guarded",
+          "summary": "Foco Concluir meta ativa: Evoluir Megan OS. Prontidão guarded. Score 9. Modo guided_safe.",
+          "createdAt": "2026-04-19T07:48:25.845Z"
+        }
+      ],
+      "updatedAt": "2026-04-19T08:06:45.744Z",
+      "createdAt": "2026-04-19T07:48:25.842Z"
+    }
+  }
+}
