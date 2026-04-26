@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { safeAutoRunController } from '../controllers/safe-auto-run.controller.js'; const router = Router(); router.get('/safe-auto-run', safeAutoRunController); export default router;

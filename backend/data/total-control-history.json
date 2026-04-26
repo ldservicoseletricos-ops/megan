@@ -1,0 +1,120 @@
+[
+  {
+    "id": "hist_1777172637545",
+    "at": "2026-04-26T03:03:57.545Z",
+    "type": "chat",
+    "message": "status real do sistema",
+    "interpreted": {
+      "type": "status",
+      "payload": {
+        "ok": true,
+        "module": "Megan OS 21.0 Total Control Chat Core",
+        "now": "2026-04-26T03:03:57.543Z",
+        "uptimeSeconds": 848,
+        "platform": "win32",
+        "node": "v24.14.1",
+        "cpuCores": 12,
+        "memory": {
+          "totalMB": 16088,
+          "usedMB": 11657,
+          "freeMB": 4431
+        },
+        "project": {
+          "projectRoot": "C:\\megan",
+          "backendRoot": "C:\\megan\\backend",
+          "frontendRoot": "C:\\megan\\frontend",
+          "exists": {
+            "megan": true,
+            "backend": true,
+            "frontend": true
+          },
+          "packages": [
+            {
+              "file": "backend\\package.json",
+              "name": "megan-os-supreme-backend",
+              "version": "24.0.0",
+              "scripts": {
+                "dev": "node src/server.js",
+                "start": "node src/server.js"
+              }
+            },
+            {
+              "file": "frontend\\package.json",
+              "name": "megan-os-supreme-frontend",
+              "version": "24.0.0",
+              "scripts": {
+                "dev": "vite",
+                "build": "vite build"
+              }
+            }
+          ]
+        },
+        "pendingTasks": 0
+      }
+    }
+  },
+  {
+    "id": "hist_1777171075961",
+    "at": "2026-04-26T02:37:55.961Z",
+    "type": "chat",
+    "message": "listar tarefas pendentes",
+    "interpreted": {
+      "type": "tasks",
+      "payload": []
+    }
+  },
+  {
+    "id": "hist_1777171066572",
+    "at": "2026-04-26T02:37:46.572Z",
+    "type": "chat",
+    "message": "status real do sistema",
+    "interpreted": {
+      "type": "status",
+      "payload": {
+        "ok": true,
+        "module": "Megan OS 21.0 Total Control Chat Core",
+        "now": "2026-04-26T02:37:46.570Z",
+        "uptimeSeconds": 1867,
+        "platform": "win32",
+        "node": "v24.14.1",
+        "cpuCores": 12,
+        "memory": {
+          "totalMB": 16088,
+          "usedMB": 11763,
+          "freeMB": 4325
+        },
+        "project": {
+          "projectRoot": "C:\\megan",
+          "backendRoot": "C:\\megan\\backend",
+          "frontendRoot": "C:\\megan\\frontend",
+          "exists": {
+            "megan": true,
+            "backend": true,
+            "frontend": true
+          },
+          "packages": [
+            {
+              "file": "backend\\package.json",
+              "name": "megan-os-supreme-backend",
+              "version": "22.0.0",
+              "scripts": {
+                "dev": "node src/server.js",
+                "start": "node src/server.js"
+              }
+            },
+            {
+              "file": "frontend\\package.json",
+              "name": "megan-os-supreme-frontend",
+              "version": "22.0.0",
+              "scripts": {
+                "dev": "vite",
+                "build": "vite build"
+              }
+            }
+          ]
+        },
+        "pendingTasks": 0
+      }
+    }
+  }
+]

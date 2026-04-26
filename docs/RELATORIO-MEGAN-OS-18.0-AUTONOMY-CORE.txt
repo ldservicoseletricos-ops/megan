@@ -1,0 +1,37 @@
+RELATÓRIO DE ENTREGA - MEGAN OS 18.0 AUTONOMY CORE
+
+Base preservada:
+- Megan OS 17.1 Auto Login Fix.
+- Command Center 17.0 mantido.
+- Login persistente mantido.
+- Estrutura existente preservada.
+
+Arquivos principais adicionados:
+- backend/src/modules/autonomy-core-18/autonomy-core-18.routes.js
+- frontend/src/features/autonomyCore18/AutonomyCore18Page.jsx
+- docs/RELATORIO-MEGAN-OS-18.0-AUTONOMY-CORE.txt
+- MEGAN-OS-18.0-AUTONOMY-CORE-README.txt
+
+Arquivos alterados:
+- backend/src/app.js
+- frontend/src/App.jsx
+- frontend/src/styles.css
+- backend/package.json
+- frontend/package.json
+
+Funcionalidades:
+- Autonomia supervisionada.
+- Ciclo de verificação do sistema.
+- Tarefas automáticas com aprovação humana.
+- Relatórios executivos.
+- Chat interno para autonomia.
+- Checklist vivo.
+
+Validação feita antes da entrega:
+- ZIP recriado do zero.
+- Teste de integridade do ZIP.
+- Conferência de presença dos arquivos adicionados.
+- Validação sintática Node dos arquivos backend adicionados.
+
+Observação:
+A validação de build do frontend depende de npm install local, pois o pacote final não inclui node_modules.

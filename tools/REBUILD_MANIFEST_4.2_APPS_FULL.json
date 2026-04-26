@@ -1,0 +1,17 @@
+{
+  "version": "4.2.0-apps",
+  "title": "Megan OS 4.2 — Automação Total Entre Apps",
+  "integrations": [
+    "gmail",
+    "whatsapp",
+    "google_calendar",
+    "google_sheets",
+    "stripe",
+    "supabase",
+    "render",
+    "vercel",
+    "github",
+    "telegram",
+    "external_crm"
+  ]
+}

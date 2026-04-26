@@ -1,0 +1,35 @@
+{
+  "activePlanId": "plan_1776564849116_ntuk9r",
+  "planTitle": "Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima",
+  "planStatus": "running",
+  "currentStepIndex": 0,
+  "steps": [
+    {
+      "id": "step_1",
+      "title": "Analisar estado atual",
+      "status": "pending",
+      "objective": "Revisar missão, brain ativo e gargalos do momento"
+    },
+    {
+      "id": "step_2",
+      "title": "Aplicar melhoria sugerida",
+      "status": "pending",
+      "objective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover."
+    },
+    {
+      "id": "step_3",
+      "title": "Validar resultado",
+      "status": "pending",
+      "objective": "Confirmar se a execução melhorou o estado central"
+    },
+    {
+      "id": "step_4",
+      "title": "Fechar execução",
+      "status": "pending",
+      "objective": "Encerrar ciclo do brain operational"
+    }
+  ],
+  "lastExecutionSummary": "Plano criado com 4 etapas.",
+  "updatedAt": "2026-04-19T02:14:09.116Z",
+  "history": []
+}

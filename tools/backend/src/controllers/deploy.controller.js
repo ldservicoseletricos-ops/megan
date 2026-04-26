@@ -1,0 +1,1 @@
+import { getDeployPreparation, runDeployHookSimulation } from '../services/deploy.service.js'; export function prepareDeploy(req, res) { res.json({ ok: true, message: 'Checklist de deploy preparado', deploy: getDeployPreparation() }); } export function runDeploySimulation(req, res) { res.json(runDeployHookSimulation()); }

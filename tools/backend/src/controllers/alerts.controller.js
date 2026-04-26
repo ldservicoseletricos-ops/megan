@@ -1,0 +1,1 @@
+import { getAlerts, createAlert } from '../services/alerts.service.js'; export function getAlertsController(req, res) { res.json({ ok: true, alerts: getAlerts() }); } export function createAlertController(req, res) { res.json({ ok: true, alert: createAlert(req.body || {}) }); }

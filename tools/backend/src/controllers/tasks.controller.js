@@ -1,0 +1,1 @@
+import { getTasks, createTask } from '../services/tasks.service.js'; export function getTasksController(req, res) { res.json({ ok: true, tasks: getTasks() }); } export function createTaskController(req, res) { res.json({ ok: true, task: createTask(req.body || {}) }); }

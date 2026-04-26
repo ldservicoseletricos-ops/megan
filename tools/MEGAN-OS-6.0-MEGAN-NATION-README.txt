@@ -1,0 +1,15 @@
+MEGAN OS 6.0 — MEGAN NATION
+
+Foco:
+Rede global de usuários + IA conectada.
+
+Inclui:
+- Comunidade global
+- Marketplace humano + IA
+- Times formados por IA
+- Jobs executados
+- Painel Megan Nation 6.0 no frontend
+- Backend /api/megan-nation
+
+Observação operacional:
+Jobs reais permanecem supervisionados, auditáveis e exigem confirmação para ações críticas.

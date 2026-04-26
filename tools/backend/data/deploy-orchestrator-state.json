@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "createdAt": "2026-04-20T22:48:19.842215+00:00",
+  "lastUpdatedAt": "2026-04-21T02:22:05.133Z",
+  "providers": {
+    "render": {
+      "provider": "render",
+      "deployHookConfigured": false,
+      "deployHookUrlPreview": "",
+      "strategy": "deploy_hook"
+    },
+    "vercel": {
+      "provider": "vercel",
+      "deployHookConfigured": false,
+      "tokenConfigured": false,
+      "projectIdConfigured": false,
+      "teamIdConfigured": false,
+      "strategy": "not_configured"
+    }
+  },
+  "lastPreflight": null,
+  "lastAction": null,
+  "history": [],
+  "historyState": {
+    "version": "3.0.0",
+    "createdAt": "2026-04-20T23:10:37.598592+00:00",
+    "productionGuardEnabled": true,
+    "requiresProductionConfirmation": true,
+    "entries": []
+  },
+  "guards": {
+    "productionGuardEnabled": true,
+    "requiresProductionConfirmation": true
+  },
+  "readiness": {
+    "render": {
+      "provider": "render",
+      "score": 0,
+      "checks": {
+        "hasRepoRoot": false,
+        "hasFrontendUrl": false,
+        "hasHook": false
+      },
+      "ready": false
+    },
+    "vercel": {
+      "provider": "vercel",
+      "score": 0,
+      "checks": {
+        "hasFrontendUrl": false,
+        "hasHook": false,
+        "hasToken": false,
+        "hasProjectId": false
+      },
+      "ready": false
+    }
+  },
+  "attemptLogs": {
+    "version": "4.0.0",
+    "createdAt": "2026-04-20T23:22:00.502776+00:00",
+    "entries": []
+  },
+  "results": {
+    "version": "5.0.0",
+    "createdAt": "2026-04-20T23:34:19.408444+00:00",
+    "previewResults": [],
+    "productionResults": [],
+    "lastRollbackPlan": null
+  },
+  "environmentSplit": {
+    "preview": {
+      "allowedTargets": [
+        "render_backend",
+        "vercel_frontend"
+      ],
+      "confirmationRequired": false
+    },
+    "production": {
+      "allowedTargets": [
+        "render_backend",
+        "vercel_frontend"
+      ],
+      "confirmationRequired": true
+    }
+  },
+  "suggestions": [
+    {
+      "provider": "render",
+      "severity": "medium",
+      "message": "Render ainda não está pronto. Preencha REPO_ROOT, FRONTEND_URL e RENDER_DEPLOY_HOOK_URL."
+    },
+    {
+      "provider": "vercel",
+      "severity": "medium",
+      "message": "Vercel ainda não está pronta. Configure hook ou token, além de VERCEL_PROJECT_ID quando usar API."
+    }
+  ]
+}

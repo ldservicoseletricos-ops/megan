@@ -32,6 +32,13 @@ import DeployAutopilotPage from './features/deployAutopilot/DeployAutopilotPage'
 import SelfInfrastructurePage from './features/selfInfrastructure/SelfInfrastructurePage';
 import SelfGrowthPage from './features/selfGrowth/SelfGrowthPage';
 import ExecutiveOperatorPage from './features/executiveOperator/ExecutiveOperatorPage';
+import OperatorCommandCenterPage from './features/operatorCommandCenter/OperatorCommandCenterPage';
+import AutonomyCore18Page from './features/autonomyCore18/AutonomyCore18Page';
+import TotalControl21Page from './features/totalControl21/TotalControl21Page';
+import OperatorSovereignMind22Page from './features/operatorSovereignMind22/OperatorSovereignMind22Page';
+import RealActionEngine24Page from './features/realActionEngine24/RealActionEngine24Page';
+import SystemHealth25Page from './features/systemHealth25/SystemHealth25Page';
+import AutonomousRepair26Page from './features/autonomousRepair26/AutonomousRepair26Page';
 
 const tabs = [
   { id: 'core', label: 'Megan OS 4.2', badge: 'Core 4.1', accent: 'emerald' },
@@ -56,6 +63,13 @@ const tabs = [
   { id: 'selfInfrastructure80', label: 'Self Infrastructure 8.0', badge: 'Infra AI', accent: 'emerald' },
   { id: 'selfGrowth85', label: 'Self Growth 8.5', badge: 'Growth AI', accent: 'violet' },
   { id: 'executiveOperator100', label: 'Executive Operator 10.0', badge: 'Executive', accent: 'cyan' },
+  { id: 'operatorCommand170', label: 'Command Center 17.0', badge: 'Operator Chat', accent: 'emerald' },
+{ id: 'autonomyCore180', label: 'Autonomy Core 18.0', badge: 'Auto 18', accent: 'violet' },
+  { id: 'totalControl210', label: 'Total Control Chat 21.0', badge: 'Control 21', accent: 'emerald' },
+  { id: 'operatorSovereignMind220', label: 'Operator Sovereign Mind 22.0', badge: 'Mind 22', accent: 'violet' },
+  { id: 'realActionEngine240', label: 'Real Action Engine 24.0', badge: 'Action 24', accent: 'emerald' },
+  { id: 'systemHealth250', label: 'System Health 25.0', badge: 'Health 25', accent: 'cyan' },
+  { id: 'autonomousRepair260', label: 'Autonomous Repair 26.0', badge: 'Repair 26', accent: 'emerald' },
   { id: 'autonomy', label: 'Autonomy Center', badge: 'Autonomy', accent: 'violet' },
   { id: 'planos', label: 'Planos', badge: 'Core', accent: 'cyan' },
   { id: 'meu-plano', label: 'Meu Plano', badge: 'Billing', accent: 'violet' },
@@ -168,6 +182,13 @@ export default function App() {
     selfInfrastructure80: <SelfInfrastructurePage />,
     selfGrowth85: <SelfGrowthPage />,
     executiveOperator100: <ExecutiveOperatorPage />, 
+    operatorCommand170: <OperatorCommandCenterPage />,
+autonomyCore180: <AutonomyCore18Page />,
+    totalControl210: <TotalControl21Page />,
+    operatorSovereignMind220: <OperatorSovereignMind22Page />, 
+    realActionEngine240: <RealActionEngine24Page />, 
+    systemHealth250: <SystemHealth25Page />, 
+    autonomousRepair260: <AutonomousRepair26Page />, 
     autonomy: <AutonomyCenterPage />,
     planos: (
       <PlanosPage
@@ -225,7 +246,7 @@ export default function App() {
             </div>
 
             <div className="omega-topbar-pills">
-              <span className="omega-top-pill">Megan OS 10.0</span>
+              <span className="omega-top-pill">Megan OS 26.0</span>
               <span className="omega-top-pill">Fusion Live</span>
             </div>
           </header>

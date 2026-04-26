@@ -1,0 +1,5 @@
+{
+  "version": "3.5.0",
+  "base": "3.4 source tree",
+  "features": ["external negotiation", "commercial intelligence", "vendor ranking", "opportunities", "deal ledger"]
+}

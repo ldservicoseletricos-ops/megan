@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getKpisController, createKpiController } from '../controllers/kpis.controller.js'; const router = Router(); router.get('/kpis', getKpisController); router.post('/kpis', createKpiController); export default router;

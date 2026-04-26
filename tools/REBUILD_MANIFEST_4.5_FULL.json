@@ -1,0 +1,18 @@
+{
+  "name": "megan-os-4.5-aprendizado-continuo-real",
+  "version": "4.5.0",
+  "base": "4.4",
+  "validated": true,
+  "features": [
+    "detecta padrões",
+    "prevê necessidades",
+    "melhora respostas",
+    "otimiza rotinas",
+    "aprende preferências"
+  ],
+  "backendRoutes": [
+    "/api/continuous-learning/dashboard",
+    "/api/continuous-learning/learning-cycle"
+  ],
+  "frontendTab": "Aprendizado 4.5"
+}

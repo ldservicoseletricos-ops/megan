@@ -1,0 +1,24 @@
+{
+  "name": "megan-os-unified-master-6.5",
+  "version": "6.5.0",
+  "base": "megan-os-6.0-megan-nation-novo-validado.zip",
+  "added": [
+    "backend/src/modules/operating-network",
+    "frontend/src/features/operatingNetwork/OperatingNetworkPage.jsx"
+  ],
+  "updated": [
+    "README.md",
+    "package.json",
+    "backend/package.json",
+    "frontend/package.json",
+    "backend/src/app.js",
+    "frontend/src/App.jsx",
+    "frontend/src/styles.css"
+  ],
+  "validation": [
+    "zip extraído com sucesso",
+    "estrutura backend/frontend presente",
+    "rota /api/operating-network/overview adicionada",
+    "aba Operating Network 6.5 adicionada ao frontend"
+  ]
+}

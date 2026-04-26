@@ -1,0 +1,13 @@
+{
+  "mode": "omega_final_supervised",
+  "score": 88,
+  "weeklyNorthStar": "Concluir a autonomia total da Megan com segurança, receita e estabilidade.",
+  "currentDirective": "Executar loop autônomo, validar testes e preparar publicação supervisionada sem quebrar a operação.",
+  "observers": [],
+  "queue": [],
+  "learningLog": [],
+  "actionHistory": [],
+  "lastScanAt": null,
+  "lastActionAt": null,
+  "lastAction": null
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "log-001",
+    "level": "info",
+    "message": "Megan V10 inicializada"
+  },
+  {
+    "id": "log-002",
+    "level": "info",
+    "message": "Centro de comando carregado"
+  },
+  {
+    "id": "log-003",
+    "level": "warning",
+    "message": "Deploy automático ainda não configurado"
+  }
+]

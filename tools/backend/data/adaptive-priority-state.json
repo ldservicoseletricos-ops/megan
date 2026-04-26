@@ -1,0 +1,360 @@
+{
+  "highestPriorityAction": "brain_routing",
+  "downgradedActions": [
+    "self_healing",
+    "fallback_strategy"
+  ],
+  "priorityReason": "Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.",
+  "recentImpact": [
+    {
+      "createdAt": "2026-04-18T02:09:40.026Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T02:09:39.975Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.484Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.442Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.637Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.597Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.286Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.248Z",
+      "validationScore": 96,
+      "highestPriorityAction": "brain_routing",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.043Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:41:36.991Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.269Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.213Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.704Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.658Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.474Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.425Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.525Z",
+      "validationScore": 96,
+      "highestPriorityAction": "patch_generation",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.482Z",
+      "validationScore": 96,
+      "highestPriorityAction": "execution_plan",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.629Z",
+      "validationScore": 94,
+      "highestPriorityAction": "execution_plan",
+      "fallbackTriggered": false
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.583Z",
+      "validationScore": 94,
+      "highestPriorityAction": "execution_plan",
+      "fallbackTriggered": false
+    }
+  ],
+  "actionScores": {
+    "brain_routing": 100,
+    "self_healing": 48,
+    "patch_generation": 100,
+    "execution_plan": 100,
+    "fallback_strategy": 0
+  },
+  "updatedAt": "2026-04-19T02:14:09.139Z",
+  "history": [
+    {
+      "createdAt": "2026-04-18T02:09:40.026Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 10,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 10
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T02:09:39.975Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 12,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 12
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.484Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 14,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 14
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.442Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 16,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 16
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.637Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 18,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 18
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.597Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 20,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 20
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.286Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 22,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 22
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.248Z",
+      "actionScores": {
+        "brain_routing": 100,
+        "self_healing": 24,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 24
+      },
+      "highestPriorityAction": "brain_routing"
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.043Z",
+      "actionScores": {
+        "brain_routing": 98,
+        "self_healing": 26,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 26
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:41:36.991Z",
+      "actionScores": {
+        "brain_routing": 94,
+        "self_healing": 28,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 28
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.269Z",
+      "actionScores": {
+        "brain_routing": 90,
+        "self_healing": 30,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 30
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.213Z",
+      "actionScores": {
+        "brain_routing": 86,
+        "self_healing": 32,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 32
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.704Z",
+      "actionScores": {
+        "brain_routing": 82,
+        "self_healing": 34,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 34
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.658Z",
+      "actionScores": {
+        "brain_routing": 78,
+        "self_healing": 36,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 36
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.474Z",
+      "actionScores": {
+        "brain_routing": 74,
+        "self_healing": 38,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 38
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.425Z",
+      "actionScores": {
+        "brain_routing": 70,
+        "self_healing": 40,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 40
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.525Z",
+      "actionScores": {
+        "brain_routing": 66,
+        "self_healing": 42,
+        "patch_generation": 100,
+        "execution_plan": 100,
+        "fallback_strategy": 42
+      },
+      "highestPriorityAction": "patch_generation"
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.482Z",
+      "actionScores": {
+        "brain_routing": 62,
+        "self_healing": 44,
+        "patch_generation": 98,
+        "execution_plan": 100,
+        "fallback_strategy": 44
+      },
+      "highestPriorityAction": "execution_plan"
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.629Z",
+      "actionScores": {
+        "brain_routing": 58,
+        "self_healing": 46,
+        "patch_generation": 82,
+        "execution_plan": 86,
+        "fallback_strategy": 46
+      },
+      "highestPriorityAction": "execution_plan"
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.583Z",
+      "actionScores": {
+        "brain_routing": 54,
+        "self_healing": 48,
+        "patch_generation": 66,
+        "execution_plan": 68,
+        "fallback_strategy": 48
+      },
+      "highestPriorityAction": "execution_plan"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "auto_1777035656190",
+      "createdAt": "2026-04-24T13:00:56.190Z",
+      "integrationId": "telegram",
+      "integrationName": "Telegram",
+      "action": "check_status",
+      "execute": false,
+      "ok": true,
+      "durationMs": 0,
+      "resultPreview": "Telegram pronto para execução real quando execute=true e o .env estiver configurado."
+    }
+  ]
+}

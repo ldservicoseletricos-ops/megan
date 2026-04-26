@@ -1,0 +1,19 @@
+{
+  "version": "5.1.0",
+  "phase": "MARKETPLACE DE AGENTES",
+  "generatedAt": "2026-04-24",
+  "changedFiles": [
+    "backend/src/modules/agent-marketplace/agent-marketplace.routes.js",
+    "backend/src/modules/agent-marketplace/agent-marketplace.controller.js",
+    "backend/src/modules/agent-marketplace/agent-marketplace.service.js",
+    "backend/src/app.js",
+    "frontend/src/features/agentMarketplace/AgentMarketplacePage.jsx",
+    "frontend/src/App.jsx",
+    "frontend/src/styles.css"
+  ],
+  "validation": [
+    "backend route registered",
+    "frontend tab registered",
+    "zip integrity tested"
+  ]
+}

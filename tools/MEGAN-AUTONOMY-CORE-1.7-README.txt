@@ -1,0 +1,3 @@
+Megan Autonomy Core 1.7
+
+Inclui patch multiarquivo validado, score adaptativo e seleção de missão orientada por impacto real.

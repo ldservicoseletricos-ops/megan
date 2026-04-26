@@ -1,0 +1,117 @@
+{
+  "version": "8.5.0",
+  "mode": "supervised",
+  "growthScore": 90,
+  "monthlySavingsPotential": 480,
+  "revenuePotential": 2300,
+  "performanceGainPotential": 32,
+  "conversionGainPotential": 18,
+  "lastAnalysisAt": null,
+  "actions": [
+    {
+      "id": "growth_cost_render_1777171904751",
+      "type": "growth_action",
+      "title": "Preparado: Revisar plano Render e jobs ociosos",
+      "result": "Ação supervisionada preparada: auditar serviços e sugerir ajuste de plano.",
+      "status": "done",
+      "createdAt": "2026-04-26T02:51:44.750Z"
+    },
+    {
+      "id": "growth_db_indexes_1777171904751",
+      "type": "growth_action",
+      "title": "Preparado: Criar índices nas tabelas críticas",
+      "result": "Ação supervisionada preparada: gerar plano SQL supervisionado.",
+      "status": "done",
+      "createdAt": "2026-04-26T02:51:44.750Z"
+    },
+    {
+      "id": "growth_paid_agents_1777171904751",
+      "type": "growth_action",
+      "title": "Preparado: Transformar agentes em módulos pagos",
+      "result": "Ação supervisionada preparada: criar página de planos e bundles.",
+      "status": "done",
+      "createdAt": "2026-04-26T02:51:44.750Z"
+    },
+    {
+      "id": "growth_support_funnel_1777171904751",
+      "type": "growth_action",
+      "title": "Preparado: Melhorar explicação do Deploy Autopilot",
+      "result": "Ação supervisionada preparada: adicionar tutorial operacional no painel.",
+      "status": "done",
+      "createdAt": "2026-04-26T02:51:44.750Z"
+    },
+    {
+      "id": "growth_mobile_app_1777171904751",
+      "type": "growth_action",
+      "title": "Preparado: Preparar Megan Mobile Developer Mode",
+      "result": "Ação supervisionada preparada: criar roadmap Android/React Native.",
+      "status": "done",
+      "createdAt": "2026-04-26T02:51:44.750Z"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "exp_onboarding",
+      "title": "Onboarding guiado para novos usuários",
+      "status": "ready",
+      "impact": "Aumentar ativação inicial",
+      "risk": "low"
+    },
+    {
+      "id": "exp_deploy_cta",
+      "title": "Botão Deploy 1 Clique mais visível",
+      "status": "ready",
+      "impact": "Aumentar uso do Deploy Center",
+      "risk": "low"
+    },
+    {
+      "id": "exp_mobile_waitlist",
+      "title": "Lista de espera Megan Mobile",
+      "status": "planned",
+      "impact": "Validar demanda mobile",
+      "risk": "low"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "cost_render",
+      "area": "Custos",
+      "title": "Revisar plano Render e jobs ociosos",
+      "priority": "high",
+      "estimatedValue": "R$ 180/mês",
+      "action": "auditar serviços e sugerir ajuste de plano"
+    },
+    {
+      "id": "db_indexes",
+      "area": "Performance",
+      "title": "Criar índices nas tabelas críticas",
+      "priority": "high",
+      "estimatedValue": "+22% API",
+      "action": "gerar plano SQL supervisionado"
+    },
+    {
+      "id": "paid_agents",
+      "area": "Receita",
+      "title": "Transformar agentes em módulos pagos",
+      "priority": "high",
+      "estimatedValue": "R$ 1.200/mês",
+      "action": "criar página de planos e bundles"
+    },
+    {
+      "id": "support_funnel",
+      "area": "Conversão",
+      "title": "Melhorar explicação do Deploy Autopilot",
+      "priority": "medium",
+      "estimatedValue": "+8% conversão",
+      "action": "adicionar tutorial operacional no painel"
+    },
+    {
+      "id": "mobile_app",
+      "area": "Produto",
+      "title": "Preparar Megan Mobile Developer Mode",
+      "priority": "medium",
+      "estimatedValue": "Novo canal",
+      "action": "criar roadmap Android/React Native"
+    }
+  ]
+}

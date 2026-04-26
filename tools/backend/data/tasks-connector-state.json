@@ -1,0 +1,85 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "connector": {
+        "ready": true,
+        "provider": "tasks_api",
+        "safeMode": true,
+        "requiresApproval": true,
+        "defaultList": "Megan OS",
+        "configuredAt": "2026-04-14T02:11:24.296Z",
+        "lastHealthCheckAt": "2026-04-14T02:11:24.296Z"
+      },
+      "drafts": [
+        {
+          "draftId": "task-draft-1",
+          "title": "Configurar integra��es reais Megan",
+          "due": "2026-04-15",
+          "priority": "high",
+          "notes": "Conectar Gmail e Calendar reais",
+          "list": "Projeto Megan",
+          "tags": [
+            "megan",
+            "integracoes"
+          ],
+          "status": "created",
+          "approved": true,
+          "preparedOnly": false,
+          "createdAt": "2026-04-14T02:11:54.956Z",
+          "updatedAt": "2026-04-14T02:12:12.286Z"
+        }
+      ],
+      "created": [
+        {
+          "draftId": "task-draft-1",
+          "title": "Configurar integra��es reais Megan",
+          "list": "Projeto Megan",
+          "priority": "high",
+          "due": "2026-04-15",
+          "mode": "safe_dispatch",
+          "createdAt": "2026-04-14T02:12:12.287Z"
+        }
+      ],
+      "lastDraft": {
+        "draftId": "task-draft-1",
+        "title": "Configurar integra��es reais Megan",
+        "due": "2026-04-15",
+        "priority": "high",
+        "notes": "Conectar Gmail e Calendar reais",
+        "list": "Projeto Megan",
+        "tags": [
+          "megan",
+          "integracoes"
+        ],
+        "status": "draft",
+        "approved": false,
+        "preparedOnly": false,
+        "createdAt": "2026-04-14T02:11:54.956Z",
+        "updatedAt": "2026-04-14T02:11:54.956Z"
+      },
+      "lastCreate": {
+        "draftId": "task-draft-1",
+        "mode": "safe_dispatch",
+        "connectorReady": true,
+        "safeMode": true,
+        "requiresApproval": true,
+        "status": "created",
+        "title": "Configurar integra��es reais Megan",
+        "list": "Projeto Megan",
+        "priority": "high",
+        "generatedAt": "2026-04-14T02:12:12.287Z"
+      },
+      "counters": {
+        "configurations": 1,
+        "drafts": 1,
+        "created": 1,
+        "safeDispatches": 1,
+        "preparedOnly": 0,
+        "blockedByApproval": 0
+      },
+      "updatedAt": "2026-04-14T02:12:12.287Z",
+      "createdAt": "2026-04-14T02:11:15.835Z"
+    }
+  }
+}

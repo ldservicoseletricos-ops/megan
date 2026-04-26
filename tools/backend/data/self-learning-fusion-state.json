@@ -1,0 +1,12 @@
+{
+  "learningStatus": "idle",
+  "recentLearnings": [],
+  "appliedImprovements": [],
+  "adjustedWeights": [],
+  "evolutionScore": 0,
+  "rollbacks": [],
+  "lessonsLearned": [],
+  "nextLearningOpportunity": "Aguardando sinais de execução",
+  "updatedAt": null,
+  "history": []
+}

@@ -1,0 +1,14 @@
+{
+  "lastObjective": "Escalar Megan como empresa digital",
+  "activeFocus": "Memória estratégica, crescimento e IA comercial",
+  "timeline": [
+    "V10 com automação por departamento e centro de comando",
+    "V11 consolidada",
+    "V12 com memória estratégica e IA comercial ativa"
+  ],
+  "notes": [
+    "Conectar Supabase antes do deploy real",
+    "Ativar hooks de Render e Vercel",
+    "Priorizar crescimento e vendas"
+  ]
+}

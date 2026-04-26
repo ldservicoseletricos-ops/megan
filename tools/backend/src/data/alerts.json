@@ -1,0 +1,20 @@
+[
+  {
+    "id": "alert-001",
+    "level": "warning",
+    "title": "Render hook ausente",
+    "status": "open"
+  },
+  {
+    "id": "alert-002",
+    "level": "warning",
+    "title": "Vercel hook ausente",
+    "status": "open"
+  },
+  {
+    "id": "alert-003",
+    "level": "info",
+    "title": "Supabase aguardando configuração",
+    "status": "open"
+  }
+]

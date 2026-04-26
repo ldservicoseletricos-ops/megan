@@ -12,7 +12,7 @@ app.get('/api/health', (_req, res) => {
   res.json({
     ok: true,
     service: 'Megan OS Backend',
-    version: '10.0-executive-operator-ai',
+    version: '26.0-autonomous-repair-engine',
     status: 'online',
     autonomy: 'Self Growth AI com carregamento seguro de módulos',
     timestamp: new Date().toISOString()
@@ -68,6 +68,14 @@ safeUse('/api/stripe-autopilot', './modules/stripe-autopilot/stripe-autopilot.ro
 safeUse('/api/persistent-core', './modules/persistent-core/persistent-core.routes');
 safeUse('/api/integrations', './modules/integrations/integrations.routes');
 safeUse('/api/executive-operator', './modules/executive-operator/executive-operator.routes');
+safeUse('/api/operator', './modules/operator-command-center/operator-command-center.routes');
+safeUse('/api/autonomy-core-18', './modules/autonomy-core-18/autonomy-core-18.routes');
+safeUse('/api/self-evolution-19', './modules/self-evolution-19/self-evolution-19.routes');
+safeUse('/api/total-control-21', './modules/total-control-chat-21/total-control-chat-21.routes');
+safeUse('/api/operator-sovereign-mind-22', './modules/operator-sovereign-mind-22/operator-sovereign-mind-22.routes');
+safeUse('/api/real-action-engine-24', './modules/real-action-engine-24/real-action-engine-24.routes');
+safeUse('/api/system-health-25', './modules/system-health-25/system-health-25.routes');
+safeUse('/api/autonomous-repair-26', './modules/autonomous-repair-26/autonomous-repair-26.routes');
 
 app.use((req, res) => {
   res.status(404).json({

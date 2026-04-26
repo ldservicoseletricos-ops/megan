@@ -1,0 +1,60 @@
+MEGAN OS 4.2 — ORQUESTRADOR DE AGENTES REAIS
+
+Base preservada:
+- Megan OS 4.0 concluída
+- Megan OS 4.1 com agentes especializados reais
+- Stack Node + React + Vite
+- Backend porta 10000
+- Frontend Vite
+
+Objetivo da fase 4.2:
+Transformar os agentes especializados em um conselho coordenado, com votação, consenso supervisionado, linha de execução e validação obrigatória antes de entrega.
+
+Arquivos alterados/adicionados:
+
+Backend:
+- backend/package.json
+- backend/src/app.js
+- backend/src/server.js
+- backend/src/modules/agents/agents.controller.js
+- backend/src/modules/agents/agents.routes.js
+- backend/src/modules/agents/services/agent-orchestrator.service.js
+- backend/src/modules/agents/services/agent-collaboration.service.js
+
+Frontend:
+- frontend/src/App.jsx
+- frontend/src/features/agents/pages/AgentsCenterPage.jsx
+- frontend/src/features/agents/services/agentsApi.js
+- frontend/src/styles.css
+
+Novos endpoints:
+- GET  /api/agents/dashboard
+- POST /api/agents/plan
+- POST /api/agents/run
+- POST /api/agents/orchestrate
+- POST /api/agents/consensus
+- POST /api/agents/timeline
+
+Como rodar no Windows PowerShell:
+
+Backend:
+cd C:\megan\backend
+npm install
+npm run dev
+
+Frontend:
+cd C:\megan\frontend
+npm install
+npm run dev
+
+Validação esperada:
+- Backend online em http://localhost:10000
+- Health em http://localhost:10000/api/health retornando versão 4.2.0
+- Frontend abrindo no Vite
+- Aba Agentes 4.2 exibindo orquestração, consenso, votação e linha de execução
+
+Política de segurança da fase:
+- Autonomia supervisionada por consenso
+- Ações destrutivas bloqueadas por padrão
+- Mudanças somente necessárias
+- Arquivos completos prontos para colar

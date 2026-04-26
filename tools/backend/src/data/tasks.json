@@ -1,0 +1,30 @@
+[
+  {
+    "id": "task-001",
+    "title": "Configurar Supabase real",
+    "status": "pending",
+    "owner": "Megan Tech",
+    "priority": "high"
+  },
+  {
+    "id": "task-002",
+    "title": "Configurar Render backend",
+    "status": "pending",
+    "owner": "Megan Ops AI",
+    "priority": "high"
+  },
+  {
+    "id": "task-003",
+    "title": "Configurar Vercel frontend",
+    "status": "pending",
+    "owner": "Megan Ops AI",
+    "priority": "high"
+  },
+  {
+    "id": "task-004",
+    "title": "Criar landing page oficial",
+    "status": "in_progress",
+    "owner": "Megan Growth",
+    "priority": "high"
+  }
+]

@@ -1,0 +1,1 @@
+import { getDecisionEngineStatus } from '../services/decision-engine.service.js'; export function getDecisionEngineController(req, res) { res.json({ ok: true, decisionEngine: getDecisionEngineStatus() }); }

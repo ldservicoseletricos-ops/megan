@@ -1,0 +1,20 @@
+{
+  "project": "Megan OS",
+  "version": "4.2.0",
+  "phase": "Orquestrador de Agentes Reais",
+  "base": "4.1.0",
+  "stack": ["Node", "React", "Vite"],
+  "backendPort": 10000,
+  "added": [
+    "backend/src/modules/agents/services/agent-collaboration.service.js",
+    "POST /api/agents/orchestrate",
+    "POST /api/agents/consensus",
+    "POST /api/agents/timeline",
+    "frontend Agents 4.2 orchestration UI"
+  ],
+  "safety": {
+    "autonomy": "supervised_consensus",
+    "destructiveActions": "blocked_by_default",
+    "fileChanges": "minimal_required_changes"
+  }
+}

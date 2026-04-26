@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getLogsController, appendLogController } from '../controllers/logs.controller.js'; const router = Router(); router.get('/logs', getLogsController); router.post('/logs', appendLogController); export default router;

@@ -1,0 +1,15 @@
+{
+  "name": "Megan OS 5.5 — Megan App Store",
+  "version": "5.5.0",
+  "base": "Megan OS 5.4",
+  "added": [
+    "backend/src/modules/megan-app-store",
+    "frontend/src/features/meganAppStore",
+    "/api/megan-app-store",
+    "Aba Megan App Store 5.5"
+  ],
+  "validation": [
+    "zip integrity",
+    "source files injected"
+  ]
+}

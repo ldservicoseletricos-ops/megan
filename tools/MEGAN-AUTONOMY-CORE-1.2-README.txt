@@ -1,0 +1,3 @@
+MEGAN AUTONOMY CORE 1.2
+
+Inclui score de saúde do projeto, detector de duplicações, análise de performance e auto patch seguro supervisionado.

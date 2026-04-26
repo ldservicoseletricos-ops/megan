@@ -1,0 +1,14 @@
+[
+  {
+    "id": "report_1777167728384",
+    "title": "Relatório Autonomy Core 18.0",
+    "createdAt": "2026-04-26T01:42:08.384Z",
+    "healthScore": 94,
+    "summary": "Saúde 94%. 0 tarefa(s) de prioridade alta/urgente em aberto. Backend e frontend detectados.",
+    "recommendations": [
+      "Sistema apto para próxima evolução supervisionada.",
+      "Manter execução sensível somente após aprovação humana.",
+      "Rodar validação local após cada pacote gerado."
+    ]
+  }
+]

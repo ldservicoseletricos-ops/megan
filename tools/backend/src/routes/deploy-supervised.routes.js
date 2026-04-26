@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { deploySupervisedController } from '../controllers/deploy-supervised.controller.js'; const r=Router(); r.get('/deploy-supervised',deploySupervisedController); export default r;

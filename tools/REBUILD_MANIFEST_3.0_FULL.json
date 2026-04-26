@@ -1,0 +1,12 @@
+{
+  "package": "megan-autonomy-core-3.0-full-source.zip",
+  "version": "3.0.0",
+  "base": "2.9-new-clean-source",
+  "newServices": [
+    "unified-cognition",
+    "supervised-evolution",
+    "continuous-organism",
+    "organism-health",
+    "strategic-balance"
+  ]
+}

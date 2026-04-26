@@ -1,0 +1,34 @@
+MEGAN OS 4.3 — AUTOEMPRESA
+
+Foco:
+Megan opera negócios semi-autônomos com supervisão humana.
+
+Inclui:
+- captar leads
+- responder clientes
+- propostas automáticas
+- follow-up
+- cobrança
+- métricas
+- CRM vivo
+
+Backend novo:
+- /api/autoempresa/dashboard
+- /api/autoempresa/lead
+- /api/autoempresa/reply
+- /api/autoempresa/proposal
+- /api/autoempresa/follow-up
+- /api/autoempresa/billing
+- /api/autoempresa/metrics
+- /api/autoempresa/crm-live
+- /api/autoempresa/business-cycle
+
+Frontend novo:
+- Aba AUTOEMPRESA 4.3
+- Painel comercial
+- Métricas
+- CRM vivo
+- Ciclo comercial demo
+
+Resultado:
+Produto vendável para empresas imediatamente.

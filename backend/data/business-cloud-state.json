@@ -1,0 +1,331 @@
+{
+  "updatedAt": "2026-04-26T00:21:21.444Z",
+  "version": "5.2.0",
+  "title": "Megan OS 5.2 — MEGAN BUSINESS CLOUD",
+  "focus": "Versão empresa com dashboard executivo, times, CRM, financeiro, metas e BI para operação B2B vendável.",
+  "mode": "business_cloud_enterprise",
+  "readiness": {
+    "score": 94,
+    "status": "pronto_para_implantacao_empresa",
+    "risk": "supervisionado_com_aprovacao_em_acoes_criticas",
+    "nextRelease": "5.3 portal do cliente + relatórios automáticos + contratos white-label"
+  },
+  "executive": {
+    "company": "Luiz Rosa Business Cloud",
+    "activeCompanies": 4,
+    "activeUsers": 27,
+    "activeTeams": 6,
+    "activeAgents": 13,
+    "mrr": 18420,
+    "pipelineValue": 92750,
+    "cashBalance": 43200,
+    "goalCompletion": 71,
+    "healthScore": 91,
+    "priority": "Aumentar conversão de propostas e reduzir tempo de resposta do suporte."
+  },
+  "teams": [
+    {
+      "id": "team-sales",
+      "name": "Vendas",
+      "owner": "Diretor Comercial",
+      "members": 7,
+      "status": "ativo",
+      "target": "Fechar 18 propostas no mês",
+      "productivity": 88
+    },
+    {
+      "id": "team-support",
+      "name": "Suporte",
+      "owner": "Coordenador CX",
+      "members": 5,
+      "status": "ativo",
+      "target": "SLA abaixo de 2h",
+      "productivity": 92
+    },
+    {
+      "id": "team-finance",
+      "name": "Financeiro",
+      "owner": "Gestor Financeiro",
+      "members": 3,
+      "status": "ativo",
+      "target": "Reduzir inadimplência para 4%",
+      "productivity": 81
+    },
+    {
+      "id": "team-growth",
+      "name": "Growth/Marketing",
+      "owner": "Head Growth",
+      "members": 4,
+      "status": "ativo",
+      "target": "Gerar 320 leads qualificados",
+      "productivity": 84
+    },
+    {
+      "id": "team-ops",
+      "name": "Operações",
+      "owner": "COO",
+      "members": 6,
+      "status": "ativo",
+      "target": "Padronizar entrega empresarial",
+      "productivity": 86
+    },
+    {
+      "id": "team-bi",
+      "name": "BI",
+      "owner": "Analista BI",
+      "members": 2,
+      "status": "ativo",
+      "target": "Relatórios executivos semanais",
+      "productivity": 90
+    }
+  ],
+  "crm": {
+    "leads": [
+      {
+        "id": "lead-001",
+        "company": "Clínica Premium",
+        "contact": "Ana Souza",
+        "channel": "WhatsApp",
+        "stage": "proposta",
+        "value": 12800,
+        "probability": 72,
+        "nextAction": "Enviar proposta final com módulos Saúde + Suporte",
+        "owner": "Vendas",
+        "updatedAt": "2026-04-26T00:21:21.444Z"
+      },
+      {
+        "id": "lead-002",
+        "company": "Logística Rápida",
+        "contact": "Carlos Lima",
+        "channel": "Site",
+        "stage": "diagnostico",
+        "value": 18600,
+        "probability": 58,
+        "nextAction": "Agendar demonstração do módulo Logística",
+        "owner": "Vendas",
+        "updatedAt": "2026-04-26T00:21:21.444Z"
+      },
+      {
+        "id": "lead-003",
+        "company": "Escritório Jurídico Alpha",
+        "contact": "Marina Costa",
+        "channel": "Email",
+        "stage": "negociacao",
+        "value": 9700,
+        "probability": 64,
+        "nextAction": "Revisar condições white-label",
+        "owner": "Vendas",
+        "updatedAt": "2026-04-26T00:21:21.444Z"
+      }
+    ],
+    "stages": [
+      "novo",
+      "diagnostico",
+      "proposta",
+      "negociacao",
+      "ganho",
+      "perdido"
+    ],
+    "slaHours": 2,
+    "conversionRate": 31
+  },
+  "finance": {
+    "revenue": 28450,
+    "expenses": 11980,
+    "profit": 16470,
+    "receivables": 22300,
+    "overdue": 3240,
+    "runwayMonths": 7.4,
+    "entries": [
+      {
+        "id": "fin-001",
+        "type": "receita",
+        "label": "Assinaturas Business Cloud",
+        "amount": 18420,
+        "status": "confirmado",
+        "dueDate": "2026-04-26"
+      },
+      {
+        "id": "fin-002",
+        "type": "receita",
+        "label": "Setup Enterprise",
+        "amount": 10030,
+        "status": "previsto",
+        "dueDate": "2026-04-26"
+      },
+      {
+        "id": "fin-003",
+        "type": "despesa",
+        "label": "Infraestrutura cloud",
+        "amount": 2980,
+        "status": "confirmado",
+        "dueDate": "2026-04-26"
+      },
+      {
+        "id": "fin-004",
+        "type": "despesa",
+        "label": "Ferramentas SaaS",
+        "amount": 1640,
+        "status": "confirmado",
+        "dueDate": "2026-04-26"
+      }
+    ]
+  },
+  "goals": [
+    {
+      "id": "goal-mrr",
+      "title": "Atingir R$ 25.000 de MRR",
+      "area": "executivo",
+      "progress": 74,
+      "target": 25000,
+      "current": 18420,
+      "deadline": "30 dias"
+    },
+    {
+      "id": "goal-crm",
+      "title": "Fechar 10 empresas novas",
+      "area": "vendas",
+      "progress": 46,
+      "target": 10,
+      "current": 4.6,
+      "deadline": "30 dias"
+    },
+    {
+      "id": "goal-sla",
+      "title": "Manter SLA abaixo de 2 horas",
+      "area": "suporte",
+      "progress": 82,
+      "target": 2,
+      "current": 1.6,
+      "deadline": "contínuo"
+    },
+    {
+      "id": "goal-profit",
+      "title": "Margem operacional acima de 50%",
+      "area": "financeiro",
+      "progress": 79,
+      "target": 50,
+      "current": 57,
+      "deadline": "mensal"
+    }
+  ],
+  "bi": {
+    "insights": [
+      {
+        "id": "bi-001",
+        "severity": "alta",
+        "title": "Pipeline cobre 5x o MRR atual",
+        "detail": "Priorizar propostas em estágio negociação para acelerar caixa.",
+        "impact": "crescimento"
+      },
+      {
+        "id": "bi-002",
+        "severity": "media",
+        "title": "Suporte com melhor produtividade",
+        "detail": "Usar scripts do suporte como base para treinamento comercial.",
+        "impact": "eficiência"
+      },
+      {
+        "id": "bi-003",
+        "severity": "media",
+        "title": "Inadimplência controlável",
+        "detail": "Acionar lembrete automático 5 dias antes do vencimento.",
+        "impact": "financeiro"
+      }
+    ],
+    "reports": [
+      {
+        "id": "rep-001",
+        "name": "Relatório executivo semanal",
+        "status": "pronto",
+        "sections": [
+          "MRR",
+          "Pipeline",
+          "Caixa",
+          "Metas",
+          "Riscos"
+        ]
+      },
+      {
+        "id": "rep-002",
+        "name": "Forecast comercial",
+        "status": "pronto",
+        "sections": [
+          "Leads",
+          "Probabilidade",
+          "Receita prevista"
+        ]
+      },
+      {
+        "id": "rep-003",
+        "name": "Saúde operacional",
+        "status": "pronto",
+        "sections": [
+          "Times",
+          "SLA",
+          "Produtividade",
+          "Alertas"
+        ]
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "alert-001",
+      "level": "atenção",
+      "title": "3 propostas paradas há mais de 5 dias",
+      "action": "Executar follow-up comercial hoje."
+    },
+    {
+      "id": "alert-002",
+      "level": "risco",
+      "title": "R$ 3.240 em cobrança vencida",
+      "action": "Enviar lembrete financeiro supervisionado."
+    },
+    {
+      "id": "alert-003",
+      "level": "oportunidade",
+      "title": "Segmento saúde com maior ticket",
+      "action": "Criar oferta vertical Saúde Cloud."
+    }
+  ],
+  "automation": [
+    {
+      "id": "auto-001",
+      "title": "Follow-up CRM diário",
+      "status": "ativo",
+      "owner": "Agente Vendas",
+      "lastRun": "2026-04-26T00:21:21.444Z"
+    },
+    {
+      "id": "auto-002",
+      "title": "Resumo financeiro semanal",
+      "status": "ativo",
+      "owner": "Agente Financeiro",
+      "lastRun": "2026-04-26T00:21:21.444Z"
+    },
+    {
+      "id": "auto-003",
+      "title": "BI executivo segunda-feira",
+      "status": "ativo",
+      "owner": "Agente BI",
+      "lastRun": "2026-04-26T00:21:21.444Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-001",
+      "type": "business_cloud_boot",
+      "title": "Business Cloud 5.2 iniciado",
+      "detail": "Dashboard executivo, times, CRM, financeiro, metas e BI carregados.",
+      "createdAt": "2026-04-26T00:21:21.444Z"
+    },
+    {
+      "id": "act-002",
+      "type": "enterprise_ready",
+      "title": "Versão empresa pronta",
+      "detail": "Base preparada para venda B2B com visão executiva integrada.",
+      "createdAt": "2026-04-26T00:21:21.444Z"
+    }
+  ]
+}

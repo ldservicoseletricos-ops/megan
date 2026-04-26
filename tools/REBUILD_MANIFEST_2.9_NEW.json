@@ -1,0 +1,14 @@
+{
+  "name": "megan-autonomy-core-2.9-new-clean-source.zip",
+  "base": "megan-autonomy-core-2.8-full-source.zip",
+  "not_used": "megan-autonomy-core-2.9-full-source-v2.zip",
+  "version": "2.9.0",
+  "features": [
+    "emergency rules",
+    "crisis mode",
+    "failure containment",
+    "module isolation",
+    "progressive recovery",
+    "incident ledger"
+  ]
+}

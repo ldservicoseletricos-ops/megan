@@ -1,0 +1,16 @@
+{
+  "version": "4.8.0",
+  "name": "Megan OS 4.8 - Voz + Celular + Presença Real",
+  "backend_port": 10000,
+  "added": [
+    "backend/src/modules/voice-mobile-presence",
+    "frontend/src/features/voiceMobilePresence/VoiceMobilePresencePage.jsx",
+    "MEGAN-OS-4.8-VOZ-CELULAR-PRESENCA-REAL-README.txt"
+  ],
+  "routes": [
+    "/api/voice-mobile-presence/dashboard",
+    "/api/voice-mobile-presence/device/register",
+    "/api/voice-mobile-presence/voice-command"
+  ],
+  "frontend_tab": "Voz + Celular 4.8"
+}

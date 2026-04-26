@@ -1,0 +1,33 @@
+MEGAN OS 5.1 — MARKETPLACE DE AGENTES
+
+Foco:
+Usuários compram, instalam e agregam agentes especializados.
+
+Inclui:
+- Agente de vendas
+- Agente de suporte
+- Agente financeiro
+- Agente de marketing
+- Agente jurídico supervisionado
+- Agente de saúde supervisionado
+- Agente de logística
+- Catálogo por categoria
+- Compra/instalação por empresa
+- Execuções demo supervisionadas
+- Logs auditáveis
+
+Backend:
+- /api/agent-marketplace/dashboard
+- /api/agent-marketplace/agents/install
+- /api/agent-marketplace/agents/purchase
+- /api/agent-marketplace/agents/assign
+- /api/agent-marketplace/agents/run-demo
+- /api/agent-marketplace/agents/review
+
+Frontend:
+- Aba Marketplace Agentes 5.1
+- Arquivo: frontend/src/features/agentMarketplace/AgentMarketplacePage.jsx
+
+Base preservada:
+Node + React + Vite
+Backend porta 10000

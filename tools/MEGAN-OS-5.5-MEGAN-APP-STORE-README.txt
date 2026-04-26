@@ -1,0 +1,22 @@
+MEGAN OS 5.5 — MEGAN APP STORE
+
+Foco:
+Loja de módulos para temas, agentes, automações e integrações.
+
+Inclui:
+- Catálogo de temas
+- Catálogo de agentes
+- Catálogo de automações
+- Catálogo de integrações
+- Compra/agregação supervisionada
+- Instalação de módulos
+- Aplicação de temas
+- Ativação de automações
+- Conexão de integrações
+- Backend /api/megan-app-store
+- Frontend Megan App Store 5.5
+
+Stack preservada:
+- Node + Express no backend
+- React + Vite no frontend
+- Backend porta 10000

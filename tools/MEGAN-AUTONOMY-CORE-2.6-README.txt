@@ -1,0 +1,3 @@
+Megan Autonomy Core 2.6
+Features: alliances, diplomacy, coalitions, cooperation ledger.
+Rebuilt from the stable 2.5 source available in this environment.

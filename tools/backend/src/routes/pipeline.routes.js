@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getPipelineController, createPipelineController } from '../controllers/pipeline.controller.js'; const router = Router(); router.get('/pipeline', getPipelineController); router.post('/pipeline', createPipelineController); export default router;

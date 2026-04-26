@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kpi-001",
+    "title": "Readiness",
+    "value": "98%",
+    "trend": "up"
+  },
+  {
+    "id": "kpi-002",
+    "title": "Leads hoje",
+    "value": "18",
+    "trend": "up"
+  },
+  {
+    "id": "kpi-003",
+    "title": "Tasks abertas",
+    "value": "4",
+    "trend": "stable"
+  },
+  {
+    "id": "kpi-004",
+    "title": "Deploy readiness",
+    "value": "0/2",
+    "trend": "stable"
+  }
+]

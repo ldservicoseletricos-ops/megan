@@ -1,0 +1,202 @@
+[
+  {
+    "id": "rae24_1777175605479",
+    "at": "2026-04-26T03:53:25.479Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 79,\n  \"now\": \"2026-04-26T03:53:25.477Z\",\n  \"uptimeSeconds\": 90,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 62,\n    \"totalMB\": 16088,\n    \"freeMB\": 4573\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4769,\n      \"modifiedAt\": \"2026-04-26T03:43:24.479Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T03:43:24.473Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 665,\n      \"modifiedAt\": \"2026-04-26T03:43:23.952Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 12459,\n      \"modifiedAt\": \"2026-04-26T03:43:30.494Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 736,\n      \"modifiedAt\": \"2026-04-26T03:43:30.456Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T03:43:30.935Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T03:43:33.058Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T03:43:33.067Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 19\n}"
+  },
+  {
+    "id": "rae24_1777173381826",
+    "at": "2026-04-26T03:16:21.826Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 78,\n  \"now\": \"2026-04-26T03:16:21.823Z\",\n  \"uptimeSeconds\": 83,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 61,\n    \"totalMB\": 16088,\n    \"freeMB\": 4340\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4575,\n      \"modifiedAt\": \"2026-04-26T03:13:49.563Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T03:13:49.558Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 649,\n      \"modifiedAt\": \"2026-04-26T03:13:48.976Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 11990,\n      \"modifiedAt\": \"2026-04-26T03:13:56.271Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 720,\n      \"modifiedAt\": \"2026-04-26T03:13:56.235Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T03:13:56.795Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T03:14:00.780Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T03:14:00.795Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 18\n}"
+  },
+  {
+    "id": "rae24_1777172990321",
+    "at": "2026-04-26T03:09:50.321Z",
+    "type": "chat_general",
+    "message": "aumentar essas acoes"
+  },
+  {
+    "id": "rae24_1777172948840",
+    "at": "2026-04-26T03:09:08.840Z",
+    "type": "chat_general",
+    "message": "quais sao os erros"
+  },
+  {
+    "id": "rae24_1777172870624",
+    "at": "2026-04-26T03:07:50.624Z",
+    "type": "chat_logs",
+    "message": "ler logs"
+  },
+  {
+    "id": "rae24_1777172861484",
+    "at": "2026-04-26T03:07:41.484Z",
+    "type": "action_executed",
+    "actionId": "frontend_build",
+    "ok": true,
+    "command": "npm run build",
+    "cwd": "C:\\megan\\frontend",
+    "output": "> megan-os-supreme-frontend@24.0.0 build\n> vite build\n\n\u001b[36mvite v5.4.21 \u001b[32mbuilding for production...\u001b[36m\u001b[39m\ntransforming...\n\u001b[32m✓\u001b[39m 165 modules transformed.\nrendering chunks...\ncomputing gzip size...\n\u001b[2mdist/\u001b[22m\u001b[32mindex.html                 \u001b[39m\u001b[1m\u001b[2m  0.21 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:   0.17 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[35massets/index-lbZ0MpbL.css  \u001b[39m\u001b[1m\u001b[2m104.28 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:  18.77 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[36massets/index-DFvyfEJD.js   \u001b[39m\u001b[1m\u001b[2m498.19 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip: 121.31 kB\u001b[22m\n\u001b[32m✓ built in 977ms\u001b[39m"
+  },
+  {
+    "id": "rae24_1777172858193",
+    "at": "2026-04-26T03:07:38.193Z",
+    "type": "approval_required",
+    "actionId": "frontend_build",
+    "proposal": {
+      "actionId": "frontend_build",
+      "label": "Build frontend",
+      "command": "npm run build",
+      "cwd": "C:\\megan\\frontend",
+      "risk": "médio",
+      "reason": "Executa build de produção do frontend."
+    }
+  },
+  {
+    "id": "rae24_1777172855445",
+    "at": "2026-04-26T03:07:35.445Z",
+    "type": "action_executed",
+    "actionId": "npm_install_frontend",
+    "ok": true,
+    "command": "npm install",
+    "cwd": "C:\\megan\\frontend",
+    "output": "up to date, audited 64 packages in 616ms\n\n7 packages are looking for funding\n  run `npm fund` for details\n\n2 moderate severity vulnerabilities\n\nTo address all issues (including breaking changes), run:\n  npm audit fix --force\n\nRun `npm audit` for details."
+  },
+  {
+    "id": "rae24_1777172851976",
+    "at": "2026-04-26T03:07:31.976Z",
+    "type": "approval_required",
+    "actionId": "npm_install_frontend",
+    "proposal": {
+      "actionId": "npm_install_frontend",
+      "label": "Instalar dependências frontend",
+      "command": "npm install",
+      "cwd": "C:\\megan\\frontend",
+      "risk": "médio",
+      "reason": "Instala dependências do frontend. Pode alterar package-lock.json."
+    }
+  },
+  {
+    "id": "rae24_1777172842024",
+    "at": "2026-04-26T03:07:22.024Z",
+    "type": "action_executed",
+    "actionId": "git_status",
+    "ok": true,
+    "command": "git status --short",
+    "cwd": "C:\\megan",
+    "output": "M backend/package-lock.json\n M backend/package.json\n M backend/src/app.js\n M backend/src/data/auth-sessions.json\n M backend/src/data/autonomy-core.json\n M frontend/package-lock.json\n M frontend/package.json\n M frontend/src/App.jsx\n M frontend/src/components/ProtectedRoute.jsx\n M frontend/src/hooks/useAuth.js\n M frontend/src/lib/api.js\n M frontend/src/lib/authApi.js\n M frontend/src/styles.css\n?? MEGAN-OS-17.0-COMMAND-CENTER-FULL-SOURCE-README.txt\n?? MEGAN-OS-18.0-AUTONOMY-CORE-README.txt\n?? MEGAN-OS-22.0-OPERATOR-SOVEREIGN-MIND-REBUILD-README.txt\n?? MEGAN-OS-24.0-REAL-ACTION-ENGINE-README.txt\n?? backend/data/agent-marketplace-state.json\n?? backend/data/autonomous-agents-state.json\n?? backend/data/autonomy-core-18-decisions.json\n?? backend/data/autonomy-core-18-reports.json\n?? backend/data/autonomy-core-18-state.json\n?? backend/data/autonomy-core-18-tasks.json\n?? backend/data/business-cloud-state.json\n?? backend/data/ecosystem-state.json\n?? backend/data/global-command-center-state.json\n?? backend/data/megan-app-store-state.json\n?? backend/data/multichannel-total-state.json\n?? backend/data/operator-command-log.json\n?? backend/data/operator-command-tasks.json\n?? backend/data/real-action-engine-24-history.json\n?? backend/data/self-growth-state.json\n?? backend/data/sovereign-mind-22-decisions.json\n?? backend/data/sovereign-mind-22-history.json\n?? backend/data/sovereign-mind-22-memory.json\n?? backend/data/sovereign-mind-22-tasks.json\n?? backend/data/total-control-history.json\n?? backend/data/total-control-tasks.json\n?? backend/src/modules/autonomy-core-18/\n?? backend/src/modules/operator-command-center/\n?? backend/src/modules/operator-sovereign-mind-22/\n?? backend/src/modules/real-action-engine-24/\n?? backend/src/modules/self-evolution-19/\n?? backend/src/modules/total-control-chat-21/\n?? docs/HUMAN-CHAT-UI-FIX-23.1.md\n?? docs/MEGAN-OS-17.0-COMMAND-CENTER-RELATORIO.md\n?? docs/MEGAN-OS-17.1-AUTO-LOGIN-FIX-RELATORIO.txt\n?? docs/OPERATOR-SOVEREIGN-MIND-22.0-REBUILD.md\n?? docs/REAL-ACTION-ENGINE-24.0.md\n?? docs/REBUILD-19.0.md\n?? docs/REBUILD-25.0-VALIDADO.md\n?? docs/RELATORIO-MEGAN-OS-18.0-AUTONOMY-CORE.txt\n?? docs/TOTAL-CONTROL-21.0-REBUILD.md\n?? frontend/src/features/autonomyCore18/\n?? frontend/src/features/operatorCommandCenter/\n?? frontend/src/features/operatorSovereignMind22/\n?? frontend/src/features/realActionEngine24/\n?? frontend/src/features/selfEvolution19/\n?? frontend/src/features/totalControl21/"
+  },
+  {
+    "id": "rae24_1777172838000",
+    "at": "2026-04-26T03:07:18.000Z",
+    "type": "action_executed",
+    "actionId": "backend_package_check",
+    "ok": true,
+    "command": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('backend package.json ok')\"",
+    "cwd": "C:\\megan\\backend",
+    "output": "backend package.json ok"
+  },
+  {
+    "id": "rae24_1777172828024",
+    "at": "2026-04-26T03:07:08.025Z",
+    "type": "action_executed",
+    "actionId": "frontend_package_check",
+    "ok": true,
+    "command": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('frontend package.json ok')\"",
+    "cwd": "C:\\megan\\frontend",
+    "output": "frontend package.json ok"
+  },
+  {
+    "id": "rae24_1777172815851",
+    "at": "2026-04-26T03:06:55.851Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 79,\n  \"now\": \"2026-04-26T03:06:55.850Z\",\n  \"uptimeSeconds\": 71,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 62,\n    \"totalMB\": 16088,\n    \"freeMB\": 4564\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4575,\n      \"modifiedAt\": \"2026-04-26T03:02:53.732Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T03:02:53.727Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 269,\n      \"modifiedAt\": \"2026-04-26T03:02:53.167Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 11990,\n      \"modifiedAt\": \"2026-04-26T03:02:59.480Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 333,\n      \"modifiedAt\": \"2026-04-26T03:02:59.449Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T03:02:59.901Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T03:03:02.708Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T03:03:02.716Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 7\n}"
+  },
+  {
+    "id": "rae24_1777172789360",
+    "at": "2026-04-26T03:06:29.360Z",
+    "type": "action_executed",
+    "actionId": "npm_install_backend",
+    "ok": true,
+    "command": "npm install",
+    "cwd": "C:\\megan\\backend",
+    "output": "up to date in 285ms"
+  },
+  {
+    "id": "rae24_1777172784492",
+    "at": "2026-04-26T03:06:24.492Z",
+    "type": "approval_required",
+    "actionId": "npm_install_backend",
+    "proposal": {
+      "actionId": "npm_install_backend",
+      "label": "Instalar dependências backend",
+      "command": "npm install",
+      "cwd": "C:\\megan\\backend",
+      "risk": "médio",
+      "reason": "Instala dependências do backend. Pode alterar package-lock.json."
+    }
+  },
+  {
+    "id": "rae24_1777172778828",
+    "at": "2026-04-26T03:06:18.828Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 78,\n  \"now\": \"2026-04-26T03:06:18.826Z\",\n  \"uptimeSeconds\": 34,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 61,\n    \"totalMB\": 16088,\n    \"freeMB\": 4414\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4575,\n      \"modifiedAt\": \"2026-04-26T03:02:53.732Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T03:02:53.727Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 269,\n      \"modifiedAt\": \"2026-04-26T03:02:53.167Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 11990,\n      \"modifiedAt\": \"2026-04-26T03:02:59.480Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 333,\n      \"modifiedAt\": \"2026-04-26T03:02:59.449Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T03:02:59.901Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T03:03:02.708Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T03:03:02.716Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 4\n}"
+  },
+  {
+    "id": "rae24_1777172682974",
+    "at": "2026-04-26T03:04:42.974Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 78,\n  \"now\": \"2026-04-26T03:04:42.971Z\",\n  \"uptimeSeconds\": 894,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 68,\n    \"totalMB\": 16088,\n    \"freeMB\": 4468\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4575,\n      \"modifiedAt\": \"2026-04-26T03:02:53.732Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T03:02:53.727Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 269,\n      \"modifiedAt\": \"2026-04-26T03:02:53.167Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 11990,\n      \"modifiedAt\": \"2026-04-26T03:02:59.480Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 333,\n      \"modifiedAt\": \"2026-04-26T03:02:59.449Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T03:02:59.901Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T03:03:02.708Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T03:03:02.716Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 3\n}"
+  },
+  {
+    "id": "rae24_1777171872395",
+    "at": "2026-04-26T02:51:12.395Z",
+    "type": "action_executed",
+    "actionId": "backend_package_check",
+    "ok": true,
+    "command": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('backend package.json ok')\"",
+    "cwd": "C:\\megan\\backend",
+    "output": "backend package.json ok"
+  },
+  {
+    "id": "rae24_1777171863069",
+    "at": "2026-04-26T02:51:03.069Z",
+    "type": "action_executed",
+    "actionId": "backend_check",
+    "ok": true,
+    "command": "node --check src/app.js && node --check src/server.js",
+    "cwd": "C:\\megan\\backend",
+    "output": "Comando executado sem saída."
+  },
+  {
+    "id": "rae24_1777171844480",
+    "at": "2026-04-26T02:50:44.480Z",
+    "type": "action_executed",
+    "actionId": "system_status",
+    "ok": true,
+    "command": null,
+    "cwd": "C:\\megan",
+    "output": "{\n  \"ok\": true,\n  \"module\": \"Megan OS 24.0 Real Action Engine\",\n  \"version\": \"24.0.0\",\n  \"mode\": \"executor real supervisionado\",\n  \"healthScore\": 78,\n  \"now\": \"2026-04-26T02:50:44.479Z\",\n  \"uptimeSeconds\": 55,\n  \"platform\": \"win32\",\n  \"node\": \"v24.14.1\",\n  \"projectRoot\": \"C:\\\\megan\",\n  \"backendRoot\": \"C:\\\\megan\\\\backend\",\n  \"frontendRoot\": \"C:\\\\megan\\\\frontend\",\n  \"memory\": {\n    \"processMB\": 61,\n    \"totalMB\": 16088,\n    \"freeMB\": 4386\n  },\n  \"importantFiles\": [\n    {\n      \"relative\": \"backend/src/app.js\",\n      \"exists\": true,\n      \"size\": 4575,\n      \"modifiedAt\": \"2026-04-26T02:48:47.991Z\"\n    },\n    {\n      \"relative\": \"backend/src/server.js\",\n      \"exists\": true,\n      \"size\": 176,\n      \"modifiedAt\": \"2026-04-26T02:48:47.984Z\"\n    },\n    {\n      \"relative\": \"backend/package.json\",\n      \"exists\": true,\n      \"size\": 269,\n      \"modifiedAt\": \"2026-04-26T02:48:47.331Z\"\n    },\n    {\n      \"relative\": \"frontend/src/App.jsx\",\n      \"exists\": true,\n      \"size\": 11990,\n      \"modifiedAt\": \"2026-04-26T02:48:55.599Z\"\n    },\n    {\n      \"relative\": \"frontend/package.json\",\n      \"exists\": true,\n      \"size\": 333,\n      \"modifiedAt\": \"2026-04-26T02:48:55.550Z\"\n    },\n    {\n      \"relative\": \"frontend/src/lib/api.js\",\n      \"exists\": true,\n      \"size\": 2053,\n      \"modifiedAt\": \"2026-04-26T02:48:56.884Z\"\n    },\n    {\n      \"relative\": \".env.example\",\n      \"exists\": true,\n      \"size\": 738,\n      \"modifiedAt\": \"2026-04-26T02:49:00.769Z\"\n    },\n    {\n      \"relative\": \".gitignore\",\n      \"exists\": true,\n      \"size\": 184,\n      \"modifiedAt\": \"2026-04-26T02:49:00.778Z\"\n    }\n  ],\n  \"allowedActions\": [\n    {\n      \"id\": \"system_status\",\n      \"label\": \"Status do sistema\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Lê informações reais do processo Node, sistema operacional e estrutura do projeto.\"\n    },\n    {\n      \"id\": \"backend_check\",\n      \"label\": \"Validar backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Valida sintaxe dos arquivos principais do backend.\"\n    },\n    {\n      \"id\": \"frontend_package_check\",\n      \"label\": \"Validar package do frontend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do frontend é JSON válido.\"\n    },\n    {\n      \"id\": \"backend_package_check\",\n      \"label\": \"Validar package do backend\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Confere se o package.json do backend é JSON válido.\"\n    },\n    {\n      \"id\": \"git_status\",\n      \"label\": \"Git status\",\n      \"risk\": \"baixo\",\n      \"mutates\": false,\n      \"description\": \"Consulta alterações no Git sem modificar arquivos.\"\n    },\n    {\n      \"id\": \"npm_install_backend\",\n      \"label\": \"Instalar dependências backend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do backend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"npm_install_frontend\",\n      \"label\": \"Instalar dependências frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Instala dependências do frontend. Pode alterar package-lock.json.\"\n    },\n    {\n      \"id\": \"frontend_build\",\n      \"label\": \"Build frontend\",\n      \"risk\": \"médio\",\n      \"mutates\": true,\n      \"description\": \"Executa build de produção do frontend.\"\n    }\n  ],\n  \"historyCount\": 0\n}"
+  }
+]

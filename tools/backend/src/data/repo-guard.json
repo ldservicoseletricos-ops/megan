@@ -1,0 +1,14 @@
+{
+  "repoPath": "C:/megan",
+  "allowedRoots": [
+    "backend/src",
+    "frontend/src"
+  ],
+  "deniedPatterns": [
+    ".env",
+    "node_modules",
+    ".git",
+    "package-lock.json"
+  ],
+  "backupsDirName": ".megan-backups"
+}

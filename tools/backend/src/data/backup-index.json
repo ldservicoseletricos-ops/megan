@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1776664129012,
+    "relativePath": "backend/src/services/deploy-gate.service.js",
+    "backupPath": "/mnt/data/work_megan/megan2/.megan-backups/1776664129012-backend__src__services__deploy-gate.service.js.bak",
+    "createdAt": "2026-04-20T05:48:49.013Z"
+  },
+  {
+    "id": 1776664128992,
+    "relativePath": "backend/src/app.js",
+    "backupPath": "/mnt/data/work_megan/megan2/.megan-backups/1776664128992-backend__src__app.js.bak",
+    "createdAt": "2026-04-20T05:48:48.993Z"
+  },
+  {
+    "id": 1776647719485,
+    "relativePath": "frontend/src/App.jsx",
+    "backupPath": "C:\\megan\\.megan-backups\\1776647719485-frontend__src__App.jsx.bak",
+    "createdAt": "2026-04-20T01:15:19.489Z"
+  },
+  {
+    "id": 1776647682027,
+    "relativePath": "frontend/src/App.jsx",
+    "backupPath": "C:\\megan\\.megan-backups\\1776647682027-frontend__src__App.jsx.bak",
+    "createdAt": "2026-04-20T01:14:42.029Z"
+  },
+  {
+    "id": 1776647171386,
+    "relativePath": "frontend/src/App.tsx",
+    "backupPath": "C:\\megan\\.megan-backups\\1776647171386-frontend__src__App.tsx.bak",
+    "createdAt": "2026-04-20T01:06:11.429Z"
+  },
+  {
+    "id": 1776642349144,
+    "relativePath": "frontend/src/App.jsx",
+    "backupPath": "C:\\megan\\.megan-backups\\1776642349144-frontend__src__App.jsx.bak",
+    "createdAt": "2026-04-19T23:45:49.149Z"
+  }
+]

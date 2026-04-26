@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { envChecklistController } from '../controllers/env.controller.js'; const router = Router(); router.get('/env-check', envChecklistController); export default router;

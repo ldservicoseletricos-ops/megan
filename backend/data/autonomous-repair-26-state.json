@@ -1,0 +1,94 @@
+{
+  "lastDiagnosis": {
+    "ok": true,
+    "module": "Megan OS 26.0 Consolidated Autonomous Repair Engine",
+    "version": "26.0.0",
+    "score": 86,
+    "status": "atenção",
+    "generatedAt": "2026-04-26T03:52:25.951Z",
+    "packageIssues": {
+      "backendMissing": [],
+      "frontendMissing": [],
+      "backendScripts": {
+        "dev": "node src/server.js",
+        "start": "node src/server.js",
+        "check": "node --check src/app.js && node --check src/server.js",
+        "health": "node -e \"require('./src/app'); console.log('backend import ok')\""
+      },
+      "frontendScripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8')); console.log('frontend package ok')\""
+      }
+    },
+    "envIssues": [
+      {
+        "file": ".env",
+        "exists": false,
+        "issues": []
+      },
+      {
+        "file": "backend/.env",
+        "exists": false,
+        "issues": []
+      },
+      {
+        "file": "frontend/.env",
+        "exists": true,
+        "issues": [
+          "Arquivo .env real dentro do projeto"
+        ]
+      },
+      {
+        "file": ".env.example",
+        "exists": true,
+        "issues": []
+      },
+      {
+        "file": "backend/.env.example",
+        "exists": true,
+        "issues": []
+      },
+      {
+        "file": "frontend/.env.example",
+        "exists": true,
+        "issues": []
+      }
+    ],
+    "brokenImports": [
+      {
+        "file": "backend\\src\\middleware\\error-handler.middleware.js",
+        "import": "../services/maintenance.service.js"
+      },
+      {
+        "file": "backend\\src\\middleware\\error-handler.middleware.js",
+        "import": "../services/fault-management.service.js"
+      },
+      {
+        "file": "backend\\src\\middleware\\request-logger.middleware.js",
+        "import": "../services/maintenance.service.js"
+      },
+      {
+        "file": "backend\\src\\middleware\\request-logger.middleware.js",
+        "import": "../services/fault-management.service.js"
+      }
+    ],
+    "checks": [
+      {
+        "ok": true,
+        "command": "node --check src/app.js",
+        "output": ""
+      },
+      {
+        "ok": true,
+        "command": "node --check src/server.js",
+        "output": ""
+      }
+    ],
+    "critical": [
+      "1 arquivo(s) de ambiente com alertas",
+      "4 import(s) relativo(s) quebrado(s)"
+    ]
+  }
+}

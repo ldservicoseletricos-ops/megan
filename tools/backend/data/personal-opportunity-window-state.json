@@ -1,0 +1,91 @@
+{
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "currentWindow": {
+        "type": "cleanup_window",
+        "opportunityScore": 62,
+        "timeboxMinutes": 60,
+        "recommendedAction": {
+          "type": "resolve_blockers",
+          "title": "Usar a janela para limpar bloqueios",
+          "reason": "Há 3 bloqueio(s) travando o avanço do foco principal.",
+          "timeboxMinutes": 60
+        },
+        "openedAt": "2026-04-14T01:29:28.370Z"
+      },
+      "lastAnalysis": {
+        "userId": "luiz",
+        "windowType": "cleanup_window",
+        "opportunityScore": 62,
+        "connectorReady": true,
+        "deliveryReady": true,
+        "timeboxMinutes": 60,
+        "recommendedAction": {
+          "type": "resolve_blockers",
+          "title": "Usar a janela para limpar bloqueios",
+          "reason": "Há 3 bloqueio(s) travando o avanço do foco principal.",
+          "timeboxMinutes": 60
+        },
+        "recommendedSystemActions": [
+          "personal_opportunity_cycle",
+          "resolve_personal_blockers",
+          "reduce_daily_scope"
+        ],
+        "basedOnMode": "blocker_cleanup",
+        "basedOnFocus": "crescimento Megan OS",
+        "generatedAt": "2026-04-14T01:29:28.370Z"
+      },
+      "lastAction": {
+        "userId": "luiz",
+        "actionType": "resolve_blockers",
+        "acceptedWindowType": "cleanup_window",
+        "title": "Usar a janela para limpar bloqueios",
+        "reason": "Há 3 bloqueio(s) travando o avanço do foco principal.",
+        "timeboxMinutes": 60,
+        "executedAt": "2026-04-14T01:30:16.552Z"
+      },
+      "analysisHistory": [
+        {
+          "userId": "luiz",
+          "windowType": "cleanup_window",
+          "opportunityScore": 62,
+          "connectorReady": true,
+          "deliveryReady": true,
+          "timeboxMinutes": 60,
+          "recommendedAction": {
+            "type": "resolve_blockers",
+            "title": "Usar a janela para limpar bloqueios",
+            "reason": "Há 3 bloqueio(s) travando o avanço do foco principal.",
+            "timeboxMinutes": 60
+          },
+          "recommendedSystemActions": [
+            "personal_opportunity_cycle",
+            "resolve_personal_blockers",
+            "reduce_daily_scope"
+          ],
+          "basedOnMode": "blocker_cleanup",
+          "basedOnFocus": "crescimento Megan OS",
+          "generatedAt": "2026-04-14T01:29:28.370Z"
+        }
+      ],
+      "actionHistory": [
+        {
+          "userId": "luiz",
+          "actionType": "resolve_blockers",
+          "acceptedWindowType": "cleanup_window",
+          "title": "Usar a janela para limpar bloqueios",
+          "reason": "Há 3 bloqueio(s) travando o avanço do foco principal.",
+          "timeboxMinutes": 60,
+          "executedAt": "2026-04-14T01:30:16.552Z"
+        }
+      ],
+      "counters": {
+        "analyses": 1,
+        "actions": 1
+      },
+      "createdAt": "2026-04-14T01:29:11.104Z",
+      "updatedAt": "2026-04-14T01:30:16.552Z"
+    }
+  }
+}

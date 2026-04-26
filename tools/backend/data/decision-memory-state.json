@@ -1,0 +1,334 @@
+{
+  "lastStableBrain": "operational",
+  "lastStablePatchType": "supervised_stability_patch",
+  "lastStablePlanTitle": "Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima",
+  "lastStableHealingIssue": "Loop autônomo aparenta estar parado ou sem progresso.",
+  "lastStableValidation": "Validação com priorização adaptativa integrada aprovada com score 96.",
+  "stablePatterns": [
+    {
+      "createdAt": "2026-04-18T02:38:26.524Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:58.725Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:57.619Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:56.401Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:55.239Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:53.963Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:48.493Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:46.467Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:43.361Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:40.014Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.473Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.627Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.272Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.028Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.259Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.693Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.464Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.513Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.611Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com fallback integrado aprovada com score 94."
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.778Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Nenhum plano ativo",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação do loop com patch aprovada com score 100."
+    }
+  ],
+  "unstablePatterns": [],
+  "decisionSummary": "Brain estável: operational. Patch: supervised_stability_patch. Plano: Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima. Healing: Loop autônomo aparenta estar parado ou sem progresso.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+  "updatedAt": "2026-04-19T02:14:09.122Z",
+  "history": [
+    {
+      "createdAt": "2026-04-18T02:38:26.524Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:58.725Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:57.619Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:56.401Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:55.239Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:53.963Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:48.493Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:46.467Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:25:43.361Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Sugira a próxima melhoria da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:40.014Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.473Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.627Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.272Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.028Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.259Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.693Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.464Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.513Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com priorização adaptativa integrada aprovada com score 96."
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.611Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Executar missão operacional: Resuma o estado atual da Megan OS",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação com fallback integrado aprovada com score 94."
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.778Z",
+      "brain": "operational",
+      "patch": "operational_runtime_patch",
+      "plan": "Nenhum plano ativo",
+      "healing": "Nenhum problema crítico detectado na última varredura.",
+      "validation": "Validação do loop com patch aprovada com score 100."
+    }
+  ]
+}

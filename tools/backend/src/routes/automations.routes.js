@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getAutomationsController, createAutomationController } from '../controllers/automations.controller.js'; const router = Router(); router.get('/automations', getAutomationsController); router.post('/automations', createAutomationController); export default router;

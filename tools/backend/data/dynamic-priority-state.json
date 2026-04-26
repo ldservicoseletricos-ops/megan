@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "priorities": [
+    {
+      "rank": 1,
+      "title": "Validar rotas reais do backend",
+      "score": 96,
+      "reason": "Desbloqueia evolução segura"
+    },
+    {
+      "rank": 2,
+      "title": "Executar análise de gargalos",
+      "score": 88,
+      "reason": "Reduz risco operacional"
+    },
+    {
+      "rank": 3,
+      "title": "Planejar próxima melhoria",
+      "score": 79,
+      "reason": "Mantém progresso contínuo"
+    }
+  ]
+}

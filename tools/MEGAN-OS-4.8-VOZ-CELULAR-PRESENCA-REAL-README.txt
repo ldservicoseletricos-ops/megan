@@ -1,0 +1,23 @@
+MEGAN OS 4.8 — VOZ + CELULAR + PRESENÇA REAL
+
+Foco:
+- App Android/iPhone
+- Wake word “Ok Megan”
+- Comandos por voz
+- Uso contínuo supervisionado
+
+Backend novo:
+- GET  /api/voice-mobile-presence/dashboard
+- POST /api/voice-mobile-presence/device/register
+- POST /api/voice-mobile-presence/voice-command
+
+Frontend novo:
+- Aba: Voz + Celular 4.8
+- Painel de wake word
+- Registro de dispositivo Android/iOS/PWA
+- Simulação de comando por voz
+- Histórico de sessões
+- Portão de segurança para ações médias/altas
+
+Observação importante:
+A fase 4.8 prepara a presença real e o fluxo mobile. Em Android é possível evoluir para serviços em segundo plano com permissões. Em iOS existem limitações do sistema para escuta contínua; por isso o pacote usa presença supervisionada, notificações e retomada rápida.

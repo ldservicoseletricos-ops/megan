@@ -1,0 +1,217 @@
+{
+  "updatedAt": "2026-04-25T23:58:21.199Z",
+  "mode": "global_command_center_supervised",
+  "title": "Megan OS 4.9 — CENTRAL DE COMANDO GLOBAL",
+  "focus": "Painel único para vida, empresas, equipes, vendas, alertas, metas e agentes.",
+  "health": {
+    "globalScore": 93,
+    "operationMode": "online_supervisionado",
+    "riskLevel": "controlado",
+    "lastSync": "2026-04-25T23:58:21.199Z"
+  },
+  "areas": [
+    {
+      "id": "vida",
+      "title": "Vida",
+      "status": "organized",
+      "score": 91,
+      "trend": "+8%",
+      "summary": "Agenda, foco diário, saúde, finanças pessoais e lembretes reais em uma visão única."
+    },
+    {
+      "id": "empresas",
+      "title": "Empresas",
+      "status": "operating",
+      "score": 89,
+      "trend": "+12%",
+      "summary": "Negócios, propostas, cobranças, contratos e entregas monitorados pela Megan."
+    },
+    {
+      "id": "equipes",
+      "title": "Equipes",
+      "status": "aligned",
+      "score": 86,
+      "trend": "+6%",
+      "summary": "Demandas, responsáveis, prazos, bloqueios e prioridades organizadas."
+    },
+    {
+      "id": "vendas",
+      "title": "Vendas",
+      "status": "active_pipeline",
+      "score": 94,
+      "trend": "+18%",
+      "summary": "Leads, follow-up, propostas, oportunidades e clientes sem resposta."
+    },
+    {
+      "id": "alertas",
+      "title": "Alertas",
+      "status": "watching",
+      "score": 97,
+      "trend": "estável",
+      "summary": "Riscos, atrasos, cobranças, deploys, integrações e pendências críticas."
+    },
+    {
+      "id": "metas",
+      "title": "Metas",
+      "status": "tracking",
+      "score": 88,
+      "trend": "+9%",
+      "summary": "Metas pessoais, empresariais e operacionais com acompanhamento diário."
+    },
+    {
+      "id": "agentes",
+      "title": "Agentes",
+      "status": "supervised_autonomy",
+      "score": 92,
+      "trend": "+15%",
+      "summary": "Vendas, suporte, deploy, financeiro, CRM, agenda e aprendizado trabalhando em conjunto."
+    }
+  ],
+  "metrics": {
+    "activeAreas": 7,
+    "alertsOpen": 5,
+    "goalsTracked": 12,
+    "agentsOnline": 8,
+    "salesPipeline": 27,
+    "teamTasks": 34,
+    "personalFocus": 91,
+    "companyPulse": 89
+  },
+  "alerts": [
+    {
+      "id": "alert-001",
+      "level": "high",
+      "area": "vendas",
+      "title": "Clientes sem resposta há mais de 24h",
+      "action": "Acionar agente vendas para follow-up supervisionado.",
+      "status": "open",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    },
+    {
+      "id": "alert-002",
+      "level": "medium",
+      "area": "financeiro",
+      "title": "Cobranças próximas do vencimento",
+      "action": "Preparar mensagens de cobrança e registrar no CRM.",
+      "status": "open",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    },
+    {
+      "id": "alert-003",
+      "level": "medium",
+      "area": "deploy",
+      "title": "Publicação aguardando validação",
+      "action": "Executar checklist Render/Vercel/GitHub antes de publicar.",
+      "status": "waiting_confirmation",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    },
+    {
+      "id": "alert-004",
+      "level": "low",
+      "area": "vida",
+      "title": "Foco diário ainda não revisado",
+      "action": "Montar plano do dia com agenda, metas e lembretes.",
+      "status": "open",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    },
+    {
+      "id": "alert-005",
+      "level": "high",
+      "area": "equipes",
+      "title": "Tarefas sem responsável definido",
+      "action": "Distribuir prioridades e solicitar confirmação.",
+      "status": "open",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-001",
+      "area": "empresas",
+      "title": "Fechar 3 clientes B2B",
+      "progress": 68,
+      "nextStep": "Enviar propostas automáticas para leads quentes."
+    },
+    {
+      "id": "goal-002",
+      "area": "vendas",
+      "title": "Aumentar conversão do funil",
+      "progress": 74,
+      "nextStep": "Responder leads parados e medir retorno."
+    },
+    {
+      "id": "goal-003",
+      "area": "vida",
+      "title": "Organizar rotina semanal",
+      "progress": 82,
+      "nextStep": "Revisar agenda, saúde, finanças e foco diário."
+    },
+    {
+      "id": "goal-004",
+      "area": "agentes",
+      "title": "Ativar operação semi-autônoma",
+      "progress": 61,
+      "nextStep": "Liberar execução supervisionada por agente."
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent-sales",
+      "name": "Agente Vendas",
+      "status": "online",
+      "autonomy": 84,
+      "currentTask": "Captar leads, responder clientes e gerar propostas."
+    },
+    {
+      "id": "agent-support",
+      "name": "Agente Suporte",
+      "status": "online",
+      "autonomy": 78,
+      "currentTask": "Responder dúvidas e classificar urgências."
+    },
+    {
+      "id": "agent-finance",
+      "name": "Agente Financeiro",
+      "status": "watching",
+      "autonomy": 73,
+      "currentTask": "Acompanhar caixa, cobranças e vencimentos."
+    },
+    {
+      "id": "agent-deploy",
+      "name": "Agente Deploy",
+      "status": "waiting_confirmation",
+      "autonomy": 66,
+      "currentTask": "Preparar publicação em GitHub, Render e Vercel."
+    },
+    {
+      "id": "agent-life",
+      "name": "Agente Vida",
+      "status": "online",
+      "autonomy": 81,
+      "currentTask": "Agenda, saúde, metas e lembretes pessoais."
+    },
+    {
+      "id": "agent-crm",
+      "name": "Agente CRM Vivo",
+      "status": "online",
+      "autonomy": 88,
+      "currentTask": "Atualizar pipeline, contatos, histórico e oportunidades."
+    }
+  ],
+  "commandTimeline": [
+    {
+      "id": "cmd-001",
+      "command": "Abrir visão global",
+      "result": "Central consolidada com áreas críticas.",
+      "status": "completed",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    },
+    {
+      "id": "cmd-002",
+      "command": "Priorizar vendas e cobranças",
+      "result": "Alertas de vendas e financeiro destacados.",
+      "status": "completed",
+      "createdAt": "2026-04-25T23:58:21.199Z"
+    }
+  ]
+}

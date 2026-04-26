@@ -1,0 +1,9 @@
+{
+  "mode": "supervisionada",
+  "version": "18.0.0-autonomy-core",
+  "mission": "Observar, analisar, priorizar e executar somente com aprovação humana.",
+  "active": true,
+  "lastCycleAt": "2026-04-26T01:41:47.061Z",
+  "cycleCount": 1,
+  "lastHealthScore": 94
+}

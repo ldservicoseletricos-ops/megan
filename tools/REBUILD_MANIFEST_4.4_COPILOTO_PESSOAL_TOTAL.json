@@ -1,0 +1,20 @@
+{
+  "name": "Megan OS 4.4 — Copiloto Pessoal Total",
+  "version": "4.4.0",
+  "stack": "Node + React + Vite",
+  "backendPort": 10000,
+  "added": [
+    "backend/src/modules/personal-copilot",
+    "frontend/src/features/personalCopilot/pages/PersonalCopilotPage.jsx",
+    "frontend tab Copiloto Pessoal 4.4",
+    "personal-copilot CSS styles",
+    "README da fase 4.4"
+  ],
+  "preserved": [
+    "Megan OS 4.3 AUTOEMPRESA",
+    "Automação entre apps 4.2",
+    "Agentes especializados",
+    "Autonomy Center",
+    "CRM, Billing, ADM, Navigation, Health"
+  ]
+}

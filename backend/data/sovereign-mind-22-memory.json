@@ -1,0 +1,7 @@
+{
+  "activeObjective": "Transformar a Megan OS em plataforma operacional controlada por chat.",
+  "operatingMode": "autonomia supervisionada",
+  "priorities": ["estabilidade", "controle por chat", "deploy seguro", "visual premium", "memoria estrategica"],
+  "guardrails": ["confirmar comandos criticos", "validar antes de entregar", "preservar arquivos existentes"],
+  "updatedAt": "2026-04-25T00:00:00.000Z"
+}

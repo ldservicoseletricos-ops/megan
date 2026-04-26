@@ -1,0 +1,1 @@
+import { getAutomations, createAutomation } from '../services/automations.service.js'; export function getAutomationsController(req, res) { res.json({ ok: true, automations: getAutomations() }); } export function createAutomationController(req, res) { res.json({ ok: true, automation: createAutomation(req.body || {}) }); }

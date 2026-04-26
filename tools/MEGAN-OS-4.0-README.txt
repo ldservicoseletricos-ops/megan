@@ -1,0 +1,4 @@
+Megan OS 4.0 - Sistema Operacional Cognitivo Completo
+
+Inclui /api/core/status, /api/core/dashboard, /api/core/priorities, /api/core/recommendations, /api/core/context/live e /api/core/execute.
+Frontend inclui painel Megan OS 4.0 como aba principal.

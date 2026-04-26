@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getGrowthController } from '../controllers/growth.controller.js'; const router = Router(); router.get('/growth', getGrowthController); export default router;

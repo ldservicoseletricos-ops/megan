@@ -1,0 +1,13 @@
+{
+  "name": "megan-autonomy-core-3.6-full-source",
+  "version": "3.6.0",
+  "builtFrom": "megan-autonomy-core-3.5-full-source.zip",
+  "added": [
+    "human-goals",
+    "executive-assistant",
+    "focus-allocation",
+    "priority-calendar",
+    "executive-ledger"
+  ],
+  "notes": "Pacote source limpo sem node_modules. Backend validado por sintaxe e chamadas internas do modulo 3.6."
+}

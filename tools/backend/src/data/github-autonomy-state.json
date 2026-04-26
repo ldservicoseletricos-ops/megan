@@ -1,0 +1,84 @@
+{
+  "mode": "github_supervised",
+  "repoFullName": "",
+  "defaultBranch": "main",
+  "branchPrefix": "megan/auto",
+  "score": 74,
+  "lastBranchPlan": {
+    "branchName": "megan/auto/upgrade-20260421-2034",
+    "baseBranch": "main",
+    "repoFullName": "",
+    "ready": false,
+    "summary": "Git ainda não está pronto para criar branch automática."
+  },
+  "lastCommitPlan": null,
+  "lastPullRequestPlan": {
+    "title": "Megan Autonomy supervised live upgrade",
+    "head": "megan/auto/upgrade-20260421-2034",
+    "base": "main",
+    "repoFullName": "",
+    "ready": false,
+    "body": "## Objetivo\n- aplicar upgrade supervisionado da Megan com foco em autonomia, segurança e receita\n## Origem\n- branch proposta: megan/auto/upgrade-20260421-2034\n- commit sugerido: feat: autonomy supervised update - Autonomy core upgrade\n## Checklist\n- validar build frontend\n- validar health do backend\n- revisar readiness comercial e deploy",
+    "summary": "Falta GITHUB_TOKEN para criação supervisionada de PR."
+  },
+  "lastBranchExecution": {
+    "ok": false,
+    "simulated": true,
+    "reason": "Git/repo ainda não prontos para branch real.",
+    "branchName": "megan/auto/upgrade-20260421-2034"
+  },
+  "lastCommitExecution": {
+    "ok": false,
+    "simulated": true,
+    "commitMessage": "feat: autonomy supervised update - Autonomy core upgrade",
+    "detail": {
+      "ok": false,
+      "simulated": true,
+      "reason": ".git not found"
+    },
+    "summary": "Commit supervisionado não concluído: .git not found"
+  },
+  "lastPullRequestExecution": {
+    "ok": false,
+    "simulated": true,
+    "reason": "GITHUB_REPO não configurado.",
+    "createUrl": ""
+  },
+  "history": [
+    {
+      "id": "gh_1776815190838",
+      "createdAt": "2026-04-21T23:46:30.838Z",
+      "type": "pr_plan",
+      "title": "Plano de PR gerado",
+      "summary": "Falta GITHUB_TOKEN para criação supervisionada de PR."
+    },
+    {
+      "id": "gh_1776804072287",
+      "createdAt": "2026-04-21T20:41:12.287Z",
+      "type": "pr_execute_skipped",
+      "title": "PR supervisionado não executado",
+      "summary": "GITHUB_REPO não configurado."
+    },
+    {
+      "id": "gh_1776804072252",
+      "createdAt": "2026-04-21T20:41:12.252Z",
+      "type": "commit_execute_skipped",
+      "title": "Commit supervisionado não concluído",
+      "summary": "Commit supervisionado não concluído: .git not found"
+    },
+    {
+      "id": "gh_1776804072216",
+      "createdAt": "2026-04-21T20:41:12.216Z",
+      "type": "branch_execute",
+      "title": "Execução de branch simulada",
+      "summary": "Git/repo ainda não prontos para branch real."
+    },
+    {
+      "id": "gh_1776803689228",
+      "createdAt": "2026-04-21T20:34:49.228Z",
+      "type": "branch_plan",
+      "title": "Plano de branch gerado",
+      "summary": "Git ainda não está pronto para criar branch automática."
+    }
+  ]
+}

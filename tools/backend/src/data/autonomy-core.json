@@ -1,0 +1,2142 @@
+{
+  "state": {
+    "enabled": true,
+    "mode": "supervised_autonomy",
+    "activeBrain": "guardian",
+    "currentMission": "Conectar aprovação e rollback ao painel",
+    "currentGoal": "Consolidar o núcleo autônomo com ciclo, decisão, validação e memória.",
+    "currentPriority": "prio-recurring",
+    "currentPriorityLabel": "Quebrar padrão de erro recorrente mais frequente",
+    "autonomyScore": 66,
+    "stabilityScore": 78,
+    "maturityScore": 52,
+    "assertivenessScore": 55,
+    "operationalRiskScore": 64,
+    "resolutionVelocityScore": 52,
+    "coordinationScore": 81,
+    "consensusScore": 67,
+    "strategicScore": 69,
+    "auditScore": 74,
+    "riskLevel": "high",
+    "timerEnabled": false,
+    "timerIntervalMs": 30000,
+    "continuousMode": false,
+    "currentMissionId": "mission-ui-approval-1",
+    "nextMissionSuggestion": {
+      "id": "mission-ui-approval-1",
+      "title": "Conectar aprovação e rollback ao painel",
+      "summary": "Dar visibilidade executiva para aprovar, rejeitar e reverter ações sensíveis.",
+      "status": "active",
+      "priority": "high",
+      "progress": 8,
+      "owner": "autonomy",
+      "createdAt": "2026-04-23T12:42:45.113Z",
+      "updatedAt": "2026-04-24T11:54:57.924Z"
+    },
+    "lastPatch": {
+      "id": "patch-1777002642686-isixxn",
+      "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+      "actionType": "apply_multi_file_patch",
+      "scope": "autonomy",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+      "createdAt": "2026-04-24T03:50:42.686Z",
+      "updatedAt": "2026-04-24T03:50:42.686Z",
+      "kind": "multi_file",
+      "files": [
+        {
+          "path": "backend/src/modules/autonomy/autonomy.routes.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.controller.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.service.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+          "role": "create",
+          "area": "autonomy",
+          "impact": 32
+        }
+      ],
+      "affectedAreas": [
+        "autonomy"
+      ],
+      "impactScore": 172,
+      "complexity": "high",
+      "dependencyValidation": {
+        "ok": true,
+        "rules": [
+          {
+            "ok": true,
+            "code": "dependencies_ok",
+            "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+          }
+        ],
+        "summary": "Dependências cruzadas validadas com sucesso."
+      }
+    },
+    "lastPatchStatus": "applied",
+    "lastMultiPatch": {
+      "id": "patch-1777002642686-isixxn",
+      "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+      "actionType": "apply_multi_file_patch",
+      "scope": "autonomy",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+      "createdAt": "2026-04-24T03:50:42.686Z",
+      "updatedAt": "2026-04-24T03:50:42.686Z",
+      "kind": "multi_file",
+      "files": [
+        {
+          "path": "backend/src/modules/autonomy/autonomy.routes.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.controller.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.service.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+          "role": "create",
+          "area": "autonomy",
+          "impact": 32
+        }
+      ],
+      "affectedAreas": [
+        "autonomy"
+      ],
+      "impactScore": 172,
+      "complexity": "high",
+      "dependencyValidation": {
+        "ok": true,
+        "rules": [
+          {
+            "ok": true,
+            "code": "dependencies_ok",
+            "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+          }
+        ],
+        "summary": "Dependências cruzadas validadas com sucesso."
+      }
+    },
+    "lastMultiPatchStatus": "applied",
+    "lastAutoSelection": {
+      "missionId": "mission-ui-approval-1",
+      "title": "Conectar aprovação e rollback ao painel",
+      "reason": "Já existe uma missão ativa no ciclo atual.",
+      "createdAt": "2026-04-24T11:55:09.929Z"
+    },
+    "lastTimerRunAt": "2026-04-24T03:50:42.686Z",
+    "lastDecision": {
+      "id": "decision-1777002642685",
+      "mode": "supervised_autonomy",
+      "actionType": "generate_patch_plan",
+      "title": "Quebrar padrão de erro recorrente mais frequente",
+      "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+      "expectedImpact": "high",
+      "relatedGoalId": "goal-core-1",
+      "createdAt": "2026-04-24T03:50:42.685Z"
+    },
+    "lastExecution": {
+      "id": "exec-1777002642685",
+      "status": "validation_required",
+      "actionType": "generate_patch_plan",
+      "summary": "Execução preparada, aguardando validação reforçada.",
+      "steps": [
+        "Ler snapshot atual do sistema",
+        "Comparar prioridade com histórico recente",
+        "Gerar plano de ação mínima necessária",
+        "Registrar saída para validação e memória"
+      ],
+      "createdAt": "2026-04-24T03:50:42.685Z"
+    },
+    "lastValidation": {
+      "id": "val-1777002642685",
+      "approved": true,
+      "status": "approved_for_safe_progress",
+      "checks": [
+        {
+          "id": "integrity",
+          "label": "Integridade estrutural",
+          "passed": true
+        },
+        {
+          "id": "rollback",
+          "label": "Capacidade de rollback",
+          "passed": true
+        },
+        {
+          "id": "risk",
+          "label": "Risco dentro da política",
+          "passed": true
+        }
+      ],
+      "summary": "Validação aprovada para continuidade segura.",
+      "createdAt": "2026-04-24T03:50:42.685Z"
+    },
+    "updatedAt": "2026-04-24T11:58:56.315Z",
+    "humanAdaptationMode": "balanced_support",
+    "lastHumanPressureScore": 0,
+    "communicationScore": 100,
+    "lastVendorEvaluation": "negotiate_or_adopt",
+    "lastExternalNegotiation": "Render",
+    "creativityScore": 59
+  },
+  "goals": [
+    {
+      "id": "goal-core-1",
+      "title": "Consolidar núcleo autônomo",
+      "summary": "Fortalecer observação, decisão, execução segura e aprendizado contínuo.",
+      "type": "system_evolution",
+      "status": "active",
+      "priority": "critical",
+      "successCriteria": [
+        "Score de autonomia acima de 45",
+        "Ciclos executando sem regressão estrutural",
+        "Histórico de decisões e validações disponível no painel"
+      ],
+      "createdAt": "2026-04-23T12:17:28.330Z",
+      "updatedAt": "2026-04-23T12:17:28.330Z"
+    }
+  ],
+  "policies": {
+    "modes": [
+      "observer",
+      "supervised_autonomy",
+      "validated_execution"
+    ],
+    "currentMode": "supervised_autonomy",
+    "consensusRequiredActions": [
+      "apply_multi_file_patch",
+      "execute_shared_goal",
+      "coordinated_execution"
+    ],
+    "allowedWithoutApproval": [
+      "analyze_system",
+      "prioritize_tasks",
+      "generate_patch_plan",
+      "organize_backlog",
+      "record_learning",
+      "update_internal_state",
+      "simulate_decision"
+    ],
+    "allowedWithValidation": [
+      "apply_safe_local_patch",
+      "update_non_critical_config",
+      "prepare_build",
+      "run_integrity_checks",
+      "run_safe_repair",
+      "run_safe_patch"
+    ],
+    "blockedWithoutExplicitApproval": [
+      "delete_critical_files",
+      "modify_production_credentials",
+      "drop_database_data",
+      "rewrite_auth_core",
+      "deploy_to_production",
+      "change_billing_rules"
+    ],
+    "updatedAt": "2026-04-23T12:17:28.330Z"
+  },
+  "history": [
+    {
+      "id": "cycle-1777002642686",
+      "type": "autonomy_cycle",
+      "triggeredBy": "timer",
+      "missionId": "mission-stability-1",
+      "goalId": "goal-core-1",
+      "decision": {
+        "id": "decision-1777002642685",
+        "mode": "supervised_autonomy",
+        "actionType": "generate_patch_plan",
+        "title": "Quebrar padrão de erro recorrente mais frequente",
+        "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+        "expectedImpact": "high",
+        "relatedGoalId": "goal-core-1",
+        "createdAt": "2026-04-24T03:50:42.685Z"
+      },
+      "missionImpact": {
+        "missionId": "mission-stability-1",
+        "title": "Blindar estabilidade do núcleo autônomo",
+        "urgencyScore": 40,
+        "blockerRemovalScore": 0,
+        "technicalBenefitScore": 8,
+        "visualBenefitScore": 3,
+        "riskReductionScore": 14,
+        "dependencyScore": 10,
+        "totalScore": 86,
+        "rationale": "Impacto muito alto no destravamento da evolução."
+      },
+      "risk": {
+        "level": "high",
+        "score": 82,
+        "reason": "Ação relevante com possibilidade de regressão e necessidade de validação."
+      },
+      "execution": {
+        "id": "exec-1777002642685",
+        "status": "validation_required",
+        "actionType": "generate_patch_plan",
+        "summary": "Execução preparada, aguardando validação reforçada.",
+        "steps": [
+          "Ler snapshot atual do sistema",
+          "Comparar prioridade com histórico recente",
+          "Gerar plano de ação mínima necessária",
+          "Registrar saída para validação e memória"
+        ],
+        "createdAt": "2026-04-24T03:50:42.685Z"
+      },
+      "validation": {
+        "id": "val-1777002642685",
+        "approved": true,
+        "status": "approved_for_safe_progress",
+        "checks": [
+          {
+            "id": "integrity",
+            "label": "Integridade estrutural",
+            "passed": true
+          },
+          {
+            "id": "rollback",
+            "label": "Capacidade de rollback",
+            "passed": true
+          },
+          {
+            "id": "risk",
+            "label": "Risco dentro da política",
+            "passed": true
+          }
+        ],
+        "summary": "Validação aprovada para continuidade segura.",
+        "createdAt": "2026-04-24T03:50:42.685Z"
+      },
+      "rollback": {
+        "id": "rollback-1777002642685",
+        "required": false,
+        "summary": "Rollback preparado apenas como contingência; nenhuma reversão necessária agora.",
+        "targetAction": "generate_patch_plan",
+        "createdAt": "2026-04-24T03:50:42.685Z"
+      },
+      "patch": {
+        "id": "patch-1777002642686-isixxn",
+        "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+        "actionType": "apply_multi_file_patch",
+        "scope": "autonomy",
+        "status": "applied",
+        "missionId": "mission-stability-1",
+        "validationStatus": "approved",
+        "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+        "createdAt": "2026-04-24T03:50:42.686Z",
+        "updatedAt": "2026-04-24T03:50:42.686Z",
+        "kind": "multi_file",
+        "files": [
+          {
+            "path": "backend/src/modules/autonomy/autonomy.routes.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "backend/src/modules/autonomy/autonomy.controller.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "backend/src/modules/autonomy/autonomy.service.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+            "role": "create",
+            "area": "autonomy",
+            "impact": 32
+          }
+        ],
+        "affectedAreas": [
+          "autonomy"
+        ],
+        "impactScore": 172,
+        "complexity": "high",
+        "dependencyValidation": {
+          "ok": true,
+          "rules": [
+            {
+              "ok": true,
+              "code": "dependencies_ok",
+              "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+            }
+          ],
+          "summary": "Dependências cruzadas validadas com sucesso."
+        }
+      },
+      "createdAt": "2026-04-24T03:50:42.686Z",
+      "delegation": {
+        "ok": true,
+        "missionId": "mission-stability-1",
+        "missionTitle": "Blindar estabilidade do núcleo autônomo",
+        "primaryBrain": {
+          "id": "guardian",
+          "label": "Guardian Brain",
+          "specialty": "política, risco, aprovação e proteção da base existente",
+          "status": "online",
+          "autonomyLevel": 90,
+          "load": 37,
+          "preferredMissionTypes": [
+            "risk",
+            "approval",
+            "rollback"
+          ]
+        },
+        "supportBrains": [
+          {
+            "id": "brain-1776966139788",
+            "name": "deploy-specialist",
+            "specialty": "deploy-specialist",
+            "status": "online",
+            "autonomyLevel": 71,
+            "load": 18,
+            "trustScore": 0.68,
+            "generated": true,
+            "rationale": "Criado automaticamente para ampliar cobertura operacional.",
+            "createdAt": "2026-04-23T17:42:19.788Z"
+          },
+          {
+            "id": "operational",
+            "label": "Operational Brain",
+            "specialty": "execução segura, ciclo autônomo e rollback",
+            "status": "online",
+            "autonomyLevel": 88,
+            "load": 63,
+            "preferredMissionTypes": [
+              "stability",
+              "repair",
+              "validated_execution"
+            ]
+          }
+        ],
+        "ranking": [
+          {
+            "brain": {
+              "id": "guardian",
+              "label": "Guardian Brain",
+              "specialty": "política, risco, aprovação e proteção da base existente",
+              "status": "online",
+              "autonomyLevel": 90,
+              "load": 37,
+              "preferredMissionTypes": [
+                "risk",
+                "approval",
+                "rollback"
+              ]
+            },
+            "score": 71,
+            "reason": "Guardian Brain tem alinhamento direto com a missão e menor custo decisório."
+          },
+          {
+            "brain": {
+              "id": "brain-1776966139788",
+              "name": "deploy-specialist",
+              "specialty": "deploy-specialist",
+              "status": "online",
+              "autonomyLevel": 71,
+              "load": 18,
+              "trustScore": 0.68,
+              "generated": true,
+              "rationale": "Criado automaticamente para ampliar cobertura operacional.",
+              "createdAt": "2026-04-23T17:42:19.788Z"
+            },
+            "score": 48,
+            "reason": "undefined foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "operational",
+              "label": "Operational Brain",
+              "specialty": "execução segura, ciclo autônomo e rollback",
+              "status": "online",
+              "autonomyLevel": 88,
+              "load": 63,
+              "preferredMissionTypes": [
+                "stability",
+                "repair",
+                "validated_execution"
+              ]
+            },
+            "score": 47,
+            "reason": "Operational Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "strategic",
+              "label": "Strategic Brain",
+              "specialty": "planejamento, metas compostas e priorização de impacto",
+              "status": "online",
+              "autonomyLevel": 82,
+              "load": 54,
+              "preferredMissionTypes": [
+                "composite_evolution",
+                "long_range_priority",
+                "roadmap"
+              ]
+            },
+            "score": 46,
+            "reason": "Strategic Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "technical",
+              "label": "Technical Brain",
+              "specialty": "patch multiarquivo, dependências e integração backend/frontend",
+              "status": "online",
+              "autonomyLevel": 84,
+              "load": 58,
+              "preferredMissionTypes": [
+                "patch",
+                "integration",
+                "architecture"
+              ]
+            },
+            "score": 46,
+            "reason": "Technical Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          }
+        ],
+        "summary": "Guardian Brain assume a missão com suporte coordenado de  e Operational Brain.",
+        "createdAt": "2026-04-24T03:50:42.686Z"
+      }
+    },
+    {
+      "id": "cycle-1777002612681",
+      "type": "autonomy_cycle",
+      "triggeredBy": "timer",
+      "missionId": "mission-stability-1",
+      "goalId": "goal-core-1",
+      "decision": {
+        "id": "decision-1777002612681",
+        "mode": "supervised_autonomy",
+        "actionType": "generate_patch_plan",
+        "title": "Quebrar padrão de erro recorrente mais frequente",
+        "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+        "expectedImpact": "high",
+        "relatedGoalId": "goal-core-1",
+        "createdAt": "2026-04-24T03:50:12.681Z"
+      },
+      "missionImpact": {
+        "missionId": "mission-stability-1",
+        "title": "Blindar estabilidade do núcleo autônomo",
+        "urgencyScore": 40,
+        "blockerRemovalScore": 0,
+        "technicalBenefitScore": 8,
+        "visualBenefitScore": 3,
+        "riskReductionScore": 14,
+        "dependencyScore": 10,
+        "totalScore": 88,
+        "rationale": "Impacto muito alto no destravamento da evolução."
+      },
+      "risk": {
+        "level": "high",
+        "score": 82,
+        "reason": "Ação relevante com possibilidade de regressão e necessidade de validação."
+      },
+      "execution": {
+        "id": "exec-1777002612681",
+        "status": "validation_required",
+        "actionType": "generate_patch_plan",
+        "summary": "Execução preparada, aguardando validação reforçada.",
+        "steps": [
+          "Ler snapshot atual do sistema",
+          "Comparar prioridade com histórico recente",
+          "Gerar plano de ação mínima necessária",
+          "Registrar saída para validação e memória"
+        ],
+        "createdAt": "2026-04-24T03:50:12.681Z"
+      },
+      "validation": {
+        "id": "val-1777002612681",
+        "approved": true,
+        "status": "approved_for_safe_progress",
+        "checks": [
+          {
+            "id": "integrity",
+            "label": "Integridade estrutural",
+            "passed": true
+          },
+          {
+            "id": "rollback",
+            "label": "Capacidade de rollback",
+            "passed": true
+          },
+          {
+            "id": "risk",
+            "label": "Risco dentro da política",
+            "passed": true
+          }
+        ],
+        "summary": "Validação aprovada para continuidade segura.",
+        "createdAt": "2026-04-24T03:50:12.681Z"
+      },
+      "rollback": {
+        "id": "rollback-1777002612681",
+        "required": false,
+        "summary": "Rollback preparado apenas como contingência; nenhuma reversão necessária agora.",
+        "targetAction": "generate_patch_plan",
+        "createdAt": "2026-04-24T03:50:12.681Z"
+      },
+      "patch": {
+        "id": "patch-1777002612681-q3fc4n",
+        "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+        "actionType": "apply_multi_file_patch",
+        "scope": "autonomy",
+        "status": "applied",
+        "missionId": "mission-stability-1",
+        "validationStatus": "approved",
+        "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+        "createdAt": "2026-04-24T03:50:12.681Z",
+        "updatedAt": "2026-04-24T03:50:12.681Z",
+        "kind": "multi_file",
+        "files": [
+          {
+            "path": "backend/src/modules/autonomy/autonomy.routes.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "backend/src/modules/autonomy/autonomy.controller.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "backend/src/modules/autonomy/autonomy.service.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+            "role": "update",
+            "area": "autonomy",
+            "impact": 28
+          },
+          {
+            "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+            "role": "create",
+            "area": "autonomy",
+            "impact": 32
+          }
+        ],
+        "affectedAreas": [
+          "autonomy"
+        ],
+        "impactScore": 172,
+        "complexity": "high",
+        "dependencyValidation": {
+          "ok": true,
+          "rules": [
+            {
+              "ok": true,
+              "code": "dependencies_ok",
+              "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+            }
+          ],
+          "summary": "Dependências cruzadas validadas com sucesso."
+        }
+      },
+      "createdAt": "2026-04-24T03:50:12.681Z",
+      "delegation": {
+        "ok": true,
+        "missionId": "mission-stability-1",
+        "missionTitle": "Blindar estabilidade do núcleo autônomo",
+        "primaryBrain": {
+          "id": "guardian",
+          "label": "Guardian Brain",
+          "specialty": "política, risco, aprovação e proteção da base existente",
+          "status": "online",
+          "autonomyLevel": 90,
+          "load": 37,
+          "preferredMissionTypes": [
+            "risk",
+            "approval",
+            "rollback"
+          ]
+        },
+        "supportBrains": [
+          {
+            "id": "brain-1776966139788",
+            "name": "deploy-specialist",
+            "specialty": "deploy-specialist",
+            "status": "online",
+            "autonomyLevel": 71,
+            "load": 18,
+            "trustScore": 0.68,
+            "generated": true,
+            "rationale": "Criado automaticamente para ampliar cobertura operacional.",
+            "createdAt": "2026-04-23T17:42:19.788Z"
+          },
+          {
+            "id": "operational",
+            "label": "Operational Brain",
+            "specialty": "execução segura, ciclo autônomo e rollback",
+            "status": "online",
+            "autonomyLevel": 88,
+            "load": 63,
+            "preferredMissionTypes": [
+              "stability",
+              "repair",
+              "validated_execution"
+            ]
+          }
+        ],
+        "ranking": [
+          {
+            "brain": {
+              "id": "guardian",
+              "label": "Guardian Brain",
+              "specialty": "política, risco, aprovação e proteção da base existente",
+              "status": "online",
+              "autonomyLevel": 90,
+              "load": 37,
+              "preferredMissionTypes": [
+                "risk",
+                "approval",
+                "rollback"
+              ]
+            },
+            "score": 71,
+            "reason": "Guardian Brain tem alinhamento direto com a missão e menor custo decisório."
+          },
+          {
+            "brain": {
+              "id": "brain-1776966139788",
+              "name": "deploy-specialist",
+              "specialty": "deploy-specialist",
+              "status": "online",
+              "autonomyLevel": 71,
+              "load": 18,
+              "trustScore": 0.68,
+              "generated": true,
+              "rationale": "Criado automaticamente para ampliar cobertura operacional.",
+              "createdAt": "2026-04-23T17:42:19.788Z"
+            },
+            "score": 48,
+            "reason": "undefined foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "operational",
+              "label": "Operational Brain",
+              "specialty": "execução segura, ciclo autônomo e rollback",
+              "status": "online",
+              "autonomyLevel": 88,
+              "load": 63,
+              "preferredMissionTypes": [
+                "stability",
+                "repair",
+                "validated_execution"
+              ]
+            },
+            "score": 47,
+            "reason": "Operational Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "strategic",
+              "label": "Strategic Brain",
+              "specialty": "planejamento, metas compostas e priorização de impacto",
+              "status": "online",
+              "autonomyLevel": 82,
+              "load": 54,
+              "preferredMissionTypes": [
+                "composite_evolution",
+                "long_range_priority",
+                "roadmap"
+              ]
+            },
+            "score": 46,
+            "reason": "Strategic Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          },
+          {
+            "brain": {
+              "id": "technical",
+              "label": "Technical Brain",
+              "specialty": "patch multiarquivo, dependências e integração backend/frontend",
+              "status": "online",
+              "autonomyLevel": 84,
+              "load": 58,
+              "preferredMissionTypes": [
+                "patch",
+                "integration",
+                "architecture"
+              ]
+            },
+            "score": 46,
+            "reason": "Technical Brain foi escolhido pelo equilíbrio entre autonomia, carga e especialização."
+          }
+        ],
+        "summary": "Guardian Brain assume a missão com suporte coordenado de  e Operational Brain.",
+        "createdAt": "2026-04-24T03:50:12.681Z"
+      }
+    },
+    {
+      "id": "hist-1776966139789",
+      "decision": {
+        "title": "Novo cérebro especializado criado",
+        "actionType": "create_specialized_brain"
+      },
+      "execution": {
+        "status": "completed",
+        "summary": "deploy-specialist criado para deploy-specialist."
+      },
+      "validation": {
+        "approved": true,
+        "summary": "Criação registrada e sem impacto destrutivo."
+      },
+      "createdAt": "2026-04-23T17:42:19.788Z"
+    },
+    {
+      "id": "cycle-1776952420000",
+      "type": "autonomy_cycle",
+      "triggeredBy": "timer",
+      "missionId": "mission-stability-1",
+      "goalId": "goal-core-1",
+      "decision": {
+        "id": "decision-1776952420000",
+        "mode": "supervised_autonomy",
+        "actionType": "generate_patch_plan",
+        "title": "Quebrar padrão de erro recorrente mais frequente",
+        "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+        "expectedImpact": "high",
+        "relatedGoalId": "goal-core-1",
+        "createdAt": "2026-04-23T13:53:40.000Z"
+      },
+      "risk": {
+        "level": "high",
+        "score": 82,
+        "reason": "Ação relevante com possibilidade de regressão e necessidade de validação."
+      },
+      "execution": {
+        "id": "exec-1776952420000",
+        "status": "validation_required",
+        "actionType": "generate_patch_plan",
+        "summary": "Execução preparada, aguardando validação reforçada.",
+        "steps": [
+          "Ler snapshot atual do sistema",
+          "Comparar prioridade com histórico recente",
+          "Gerar plano de ação mínima necessária",
+          "Registrar saída para validação e memória"
+        ],
+        "createdAt": "2026-04-23T13:53:40.000Z"
+      },
+      "validation": {
+        "id": "val-1776952420000",
+        "approved": true,
+        "status": "approved_for_safe_progress",
+        "checks": [
+          {
+            "id": "integrity",
+            "label": "Integridade estrutural",
+            "passed": true
+          },
+          {
+            "id": "rollback",
+            "label": "Capacidade de rollback",
+            "passed": true
+          },
+          {
+            "id": "risk",
+            "label": "Risco dentro da política",
+            "passed": true
+          }
+        ],
+        "summary": "Validação aprovada para continuidade segura.",
+        "createdAt": "2026-04-23T13:53:40.000Z"
+      },
+      "rollback": {
+        "id": "rollback-1776952420000",
+        "required": false,
+        "summary": "Rollback preparado apenas como contingência; nenhuma reversão necessária agora.",
+        "targetAction": "generate_patch_plan",
+        "createdAt": "2026-04-23T13:53:40.000Z"
+      },
+      "patch": {
+        "id": "patch-1776952420000-jgojab",
+        "title": "Patch update_autonomy_state",
+        "actionType": "update_autonomy_state",
+        "scope": "autonomy_module",
+        "status": "applied",
+        "missionId": "mission-stability-1",
+        "validationStatus": "approved",
+        "summary": "Patch preparado para update_autonomy_state em modo supervised_autonomy.",
+        "createdAt": "2026-04-23T13:53:40.000Z",
+        "updatedAt": "2026-04-23T13:53:40.000Z"
+      },
+      "createdAt": "2026-04-23T13:53:40.000Z"
+    },
+    {
+      "id": "cycle-1776948195843",
+      "type": "autonomy_cycle",
+      "missionId": "mission-stability-1",
+      "goalId": "goal-core-1",
+      "decision": {
+        "id": "decision-1776948195843",
+        "mode": "supervised_autonomy",
+        "actionType": "generate_patch_plan",
+        "title": "Quebrar padrão de erro recorrente mais frequente",
+        "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+        "expectedImpact": "high",
+        "relatedGoalId": "goal-core-1",
+        "createdAt": "2026-04-23T12:43:15.843Z"
+      },
+      "risk": {
+        "level": "high",
+        "score": 82,
+        "reason": "Ação relevante com possibilidade de regressão e necessidade de validação."
+      },
+      "execution": {
+        "id": "exec-1776948195843",
+        "status": "validation_required",
+        "actionType": "generate_patch_plan",
+        "summary": "Execução preparada, aguardando validação reforçada.",
+        "steps": [
+          "Ler snapshot atual do sistema",
+          "Comparar prioridade com histórico recente",
+          "Gerar plano de ação mínima necessária",
+          "Registrar saída para validação e memória"
+        ],
+        "createdAt": "2026-04-23T12:43:15.843Z"
+      },
+      "validation": {
+        "id": "val-1776948195843",
+        "approved": true,
+        "status": "approved_for_safe_progress",
+        "checks": [
+          {
+            "id": "integrity",
+            "label": "Integridade estrutural",
+            "passed": true
+          },
+          {
+            "id": "rollback",
+            "label": "Capacidade de rollback",
+            "passed": true
+          },
+          {
+            "id": "risk",
+            "label": "Risco dentro da política",
+            "passed": true
+          }
+        ],
+        "summary": "Validação aprovada para continuidade segura.",
+        "createdAt": "2026-04-23T12:43:15.843Z"
+      },
+      "rollback": {
+        "id": "rollback-1776948195843",
+        "required": false,
+        "summary": "Rollback preparado apenas como contingência; nenhuma reversão necessária agora.",
+        "targetAction": "generate_patch_plan",
+        "createdAt": "2026-04-23T12:43:15.843Z"
+      },
+      "createdAt": "2026-04-23T12:43:15.843Z"
+    },
+    {
+      "id": "cycle-1776946659800",
+      "type": "autonomy_cycle",
+      "goalId": "goal-core-1",
+      "decision": {
+        "id": "decision-1776946659800",
+        "mode": "supervised_autonomy",
+        "actionType": "generate_patch_plan",
+        "title": "Quebrar padrão de erro recorrente mais frequente",
+        "reason": "Fingerprint frontend-test|/|teste_1.2 apareceu 1 vez(es).",
+        "expectedImpact": "high",
+        "relatedGoalId": "goal-core-1",
+        "createdAt": "2026-04-23T12:17:39.800Z"
+      },
+      "risk": {
+        "level": "high",
+        "score": 82,
+        "reason": "Ação relevante com possibilidade de regressão e necessidade de validação."
+      },
+      "execution": {
+        "id": "exec-1776946659800",
+        "status": "validation_required",
+        "actionType": "generate_patch_plan",
+        "summary": "Execução preparada, aguardando validação reforçada.",
+        "steps": [
+          "Ler snapshot atual do sistema",
+          "Comparar prioridade com histórico recente",
+          "Gerar plano de ação mínima necessária",
+          "Registrar saída para validação e memória"
+        ],
+        "createdAt": "2026-04-23T12:17:39.800Z"
+      },
+      "validation": {
+        "id": "val-1776946659800",
+        "approved": true,
+        "status": "approved_for_safe_progress",
+        "checks": [
+          {
+            "id": "integrity",
+            "label": "Integridade estrutural",
+            "passed": true
+          },
+          {
+            "id": "rollback",
+            "label": "Capacidade de rollback",
+            "passed": true
+          },
+          {
+            "id": "risk",
+            "label": "Risco dentro da política",
+            "passed": true
+          }
+        ],
+        "summary": "Validação aprovada para continuidade segura.",
+        "createdAt": "2026-04-23T12:17:39.800Z"
+      },
+      "rollback": {
+        "id": "rollback-1776946659800",
+        "required": false,
+        "summary": "Rollback preparado apenas como contingência; nenhuma reversão necessária agora.",
+        "targetAction": "generate_patch_plan",
+        "createdAt": "2026-04-23T12:17:39.800Z"
+      },
+      "createdAt": "2026-04-23T12:17:39.800Z"
+    }
+  ],
+  "missions": [
+    {
+      "id": "mission-ui-approval-1",
+      "title": "Conectar aprovação e rollback ao painel",
+      "summary": "Dar visibilidade executiva para aprovar, rejeitar e reverter ações sensíveis.",
+      "status": "active",
+      "priority": "high",
+      "progress": 8,
+      "owner": "autonomy",
+      "createdAt": "2026-04-23T12:42:45.113Z",
+      "updatedAt": "2026-04-24T11:54:57.924Z"
+    },
+    {
+      "id": "mission-stability-1",
+      "title": "Blindar estabilidade do núcleo autônomo",
+      "summary": "Executar ciclos seguros, manter rollback pronto e reduzir falhas recorrentes.",
+      "status": "completed",
+      "priority": "critical",
+      "progress": 100,
+      "owner": "autonomy",
+      "createdAt": "2026-04-23T12:42:45.113Z",
+      "updatedAt": "2026-04-24T11:40:55.249Z"
+    },
+    {
+      "id": "mission-1777030860946",
+      "title": "Expandir autoexecução segura",
+      "summary": "Aumentar ciclos sem romper base atual.",
+      "status": "queued",
+      "priority": "high",
+      "progress": 0,
+      "owner": "autonomy",
+      "blocker": false,
+      "dependencies": [],
+      "createdAt": "2026-04-24T11:41:00.946Z",
+      "updatedAt": "2026-04-24T11:41:00.946Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1776905349886-9md7xa",
+      "type": "client_error",
+      "severity": "warning",
+      "source": "frontend",
+      "title": "Erro reportado pelo frontend",
+      "details": "teste 1.2",
+      "meta": {
+        "path": "/",
+        "fingerprint": "frontend-test|/|teste_1.2"
+      },
+      "createdAt": "2026-04-23T00:49:09.886Z"
+    },
+    {
+      "id": "evt-1776905349586-axc9uw",
+      "type": "safe_patch",
+      "severity": "info",
+      "source": "autonomy-core",
+      "title": "Patch seguro pronto",
+      "details": "Patch seguro marcado como executável dentro da política atual.",
+      "meta": {
+        "actionType": "patch_port_isolation"
+      },
+      "createdAt": "2026-04-23T00:49:09.586Z"
+    },
+    {
+      "id": "evt-1776904494761-zgiy31",
+      "type": "client_error",
+      "severity": "warning",
+      "source": "frontend",
+      "title": "Erro reportado pelo frontend",
+      "details": "Teste frontend",
+      "meta": {
+        "path": "/adm",
+        "fingerprint": "frontend|/adm|teste_frontend"
+      },
+      "createdAt": "2026-04-23T00:34:54.761Z"
+    },
+    {
+      "id": "evt-1776903414352-gmkqn0",
+      "type": "safe_repair",
+      "severity": "info",
+      "source": "autonomy-core",
+      "title": "Reparo seguro executado",
+      "details": "Modo seguro reforçado: monitoramento ativo, reparos destrutivos continuam bloqueados.",
+      "createdAt": "2026-04-23T00:16:54.352Z"
+    },
+    {
+      "id": "evt-1776903414281-5kgenz",
+      "type": "diagnostic_run",
+      "severity": "warning",
+      "source": "autonomy-core",
+      "title": "Diagnóstico executado",
+      "details": "Diagnóstico concluído com 4 achados e score 72%.",
+      "createdAt": "2026-04-23T00:16:54.281Z"
+    },
+    {
+      "id": "evt-bootstrap",
+      "type": "bootstrap",
+      "severity": "info",
+      "source": "autonomy-core",
+      "title": "Autonomy Core inicializado",
+      "details": "Núcleo de observabilidade e reparo seguro pronto para operar no backend principal.",
+      "createdAt": "2026-04-23T00:16:52.426Z"
+    }
+  ],
+  "errors": [
+    {
+      "id": "err-1776905349886-6pydxc",
+      "eventId": "evt-1776905349886-9md7xa",
+      "module": "frontend-test",
+      "errorType": "client_runtime_error",
+      "probableCause": "teste 1.2",
+      "impactLevel": "medium",
+      "status": "open",
+      "title": "Falha capturada no frontend",
+      "fingerprint": "frontend-test|/|teste_1.2",
+      "createdAt": "2026-04-23T00:49:09.886Z",
+      "resolvedAt": null,
+      "path": "/"
+    },
+    {
+      "id": "err-1776904494761-8no0ml",
+      "eventId": "evt-1776904494761-zgiy31",
+      "module": "frontend",
+      "errorType": "client_runtime_error",
+      "probableCause": "Teste frontend",
+      "impactLevel": "medium",
+      "status": "open",
+      "title": "Falha capturada no frontend",
+      "fingerprint": "frontend|/adm|teste_frontend",
+      "createdAt": "2026-04-23T00:34:54.761Z",
+      "resolvedAt": null,
+      "path": "/adm"
+    },
+    {
+      "id": "err-frontend-duplication",
+      "eventId": "evt-bootstrap",
+      "module": "frontend-architecture",
+      "errorType": "consolidation_gap",
+      "probableCause": "A Megan cresceu com frontends múltiplos e experiências em camadas diferentes.",
+      "impactLevel": "medium",
+      "status": "open",
+      "title": "Consolidação estrutural ainda em andamento",
+      "createdAt": "2026-04-23T00:16:52.427Z",
+      "resolvedAt": null
+    }
+  ],
+  "repairs": [
+    {
+      "id": "pat-1776905349586-6qmej2",
+      "actionType": "patch_port_isolation",
+      "status": "ready",
+      "mode": "automatic",
+      "resultSummary": "Patch seguro marcado como executável dentro da política atual.",
+      "createdAt": "2026-04-23T00:49:09.585Z"
+    },
+    {
+      "id": "rep-1776903414352-89n4h7",
+      "errorId": null,
+      "actionType": "fallback_safe_mode",
+      "executionMode": "automatic",
+      "status": "applied",
+      "resultSummary": "Modo seguro reforçado: monitoramento ativo, reparos destrutivos continuam bloqueados.",
+      "createdAt": "2026-04-23T00:16:54.352Z"
+    },
+    {
+      "id": "rep-safe-mode",
+      "errorId": "err-frontend-duplication",
+      "actionType": "safe_mode_guard",
+      "executionMode": "automatic",
+      "status": "applied",
+      "resultSummary": "Fluxos premium foram integrados ao frontend principal sem desligar a base anterior.",
+      "createdAt": "2026-04-23T00:16:52.427Z"
+    }
+  ],
+  "approvalBacklog": [
+    {
+      "id": "apr-1777002642686-tv4veo",
+      "title": "Quebrar padrão de erro recorrente mais frequente",
+      "actionType": "generate_patch_plan",
+      "status": "approved",
+      "priority": "high",
+      "reason": "Validação aprovada para continuidade segura.",
+      "createdAt": "2026-04-24T03:50:42.686Z",
+      "decidedAt": "2026-04-24T11:55:19.574Z"
+    },
+    {
+      "id": "apr-1777002612681-2qp4dw",
+      "title": "Quebrar padrão de erro recorrente mais frequente",
+      "actionType": "generate_patch_plan",
+      "status": "pending",
+      "priority": "high",
+      "reason": "Validação aprovada para continuidade segura.",
+      "createdAt": "2026-04-24T03:50:12.681Z"
+    },
+    {
+      "id": "apr-1776952420000-j58ph4",
+      "title": "Quebrar padrão de erro recorrente mais frequente",
+      "actionType": "generate_patch_plan",
+      "status": "pending",
+      "priority": "high",
+      "reason": "Validação aprovada para continuidade segura.",
+      "createdAt": "2026-04-23T13:53:40.000Z"
+    },
+    {
+      "id": "apr-1776948195843-1hbbkn",
+      "title": "Quebrar padrão de erro recorrente mais frequente",
+      "actionType": "generate_patch_plan",
+      "status": "pending",
+      "priority": "high",
+      "reason": "Validação aprovada para continuidade segura.",
+      "createdAt": "2026-04-23T12:43:15.843Z"
+    },
+    {
+      "id": "apr-bootstrap-1",
+      "title": "Validar patch local seguro",
+      "actionType": "apply_safe_local_patch",
+      "status": "pending",
+      "priority": "high",
+      "reason": "Melhoria segura pronta para avançar com validação humana opcional.",
+      "createdAt": "2026-04-23T12:42:45.113Z"
+    }
+  ],
+  "rollbackQueue": [],
+  "improvements": [
+    {
+      "id": "imp-fusion-hardening",
+      "category": "consolidation",
+      "title": "Concluir consolidação dos módulos legados",
+      "description": "Encerrar dependência operacional de mobile-app e backend-mobile mantendo apenas frontend/backend como core.",
+      "priority": "high",
+      "affectedArea": "architecture"
+    },
+    {
+      "id": "imp-runtime-observability",
+      "category": "autonomy",
+      "title": "Adicionar coleta de erros do frontend em tempo real",
+      "description": "Enviar falhas de runtime do navegador para a memória operacional da Megan.",
+      "priority": "medium",
+      "affectedArea": "frontend"
+    },
+    {
+      "id": "imp-real-integrations",
+      "category": "integration",
+      "title": "Trocar simulações críticas por integrações reais graduais",
+      "description": "Priorizar health, billing, maps e autenticação real nos fluxos mais usados.",
+      "priority": "high",
+      "affectedArea": "backend"
+    },
+    {
+      "id": "imp-autonomy-core",
+      "category": "autonomy",
+      "title": "Ativar ciclo contínuo de diagnóstico",
+      "description": "Rodar diagnósticos periódicos e acumular memória operacional para reduzir recorrência de falhas.",
+      "priority": "high",
+      "affectedArea": "backend/frontend",
+      "status": "ready",
+      "createdAt": "2026-04-23T00:16:52.427Z"
+    }
+  ],
+  "internalBrains": [
+    {
+      "id": "brain-1776966139788",
+      "name": "deploy-specialist",
+      "specialty": "deploy-specialist",
+      "status": "online",
+      "autonomyLevel": 71,
+      "load": 18,
+      "trustScore": 0.68,
+      "generated": true,
+      "rationale": "Criado automaticamente para ampliar cobertura operacional.",
+      "createdAt": "2026-04-23T17:42:19.788Z"
+    },
+    {
+      "id": "strategic",
+      "status": "online",
+      "autonomyLevel": 82,
+      "load": 54
+    },
+    {
+      "id": "operational",
+      "status": "online",
+      "autonomyLevel": 88,
+      "load": 63
+    },
+    {
+      "id": "technical",
+      "status": "online",
+      "autonomyLevel": 84,
+      "load": 58
+    },
+    {
+      "id": "guardian",
+      "status": "online",
+      "autonomyLevel": 90,
+      "load": 37
+    }
+  ],
+  "delegationHistory": [
+    {
+      "id": "dlg-1777002642686",
+      "missionId": "mission-stability-1",
+      "primaryBrain": "guardian",
+      "supportBrains": [
+        "brain-1776966139788",
+        "operational"
+      ],
+      "createdAt": "2026-04-24T03:50:42.686Z"
+    },
+    {
+      "id": "dlg-1777002612681",
+      "missionId": "mission-stability-1",
+      "primaryBrain": "guardian",
+      "supportBrains": [
+        "brain-1776966139788",
+        "operational"
+      ],
+      "createdAt": "2026-04-24T03:50:12.681Z"
+    }
+  ],
+  "consensusHistory": [],
+  "coordinationHistory": [
+    {
+      "id": "crd-1776963269201-24byak",
+      "missionId": "mission-stability-1",
+      "missionTitle": "Blindar estabilidade do núcleo autônomo",
+      "leadBrain": "guardian",
+      "supportBrains": [
+        "operational",
+        "technical",
+        "strategic"
+      ],
+      "status": "review_required",
+      "createdAt": "2026-04-23T16:54:29.201Z"
+    }
+  ],
+  "generatedCapabilities": [],
+  "auditReports": [],
+  "fusionHistory": [],
+  "retirementHistory": [],
+  "intelligenceRebalance": {
+    "leader": {
+      "id": "brain-1776966139788",
+      "name": "deploy-specialist",
+      "meritScore": 83
+    },
+    "support": [
+      {
+        "id": "strategic",
+        "name": "strategic",
+        "meritScore": 79
+      },
+      {
+        "id": "operational",
+        "name": "operational",
+        "meritScore": 74
+      },
+      {
+        "id": "technical",
+        "name": "technical",
+        "meritScore": 70
+      }
+    ],
+    "generatedAt": "2026-04-23T18:03:14.781Z",
+    "status": "rebalanced"
+  },
+  "marketAllocations": [
+    {
+      "id": "alloc-mission-stability-1",
+      "missionId": "mission-stability-1",
+      "missionTitle": "Blindar estabilidade do núcleo autônomo",
+      "winner": {
+        "brainId": "brain-1776966139788",
+        "brainName": "deploy-specialist",
+        "confidence": 70,
+        "effort": 19,
+        "value": 70,
+        "estimatedCycles": 2
+      },
+      "supports": [
+        {
+          "brainId": "guardian",
+          "brainName": "guardian",
+          "confidence": 68,
+          "effort": 24,
+          "value": 67,
+          "estimatedCycles": 2
+        },
+        {
+          "brainId": "strategic",
+          "brainName": "strategic",
+          "confidence": 62,
+          "effort": 31,
+          "value": 61,
+          "estimatedCycles": 3
+        }
+      ],
+      "status": "allocated",
+      "allocatedAt": "2026-04-23T19:09:29.405Z"
+    }
+  ],
+  "priorityBidding": [],
+  "marketHistory": [],
+  "memory": [
+    {
+      "id": "mem-ports",
+      "memoryKey": "port_conflict_pattern",
+      "context": "Ambientes temporários frequentemente colidem em portas padrão durante validações.",
+      "resolutionPattern": "Subir backend em porta isolada de teste antes de validar endpoints.",
+      "confidence": 0.91,
+      "lastSeenAt": "2026-04-23T00:16:52.427Z"
+    }
+  ],
+  "lastDiagnosticAt": "2026-04-24T03:50:42.686Z",
+  "lastRepairAt": "2026-04-23T00:16:54.352Z",
+  "incidents": [
+    {
+      "id": "inc-1776905349886-2kpl0g",
+      "title": "Incidente frontend em /",
+      "severity": "warning",
+      "source": "frontend",
+      "status": "open",
+      "fingerprint": "frontend-test|/|teste_1.2",
+      "createdAt": "2026-04-23T00:49:09.886Z"
+    },
+    {
+      "id": "inc-1776904494761-rq0q8k",
+      "title": "Incidente frontend em /adm",
+      "severity": "warning",
+      "source": "frontend",
+      "status": "open",
+      "fingerprint": "frontend|/adm|teste_frontend",
+      "createdAt": "2026-04-23T00:34:54.761Z"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "apr-1776904494247-rlt16b",
+      "type": "improvement",
+      "title": "Consolidar hooks duplicados de navegação",
+      "description": "Unificar hooks de GPS e fala para reduzir manutenção e divergência entre módulos.",
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2026-04-23T00:34:54.247Z"
+    },
+    {
+      "id": "apr-1776904494247-j2mt15",
+      "type": "repair",
+      "title": "Ativar coleta automática de erros do cliente",
+      "description": "Conectar o frontend ao endpoint /api/autonomy/report-client-error para consolidar incidentes reais.",
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2026-04-23T00:34:54.247Z"
+    }
+  ],
+  "patchHistory": [
+    {
+      "id": "patch-1777002642686-isixxn",
+      "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+      "actionType": "apply_multi_file_patch",
+      "scope": "autonomy",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+      "createdAt": "2026-04-24T03:50:42.686Z",
+      "updatedAt": "2026-04-24T03:50:42.686Z",
+      "kind": "multi_file",
+      "files": [
+        {
+          "path": "backend/src/modules/autonomy/autonomy.routes.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.controller.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.service.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+          "role": "create",
+          "area": "autonomy",
+          "impact": 32
+        }
+      ],
+      "affectedAreas": [
+        "autonomy"
+      ],
+      "impactScore": 172,
+      "complexity": "high",
+      "dependencyValidation": {
+        "ok": true,
+        "rules": [
+          {
+            "ok": true,
+            "code": "dependencies_ok",
+            "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+          }
+        ],
+        "summary": "Dependências cruzadas validadas com sucesso."
+      }
+    },
+    {
+      "id": "patch-1777002612681-q3fc4n",
+      "title": "Patch multiarquivo • Blindar estabilidade do núcleo autônomo",
+      "actionType": "apply_multi_file_patch",
+      "scope": "autonomy",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Atualização validada entre backend e frontend com dependências cruzadas checadas.",
+      "createdAt": "2026-04-24T03:50:12.681Z",
+      "updatedAt": "2026-04-24T03:50:12.681Z",
+      "kind": "multi_file",
+      "files": [
+        {
+          "path": "backend/src/modules/autonomy/autonomy.routes.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.controller.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "backend/src/modules/autonomy/autonomy.service.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/services/autonomyApi.js",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/pages/AutonomyCenterPage.jsx",
+          "role": "update",
+          "area": "autonomy",
+          "impact": 28
+        },
+        {
+          "path": "frontend/src/features/autonomy/components/AutonomyMultiPatchCard.jsx",
+          "role": "create",
+          "area": "autonomy",
+          "impact": 32
+        }
+      ],
+      "affectedAreas": [
+        "autonomy"
+      ],
+      "impactScore": 172,
+      "complexity": "high",
+      "dependencyValidation": {
+        "ok": true,
+        "rules": [
+          {
+            "ok": true,
+            "code": "dependencies_ok",
+            "message": "Dependências mínimas do patch multiarquivo estão consistentes."
+          }
+        ],
+        "summary": "Dependências cruzadas validadas com sucesso."
+      }
+    },
+    {
+      "id": "patch-1776952420000-jgojab",
+      "title": "Patch update_autonomy_state",
+      "actionType": "update_autonomy_state",
+      "scope": "autonomy_module",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Patch preparado para update_autonomy_state em modo supervised_autonomy.",
+      "createdAt": "2026-04-23T13:53:40.000Z",
+      "updatedAt": "2026-04-23T13:53:40.000Z"
+    },
+    {
+      "id": "patch-1776952419919-yp2lt0",
+      "title": "Patch update_autonomy_state",
+      "actionType": "update_autonomy_state",
+      "scope": "autonomy_module",
+      "status": "applied",
+      "missionId": "mission-stability-1",
+      "validationStatus": "approved",
+      "summary": "Patch preparado para update_autonomy_state em modo supervised_autonomy.",
+      "createdAt": "2026-04-23T13:53:39.919Z",
+      "updatedAt": "2026-04-23T13:53:39.919Z"
+    }
+  ],
+  "missionImpactHistory": [
+    {
+      "id": "impact-1777002642686",
+      "activeMissionId": "mission-stability-1",
+      "ranking": [
+        {
+          "missionId": "mission-ui-approval-1",
+          "title": "Conectar aprovação e rollback ao painel",
+          "totalScore": 89
+        },
+        {
+          "missionId": "mission-stability-1",
+          "title": "Blindar estabilidade do núcleo autônomo",
+          "totalScore": 86
+        }
+      ],
+      "createdAt": "2026-04-24T03:50:42.686Z"
+    },
+    {
+      "id": "impact-1777002612681",
+      "activeMissionId": "mission-stability-1",
+      "ranking": [
+        {
+          "missionId": "mission-ui-approval-1",
+          "title": "Conectar aprovação e rollback ao painel",
+          "totalScore": 89
+        },
+        {
+          "missionId": "mission-stability-1",
+          "title": "Blindar estabilidade do núcleo autônomo",
+          "totalScore": 88
+        }
+      ],
+      "createdAt": "2026-04-24T03:50:12.681Z"
+    }
+  ],
+  "governanceHistory": [
+    {
+      "id": "gov-1776980955145-5429py",
+      "context": "strategic_change",
+      "payload": {
+        "context": "strategic_change",
+        "actionType": "coordinated_execution"
+      },
+      "outcome": "review",
+      "dominantBrain": "strategic",
+      "weightedApproval": 0.45,
+      "recommendedMode": "supervised_autonomy",
+      "createdAt": "2026-04-23T21:49:15.145Z"
+    }
+  ],
+  "tribunalHistory": [
+    {
+      "id": "tribunal-1776981887321",
+      "title": "Conflito interno entre decisões",
+      "conflictType": "priority_dispute",
+      "severity": "medium",
+      "verdict": "approve_lowest_risk_path",
+      "status": "resolved",
+      "rationale": "Conflito resolvido pela rota de menor risco e maior reversibilidade.",
+      "createdAt": "2026-04-23T22:04:47.321Z"
+    }
+  ],
+  "interactionMemory": [
+    {
+      "id": "interaction-1777031936315",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:58:56.315Z"
+    },
+    {
+      "id": "interaction-1777031936311",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:58:56.311Z"
+    },
+    {
+      "id": "interaction-1777031917673",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:58:37.673Z"
+    },
+    {
+      "id": "interaction-1777031917666",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:58:37.666Z"
+    },
+    {
+      "id": "interaction-1777031824066",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:57:04.066Z"
+    },
+    {
+      "id": "interaction-1777031824056",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:57:04.056Z"
+    },
+    {
+      "id": "interaction-1777031719725",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:55:19.725Z"
+    },
+    {
+      "id": "interaction-1777031710078",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:55:10.078Z"
+    },
+    {
+      "id": "interaction-1777031708594",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:55:08.594Z"
+    },
+    {
+      "id": "interaction-1777031698078",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:54:58.078Z"
+    },
+    {
+      "id": "interaction-1777031460923",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:51:00.923Z"
+    },
+    {
+      "id": "interaction-1777031419855",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:50:19.855Z"
+    },
+    {
+      "id": "interaction-1777031390357",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:49:50.357Z"
+    },
+    {
+      "id": "interaction-1777030918611",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:41:58.611Z"
+    },
+    {
+      "id": "interaction-1777030918606",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:41:58.606Z"
+    },
+    {
+      "id": "interaction-1777030861209",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:41:01.209Z"
+    },
+    {
+      "id": "interaction-1777030855484",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:40:55.484Z"
+    },
+    {
+      "id": "interaction-1777030847193",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:40:47.193Z"
+    },
+    {
+      "id": "interaction-1777030847187",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:40:47.187Z"
+    },
+    {
+      "id": "interaction-1777030737803",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:38:57.803Z"
+    },
+    {
+      "id": "interaction-1777030737797",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo balanced_support",
+      "contextMode": "balanced_support",
+      "pressureScore": 0,
+      "createdAt": "2026-04-24T11:38:57.797Z"
+    },
+    {
+      "id": "interaction-1776995644943",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo reassurance_and_fix",
+      "contextMode": "reassurance_and_fix",
+      "pressureScore": 50,
+      "createdAt": "2026-04-24T01:54:04.943Z"
+    },
+    {
+      "id": "interaction-1776995551157",
+      "type": "human_context_analysis",
+      "summary": "Contexto humano analisado em modo reassurance_and_fix",
+      "contextMode": "reassurance_and_fix",
+      "pressureScore": 60,
+      "createdAt": "2026-04-24T01:52:31.157Z"
+    }
+  ],
+  "vendorEvaluations": [
+    {
+      "ok": true,
+      "version": "3.5.0",
+      "vendor": {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "category": "edge_security",
+        "monthlyCost": 20,
+        "reliability": 94,
+        "scalability": 95,
+        "lockInRisk": 28,
+        "integrationFit": 87,
+        "valueScore": 89,
+        "recommendation": "preferred"
+      },
+      "roiScore": 83,
+      "riskLevel": "low",
+      "decision": "negotiate_or_adopt",
+      "notes": [
+        "Comparar custo mensal com impacto operacional.",
+        "Evitar dependência externa sem plano de saída.",
+        "Validar integração antes de contrato longo."
+      ],
+      "generatedAt": "2026-04-24T02:07:02.768Z"
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal-1776996422771",
+      "target": "Render",
+      "objective": "melhorar custo-benefício e reduzir risco operacional",
+      "status": "drafted",
+      "openingPosition": "Solicitar melhor SLA, menor lock-in e período de teste.",
+      "requestedTerms": [
+        "desconto inicial",
+        "SLA claro",
+        "limite de gasto",
+        "cancelamento simples"
+      ],
+      "fallback": "manter fornecedor atual até validação técnica",
+      "riskGuardrails": [
+        "não aceitar contrato longo sem teste",
+        "não expor credenciais",
+        "não migrar produção sem rollback"
+      ],
+      "createdAt": "2026-04-24T02:07:02.771Z"
+    }
+  ],
+  "innovationLedger": [
+    {
+      "id": "innovation-1777031460690",
+      "type": "solution_synthesis",
+      "title": "Plano híbrido Megan 3.3",
+      "details": {
+        "id": "synthesis-1777031460690",
+        "title": "Plano híbrido Megan 3.3",
+        "strategy": "combinar impacto alto, risco controlado e execução incremental",
+        "ingredients": [
+          {
+            "id": "idea-deploy-guardian",
+            "title": "Guardião de deploy e ambiente",
+            "area": "deploy"
+          },
+          {
+            "id": "idea-self-healing-api",
+            "title": "API de autocorreção guiada",
+            "area": "backend"
+          },
+          {
+            "id": "idea-brain-coalition-playbooks",
+            "title": "Playbooks de coalizões por missão",
+            "area": "autonomy"
+          }
+        ],
+        "expectedImpact": 94,
+        "estimatedRisk": 27,
+        "phases": [
+          "Mapear dependências e escopo seguro",
+          "Aplicar mudança em camada isolada",
+          "Validar API, build e experiência visual",
+          "Registrar aprendizado no ledger de inovação"
+        ],
+        "recommendation": "approved_for_supervised_execution",
+        "createdAt": "2026-04-24T11:51:00.690Z"
+      },
+      "createdAt": "2026-04-24T11:51:00.690Z"
+    },
+    {
+      "id": "innovation-1777031419620",
+      "type": "solution_synthesis",
+      "title": "Plano híbrido Megan 3.3",
+      "details": {
+        "id": "synthesis-1777031419619",
+        "title": "Plano híbrido Megan 3.3",
+        "strategy": "combinar impacto alto, risco controlado e execução incremental",
+        "ingredients": [
+          {
+            "id": "idea-deploy-guardian",
+            "title": "Guardião de deploy e ambiente",
+            "area": "deploy"
+          },
+          {
+            "id": "idea-self-healing-api",
+            "title": "API de autocorreção guiada",
+            "area": "backend"
+          },
+          {
+            "id": "idea-brain-coalition-playbooks",
+            "title": "Playbooks de coalizões por missão",
+            "area": "autonomy"
+          }
+        ],
+        "expectedImpact": 94,
+        "estimatedRisk": 27,
+        "phases": [
+          "Mapear dependências e escopo seguro",
+          "Aplicar mudança em camada isolada",
+          "Validar API, build e experiência visual",
+          "Registrar aprendizado no ledger de inovação"
+        ],
+        "recommendation": "approved_for_supervised_execution",
+        "createdAt": "2026-04-24T11:50:19.620Z"
+      },
+      "createdAt": "2026-04-24T11:50:19.620Z"
+    },
+    {
+      "id": "innovation-1777031390133",
+      "type": "ideas_generated",
+      "title": "Novas ideias estratégicas geradas",
+      "details": {
+        "count": 4,
+        "context": "gerar soluções estratégicas para evolução da Megan OS"
+      },
+      "createdAt": "2026-04-24T11:49:50.133Z"
+    }
+  ],
+  "solutionSynthesisHistory": [
+    {
+      "id": "synthesis-1777031460690",
+      "title": "Plano híbrido Megan 3.3",
+      "strategy": "combinar impacto alto, risco controlado e execução incremental",
+      "ingredients": [
+        {
+          "id": "idea-deploy-guardian",
+          "title": "Guardião de deploy e ambiente",
+          "area": "deploy"
+        },
+        {
+          "id": "idea-self-healing-api",
+          "title": "API de autocorreção guiada",
+          "area": "backend"
+        },
+        {
+          "id": "idea-brain-coalition-playbooks",
+          "title": "Playbooks de coalizões por missão",
+          "area": "autonomy"
+        }
+      ],
+      "expectedImpact": 94,
+      "estimatedRisk": 27,
+      "phases": [
+        "Mapear dependências e escopo seguro",
+        "Aplicar mudança em camada isolada",
+        "Validar API, build e experiência visual",
+        "Registrar aprendizado no ledger de inovação"
+      ],
+      "recommendation": "approved_for_supervised_execution",
+      "createdAt": "2026-04-24T11:51:00.690Z"
+    },
+    {
+      "id": "synthesis-1777031419619",
+      "title": "Plano híbrido Megan 3.3",
+      "strategy": "combinar impacto alto, risco controlado e execução incremental",
+      "ingredients": [
+        {
+          "id": "idea-deploy-guardian",
+          "title": "Guardião de deploy e ambiente",
+          "area": "deploy"
+        },
+        {
+          "id": "idea-self-healing-api",
+          "title": "API de autocorreção guiada",
+          "area": "backend"
+        },
+        {
+          "id": "idea-brain-coalition-playbooks",
+          "title": "Playbooks de coalizões por missão",
+          "area": "autonomy"
+        }
+      ],
+      "expectedImpact": 94,
+      "estimatedRisk": 27,
+      "phases": [
+        "Mapear dependências e escopo seguro",
+        "Aplicar mudança em camada isolada",
+        "Validar API, build e experiência visual",
+        "Registrar aprendizado no ledger de inovação"
+      ],
+      "recommendation": "approved_for_supervised_execution",
+      "createdAt": "2026-04-24T11:50:19.620Z"
+    }
+  ]
+}

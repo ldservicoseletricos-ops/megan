@@ -1,0 +1,5 @@
+Megan Autonomy Core 2.9
+
+Novo pacote gerado sem utilizar o arquivo megan-autonomy-core-2.9-full-source-v2.zip.
+
+Inclui regras de emergência, modo crise, contenção de falhas, isolamento de módulos, recuperação progressiva e ledger de incidentes.

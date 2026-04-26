@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { systemController, decisionsController, tasksController } from '../controllers/system.controller.js'; const r=Router(); r.get('/system', systemController); r.get('/decisions', decisionsController); r.get('/tasks', tasksController); export default r;

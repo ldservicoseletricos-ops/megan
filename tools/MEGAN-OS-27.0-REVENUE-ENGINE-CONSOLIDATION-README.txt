@@ -1,0 +1,13 @@
+Megan OS 27.0 — Revenue Engine Consolidation
+
+Inclui central financeira, CRM comercial, funil de vendas, ofertas IA, automações de follow-up, alertas CEO e dashboard premium.
+
+Rotas principais:
+- GET /api/revenue-engine-27/status
+- GET /api/revenue-engine-27/dashboard
+- POST /api/revenue-engine-27/offers/create
+
+Frontend:
+- frontend/src/features/revenueEngine27/RevenueEngine27Page.jsx
+
+Pacote refeito com nome curto para evitar erro de carregamento do link.

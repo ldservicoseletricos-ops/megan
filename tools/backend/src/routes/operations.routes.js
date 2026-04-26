@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { operationsController, routinesController, alertsController } from '../controllers/operations.controller.js'; const r=Router(); r.get('/operations', operationsController); r.get('/routines', routinesController); r.get('/alerts', alertsController); export default r;

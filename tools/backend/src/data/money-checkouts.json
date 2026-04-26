@@ -1,0 +1,30 @@
+[
+  {
+    "id": "checkout_1776800827021_0ukmyk",
+    "leadId": "lead_1776800827020_ged55g",
+    "planId": "pro",
+    "planName": "Pro",
+    "amount": 297,
+    "currency": "BRL",
+    "status": "pending",
+    "provider": "simulation",
+    "checkoutUrl": "https://megan-omega.vercel.app/checkout/simulado/checkout_1776800827021_0ukmyk",
+    "stripeSessionId": "",
+    "stripePriceId": "",
+    "createdAt": "2026-04-21T19:47:07.021Z",
+    "updatedAt": "2026-04-21T19:47:08.426Z"
+  },
+  {
+    "id": "checkout_1776800492081_4tih6w",
+    "leadId": "lead_1776800492080_6n28na",
+    "planId": "starter",
+    "planName": "Starter",
+    "amount": 97,
+    "currency": "BRL",
+    "status": "paid",
+    "provider": "simulation",
+    "checkoutUrl": "/checkout/starter/lead_1776800492080_6n28na",
+    "createdAt": "2026-04-21T19:41:32.081Z",
+    "updatedAt": "2026-04-21T19:41:32.086Z"
+  }
+]

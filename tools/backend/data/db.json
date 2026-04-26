@@ -1,0 +1,278 @@
+{
+  "users": [
+    "luiz"
+  ],
+  "userProfiles": {
+    "default": {
+      "userId": "default",
+      "name": "default",
+      "responseStyle": "balanced",
+      "preferredMode": "general",
+      "favoriteDestinations": [],
+      "tags": [],
+      "createdAt": "2026-04-12T14:21:13.243Z",
+      "updatedAt": "2026-04-12T14:21:13.243Z"
+    },
+    "luiz": {
+      "userId": "luiz",
+      "name": "luiz",
+      "role": "user",
+      "responseStyle": "balanced",
+      "preferredMode": "general",
+      "createdAt": "2026-04-12T17:14:25.126Z",
+      "updatedAt": "2026-04-12T17:14:25.126Z"
+    }
+  },
+  "userMemories": {
+    "default": {
+      "facts": [],
+      "preferences": [],
+      "aliases": {},
+      "recentGoals": [],
+      "lastUpdatedAt": "2026-04-12T14:21:13.825Z"
+    },
+    "luiz": {
+      "facts": [],
+      "aliases": {},
+      "lastUpdatedAt": "2026-04-12T17:14:25.144Z",
+      "preferences": {
+        "responseStyle": "curta_e_direta",
+        "language": "pt-BR",
+        "prefersShortNavigationSpeech": true
+      },
+      "knownPlaces": {},
+      "episodicLearnings": [
+        {
+          "type": "greeting",
+          "text": "oi",
+          "outcome": "A Megan entregou uma resposta final.",
+          "utilityScore": 85,
+          "frictionScore": 12,
+          "destination": null,
+          "createdAt": "2026-04-12T17:14:25.140Z"
+        }
+      ],
+      "learningSignals": {
+        "totalInteractions": 1,
+        "successfulNavigations": 0,
+        "successfulWeatherChecks": 0,
+        "averageUtilityScore": 85
+      },
+      "improvementBacklog": [],
+      "evals": {
+        "totals": {
+          "totalRuns": 1,
+          "totalSuccesses": 1,
+          "totalNavigationSuccesses": 0,
+          "totalWeatherSuccesses": 0,
+          "totalClarifications": 0
+        },
+        "rates": {
+          "taskSuccessRate": 100,
+          "navigationSuccessRate": 0,
+          "weatherSuccessRate": 0,
+          "clarificationRate": 0,
+          "averageUtilityScore": 85,
+          "averageFrictionScore": 12
+        },
+        "updatedAt": "2026-04-12T17:14:25.140Z"
+      },
+      "reflection": {
+        "summary": "A Megan entregou uma resposta final.",
+        "utilityScore": 85,
+        "frictionScore": 12,
+        "actionScore": 90,
+        "replyScore": 80,
+        "wins": [
+          "A Megan entregou uma resposta final."
+        ],
+        "issues": [],
+        "suggestions": [],
+        "createdAt": "2026-04-12T17:14:25.140Z"
+      }
+    }
+  },
+  "userSessions": {
+    "default": {
+      "activeConversationId": "conv_1776003811589_zvyzmt",
+      "lastMessage": "oi",
+      "lastMode": "general",
+      "lastSeenAt": "2026-04-12T14:44:36.172Z"
+    },
+    "luiz": {
+      "activeConversationId": "conv_1776014065118",
+      "lastMessage": "oi",
+      "lastMode": "general",
+      "lastSeenAt": "2026-04-12T17:14:25.147Z"
+    }
+  },
+  "personalizedSettings": {
+    "default": {
+      "responseStyle": "balanced",
+      "navigationAutoOpen": true,
+      "conciseNavigationSpeech": true,
+      "mode": "general",
+      "updatedAt": "2026-04-12T14:21:14.018Z"
+    },
+    "luiz": {
+      "responseStyle": "balanced",
+      "mode": "general",
+      "updatedAt": "2026-04-12T17:14:25.131Z"
+    }
+  },
+  "userPermissions": {},
+  "projects": {},
+  "conversations": [
+    {
+      "id": "conv_1776003811589_zvyzmt",
+      "title": "Nova conversa",
+      "messages": [],
+      "createdAt": "2026-04-12T14:23:31.589Z",
+      "updatedAt": "2026-04-12T14:23:31.589Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1776014065149",
+      "createdAt": "2026-04-12T17:14:25.149Z",
+      "type": "chat_interaction",
+      "userId": "luiz",
+      "conversationId": "conv_1776014065118",
+      "intent": "greeting",
+      "action": "greeting",
+      "utilityScore": 85,
+      "frictionScore": 12
+    }
+  ],
+  "performanceSnapshots": [
+    {
+      "id": "perf_1776014065148",
+      "createdAt": "2026-04-12T17:14:25.148Z",
+      "userId": "luiz",
+      "conversationId": "conv_1776014065118",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1,
+      "utilityScore": 85,
+      "frictionScore": 12
+    },
+    {
+      "id": "perf_1776005076176",
+      "createdAt": "2026-04-12T14:44:36.176Z",
+      "userId": "default",
+      "conversationId": "conv_1776003811589_zvyzmt",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003827830",
+      "createdAt": "2026-04-12T14:23:47.830Z",
+      "userId": "default",
+      "conversationId": "conv_1776003811589_zvyzmt",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003777605",
+      "createdAt": "2026-04-12T14:22:57.605Z",
+      "userId": "default",
+      "conversationId": "conv_1776003730826_mwg7ju",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003763342",
+      "createdAt": "2026-04-12T14:22:43.342Z",
+      "userId": "default",
+      "conversationId": "conv_1776003730826_mwg7ju",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003752793",
+      "createdAt": "2026-04-12T14:22:32.793Z",
+      "userId": "default",
+      "conversationId": "conv_1776003730826_mwg7ju",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003736287",
+      "createdAt": "2026-04-12T14:22:16.287Z",
+      "userId": "default",
+      "conversationId": "conv_1776003730826_mwg7ju",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003707024",
+      "createdAt": "2026-04-12T14:21:47.024Z",
+      "userId": "default",
+      "conversationId": "b798cfcb-61c6-4aa3-b8c8-8dc0031e4038",
+      "responseStyle": "balanced",
+      "consensus": "navigation",
+      "stepsCount": 2
+    },
+    {
+      "id": "perf_1776003696374",
+      "createdAt": "2026-04-12T14:21:36.374Z",
+      "userId": "default",
+      "conversationId": "b798cfcb-61c6-4aa3-b8c8-8dc0031e4038",
+      "responseStyle": "balanced",
+      "consensus": "navigation",
+      "stepsCount": 2
+    },
+    {
+      "id": "perf_1776003685786",
+      "createdAt": "2026-04-12T14:21:25.786Z",
+      "userId": "default",
+      "conversationId": "b798cfcb-61c6-4aa3-b8c8-8dc0031e4038",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    },
+    {
+      "id": "perf_1776003674515",
+      "createdAt": "2026-04-12T14:21:14.515Z",
+      "userId": "default",
+      "conversationId": "b798cfcb-61c6-4aa3-b8c8-8dc0031e4038",
+      "responseStyle": "balanced",
+      "consensus": "response",
+      "stepsCount": 1
+    }
+  ],
+  "executiveQueue": [],
+  "pendingItems": [],
+  "autonomousRuns": [],
+  "learningLogs": [],
+  "strategyReports": [],
+  "selfUpgrades": [],
+  "ceoPanels": [],
+  "businessGoals": [],
+  "growthReports": [],
+  "salesReports": [],
+  "marketingReports": [],
+  "companyPanels": [],
+  "unifiedDecisions": [],
+  "commandCenter": [],
+  "teams": {},
+  "sharedMemories": {},
+  "subAccounts": {},
+  "departments": {},
+  "projectMemories": {},
+  "projectDashboards": {},
+  "projectAutomations": {},
+  "executivePriorities": {},
+  "operationalSupervision": {},
+  "delegationRuns": [],
+  "agentProfiles": {},
+  "strategicMemories": {},
+  "scheduledReviews": [],
+  "improvementsApplied": []
+}

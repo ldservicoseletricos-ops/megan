@@ -1,0 +1,12 @@
+MEGAN AUTONOMY CORE 1.1
+
+Novidades desta versão:
+- coleta real de erros do frontend
+- histórico visual de incidentes
+- fila de aprovação de melhorias e reparos semiautomáticos
+- endpoints: incidents, approvals, approve-action, reject-action, report-client-error
+
+Execução:
+1. Backend: npm install && npm run dev
+2. Frontend: npm install && npm run dev
+3. Abrir Painel ADM > Autonomia

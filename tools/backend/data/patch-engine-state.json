@@ -1,0 +1,308 @@
+{
+  "enabled": true,
+  "autoPromoteEnabled": true,
+  "lastGeneratedAt": "2026-04-19T02:14:09.110Z",
+  "lastAppliedAt": null,
+  "lastEvaluatedAt": null,
+  "lastRolledBackAt": null,
+  "lastPatchType": "supervised_stability_patch",
+  "targetFiles": [
+    "backend/src/services/runtime.scheduler.service.js"
+  ],
+  "patchObjective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+  "patchRisk": "médio",
+  "patchStatus": "draft_ready",
+  "confidence": 82,
+  "evolutionScore": 0,
+  "patchDraft": {
+    "summary": "Microcorreção supervisionada pronta para dry-run, aplicação segura e rollback.",
+    "sourceSignals": [
+      "loop_stalled"
+    ],
+    "steps": [
+      "Registrar contexto do ciclo atual",
+      "Escrever patch seguro em arquivo isolado",
+      "Avaliar resultado e score evolutivo",
+      "Promover apenas se o resultado continuar estável"
+    ],
+    "payload": {
+      "recommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js"
+      ],
+      "generatedAt": "2026-04-19T02:14:09.110Z",
+      "safeTarget": "app.self-healing.patch.txt"
+    }
+  },
+  "lastEvaluation": null,
+  "history": [
+    {
+      "createdAt": "2026-04-19T02:14:09.110Z",
+      "action": "generate",
+      "patchType": "supervised_stability_patch",
+      "patchObjective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "patchRisk": "médio",
+      "confidence": 82,
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-19T02:14:05.647Z",
+      "action": "generate",
+      "patchType": "supervised_stability_patch",
+      "patchObjective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "patchRisk": "médio",
+      "confidence": 82,
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-19T01:34:12.057Z",
+      "patchId": "patch_1776562452057_ridrty",
+      "patchType": "monitor_only",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/autonomy-core.service.js"
+      ],
+      "status": "draft_ready"
+    },
+    {
+      "createdAt": "2026-04-18T02:25:55.224Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:25:53.952Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:25:48.487Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:25:46.454Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:25:43.348Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:09:40.002Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.464Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.619Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.262Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.009Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.245Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.678Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.455Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.502Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.602Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.767Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:35:06.117Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:33:36.395Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:33:18.954Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T23:06:43.403Z",
+      "patchType": "operational_runtime_patch",
+      "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "patchRisk": "baixo",
+      "targetFiles": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    }
+  ],
+  "currentCandidate": {
+    "patchId": "patch_1776562452057_ridrty",
+    "createdAt": "2026-04-19T01:34:12.057Z",
+    "patchType": "monitor_only",
+    "targetFiles": [
+      "backend/src/services/autonomy-core.service.js"
+    ],
+    "patchObjective": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+    "patchRisk": "baixo",
+    "patchStatus": "draft_ready",
+    "patchDraft": {
+      "summary": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "strategy": "Aplicar somente marcador reversível e validar ganho antes da promoção.",
+      "steps": [
+        "Selecionar primeiro arquivo permitido",
+        "Executar dry-run",
+        "Criar backup real antes da aplicação",
+        "Aplicar marcador reversível",
+        "Avaliar ganho e promover apenas se houver melhora"
+      ],
+      "promotionGate": {
+        "minimumValidationScore": 85,
+        "minimumGain": 2,
+        "requiresRollbackOnFailure": true
+      }
+    }
+  },
+  "lastAppliedPatch": null,
+  "patchMemory": {
+    "successes": 0,
+    "failures": 0,
+    "promotionScore": 0,
+    "evolutionScore": 0,
+    "lastOutcome": null
+  }
+}

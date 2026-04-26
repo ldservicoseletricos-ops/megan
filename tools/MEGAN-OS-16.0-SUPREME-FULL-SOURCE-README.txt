@@ -1,0 +1,29 @@
+MEGAN OS 16.0 SUPREME FULL SOURCE
+
+Base principal priorizada:
+- megan-os-10.0-executive-operator-ai-novo-validado
+
+Complemento preservado:
+- megan-os-14.1-real-executive-neural-control-v2 em legacy_14_1_assets/
+
+Regra da fusão:
+- A base 10.0 foi mantida como prioridade.
+- Os arquivos principais da 10.0 não foram sobrescritos por arquivos da 14.1.
+- Recursos da 14.1 foram preservados em pasta separada para integração segura.
+- Versão marcada como 16.0.0 nos package.json principais.
+
+Como rodar backend:
+cd backend
+npm install
+npm run dev
+
+Como rodar frontend:
+cd frontend
+npm install
+npm run dev
+
+Validação feita antes da entrega:
+- ZIPs de origem testados.
+- Estrutura principal verificada.
+- package.json principais lidos e atualizados.
+- Arquivo ZIP final criado e testado com unzip -t.

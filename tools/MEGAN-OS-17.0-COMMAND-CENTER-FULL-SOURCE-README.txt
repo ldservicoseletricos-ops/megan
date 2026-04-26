@@ -1,0 +1,35 @@
+MEGAN OS 17.0 COMMAND CENTER FULL SOURCE
+
+Base preservada: Megan OS 16.0 Supreme / prioridade 10.0 consolidada.
+Upgrade novo: Chat Operacional conectado ao sistema real.
+
+Novidades:
+- Backend: /api/operator/system
+- Backend: /api/operator/chat
+- Backend: /api/operator/tasks
+- Backend: /api/operator/git/status
+- Frontend: aba Command Center 17.0
+- Chat para validar status real, estrutura backend/frontend, memória, processo Node e tarefas delegadas.
+- Tarefas registradas em backend/data/operator-command-tasks.json.
+- Logs registrados em backend/data/operator-command-log.json.
+
+Segurança:
+- Ações sensíveis ficam pendentes de validação humana.
+- O chat registra e prepara tarefas, sem executar comandos perigosos automaticamente.
+
+Como rodar:
+1. Backend:
+   cd C:\megan\backend
+   npm install
+   npm start
+
+2. Frontend:
+   cd C:\megan\frontend
+   npm install
+   npm run dev
+
+3. Acessar:
+   http://localhost:5173
+
+Aba nova:
+- Command Center 17.0

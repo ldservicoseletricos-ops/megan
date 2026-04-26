@@ -1,0 +1,171 @@
+{
+  "enabled": true,
+  "lastFallbackAt": "2026-04-19T02:14:09.130Z",
+  "fallbackTriggered": false,
+  "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+  "previousStrategy": "operational",
+  "nextStrategy": "operational",
+  "confidence": 78,
+  "history": [
+    {
+      "createdAt": "2026-04-18T02:38:26.533Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:58.731Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:57.624Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:56.411Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:55.246Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:53.970Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:48.499Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:46.475Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:25:43.368Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:09:40.020Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.480Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.631Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.279Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.038Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.265Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.698Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.469Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.520Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 96
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.623Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 94
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.816Z",
+      "fallbackTriggered": false,
+      "fallbackReason": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "previousStrategy": "operational",
+      "nextStrategy": "operational",
+      "validationScore": 100
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+MEGAN OS 24.0 — REAL ACTION ENGINE
+
+Pacote completo com chat operacional real supervisionado.
+
+Como rodar:
+1. Backend:
+   cd backend
+   npm install
+   npm start
+
+2. Frontend:
+   cd frontend
+   npm install
+   npm run dev
+
+Rota principal do novo motor:
+/api/real-action-engine-24
+
+Painel novo no frontend:
+Real Action Engine 24.0

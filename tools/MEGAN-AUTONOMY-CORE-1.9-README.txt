@@ -1,0 +1,13 @@
+MEGAN AUTONOMY CORE 1.9
+
+Novidades:
+- coordenação de múltiplos cérebros internos
+- especialização de módulos por cérebro
+- delegação automática de missões
+- painel frontend para acompanhar cérebros, especialização e despacho
+
+Rotas novas:
+GET /api/autonomy/brains
+GET /api/autonomy/modules/specialization
+POST /api/autonomy/delegation/plan
+POST /api/autonomy/delegation/dispatch

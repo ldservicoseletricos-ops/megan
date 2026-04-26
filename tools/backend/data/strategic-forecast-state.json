@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "horizon": "30d",
+  "confidence": 0,
+  "primaryForecast": "Nenhuma previsão gerada",
+  "opportunities": [],
+  "risks": [],
+  "recommendedMoves": [],
+  "trendSignals": []
+}

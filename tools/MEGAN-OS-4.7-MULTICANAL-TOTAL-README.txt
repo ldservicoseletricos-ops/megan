@@ -1,0 +1,11 @@
+MEGAN OS 4.7 — MULTICANAL TOTAL
+
+Foco: WhatsApp, Email, Telegram, Instagram, Site, CRM e Google Workspace.
+
+Rotas:
+GET /api/multichannel/dashboard
+POST /api/multichannel/route-message
+POST /api/multichannel/execute-next
+
+Frontend:
+Aba Multicanal 4.7 com canais, inbox unificado, automações e ações recentes.

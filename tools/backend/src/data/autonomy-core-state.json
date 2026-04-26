@@ -1,0 +1,39 @@
+{
+  "mode": "autonomy_supervised",
+  "score": 82,
+  "weeklyNorthStar": "Aumentar autonomia com segurança, receita e estabilidade.",
+  "currentDirective": "Detectar, priorizar, testar e recomendar publicação sem quebrar a operação.",
+  "observers": [],
+  "queue": [],
+  "learningLog": [
+    {
+      "id": "learn-1776803195410",
+      "createdAt": "2026-04-21T20:26:35.410Z",
+      "title": "Ação de autonomia executada",
+      "summary": "Pipeline comercial atualizado com 4 leads."
+    },
+    {
+      "id": "learn-1776803162837",
+      "createdAt": "2026-04-21T20:26:02.837Z",
+      "title": "Ação de autonomia executada",
+      "summary": "Pipeline comercial atualizado com 4 leads."
+    }
+  ],
+  "actionHistory": [
+    {
+      "id": "action-1776803195410",
+      "action": "refresh_revenue",
+      "resultSummary": "Pipeline comercial atualizado com 4 leads.",
+      "createdAt": "2026-04-21T20:26:35.410Z"
+    },
+    {
+      "id": "action-1776803162837",
+      "action": "refresh_revenue",
+      "resultSummary": "Pipeline comercial atualizado com 4 leads.",
+      "createdAt": "2026-04-21T20:26:02.837Z"
+    }
+  ],
+  "lastScanAt": null,
+  "lastActionAt": "2026-04-21T20:26:35.410Z",
+  "lastAction": "refresh_revenue"
+}

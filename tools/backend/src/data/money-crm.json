@@ -1,0 +1,47 @@
+[
+  {
+    "id": "crm_1776800827021_5pf4fg",
+    "leadId": "lead_1776800827020_ged55g",
+    "leadName": "Luiz",
+    "email": "luiz@example.com",
+    "company": "",
+    "planId": "pro",
+    "stage": "proposal",
+    "owner": "Megan Sales",
+    "temperature": "warm",
+    "notes": "Checkout iniciado no modo simulation.",
+    "nextAction": "Follow-up de checkout e proposta comercial",
+    "createdAt": "2026-04-21T19:47:07.021Z",
+    "updatedAt": "2026-04-21T19:47:07.022Z"
+  },
+  {
+    "id": "crm_1776800492081_v41dhx",
+    "leadId": "lead_1776800492080_6n28na",
+    "leadName": "Luiz",
+    "email": "luiz.checkout@example.com",
+    "company": "LR",
+    "planId": "starter",
+    "stage": "won",
+    "owner": "Megan Sales",
+    "temperature": "warm",
+    "notes": "Checkout atualizado para paid.",
+    "nextAction": "Iniciar onboarding pago e ativação do cliente.",
+    "createdAt": "2026-04-21T19:41:32.081Z",
+    "updatedAt": "2026-04-21T19:41:32.086Z"
+  },
+  {
+    "id": "crm_1776800492063_h7ry8c",
+    "leadId": "lead_1776800492062_c5zkdn",
+    "leadName": "Luiz",
+    "email": "luiz@example.com",
+    "company": "LR",
+    "planId": "pro",
+    "stage": "proposal",
+    "owner": "Megan Sales",
+    "temperature": "warm",
+    "notes": "",
+    "nextAction": "Realizar contato inicial em até 24h",
+    "createdAt": "2026-04-21T19:41:32.063Z",
+    "updatedAt": "2026-04-21T19:41:32.076Z"
+  }
+]

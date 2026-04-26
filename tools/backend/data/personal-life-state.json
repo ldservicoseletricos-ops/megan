@@ -1,0 +1,260 @@
+{
+  "updatedAt": "2026-04-24T15:13:26.182Z",
+  "version": "5.3.0",
+  "title": "Megan OS 5.3 — MEGAN PERSONAL LIFE OS",
+  "focus": "Versão pessoal para rotina, metas, saúde, dinheiro, foco e produtividade em um painel diário.",
+  "mode": "personal_life_os",
+  "readiness": {
+    "score": 93,
+    "status": "pronto_para_uso_pessoal_diario",
+    "safety": "ações sensíveis exigem confirmação do usuário",
+    "nextRelease": "5.4 automações pessoais conectadas com calendário, finanças e hábitos reais"
+  },
+  "daily": {
+    "owner": "Luiz Rosa",
+    "date": "2026-04-24",
+    "lifeScore": 87,
+    "energy": 82,
+    "focusScore": 78,
+    "productivityScore": 84,
+    "financialScore": 81,
+    "healthScore": 86,
+    "priority": "Proteger 2 blocos de foco e concluir a tarefa de maior impacto antes das 12h.",
+    "nextBestAction": "Executar bloco de foco de 50 minutos no projeto Megan OS."
+  },
+  "routine": [
+    {
+      "id": "routine-001",
+      "title": "Revisar agenda do dia",
+      "area": "manhã",
+      "status": "pendente",
+      "time": "08:00",
+      "impact": "clareza"
+    },
+    {
+      "id": "routine-002",
+      "title": "Bloco de foco Megan OS",
+      "area": "trabalho",
+      "status": "pendente",
+      "time": "09:00",
+      "impact": "progresso"
+    },
+    {
+      "id": "routine-003",
+      "title": "Checar finanças pessoais",
+      "area": "dinheiro",
+      "status": "pendente",
+      "time": "17:30",
+      "impact": "controle"
+    },
+    {
+      "id": "routine-004",
+      "title": "Planejar amanhã",
+      "area": "noite",
+      "status": "pendente",
+      "time": "21:00",
+      "impact": "organização"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-life-001",
+      "title": "Evoluir Megan OS diariamente",
+      "area": "projeto",
+      "progress": 76,
+      "target": 100,
+      "current": 76,
+      "deadline": "30 dias",
+      "nextStep": "Finalizar camada pessoal 5.3 e preparar 5.4."
+    },
+    {
+      "id": "goal-life-002",
+      "title": "Aumentar produtividade semanal",
+      "area": "produtividade",
+      "progress": 68,
+      "target": 100,
+      "current": 68,
+      "deadline": "7 dias",
+      "nextStep": "Manter 2 blocos de foco por dia."
+    },
+    {
+      "id": "goal-life-003",
+      "title": "Organizar dinheiro pessoal",
+      "area": "dinheiro",
+      "progress": 61,
+      "target": 100,
+      "current": 61,
+      "deadline": "30 dias",
+      "nextStep": "Registrar entradas e saídas diariamente."
+    },
+    {
+      "id": "goal-life-004",
+      "title": "Manter saúde e energia",
+      "area": "saúde",
+      "progress": 72,
+      "target": 100,
+      "current": 72,
+      "deadline": "contínuo",
+      "nextStep": "Adicionar check-in rápido no fim do dia."
+    }
+  ],
+  "health": {
+    "checkins": [
+      {
+        "id": "health-001",
+        "date": "2026-04-24",
+        "energy": 82,
+        "mood": "focado",
+        "sleepHours": 7,
+        "water": "médio",
+        "movement": "leve",
+        "note": "Dia bom para foco e decisões."
+      }
+    ],
+    "habits": [
+      {
+        "id": "habit-001",
+        "title": "Água",
+        "streak": 4,
+        "status": "ativo"
+      },
+      {
+        "id": "habit-002",
+        "title": "Movimento",
+        "streak": 2,
+        "status": "ativo"
+      },
+      {
+        "id": "habit-003",
+        "title": "Sono",
+        "streak": 3,
+        "status": "ativo"
+      }
+    ]
+  },
+  "money": {
+    "income": 6200,
+    "expenses": 3180,
+    "balance": 3020,
+    "savingsGoal": 12000,
+    "savingsCurrent": 7400,
+    "entries": [
+      {
+        "id": "money-001",
+        "type": "entrada",
+        "label": "Receita principal",
+        "amount": 5200,
+        "category": "renda",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "money-002",
+        "type": "entrada",
+        "label": "Projeto digital",
+        "amount": 1000,
+        "category": "extra",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "money-003",
+        "type": "saida",
+        "label": "Contas fixas",
+        "amount": 2180,
+        "category": "fixo",
+        "date": "2026-04-24"
+      },
+      {
+        "id": "money-004",
+        "type": "saida",
+        "label": "Ferramentas de trabalho",
+        "amount": 1000,
+        "category": "projeto",
+        "date": "2026-04-24"
+      }
+    ]
+  },
+  "focusCenter": {
+    "activeMode": "deep_work",
+    "sessionsToday": 2,
+    "minutesToday": 100,
+    "distractionsBlocked": 6,
+    "sessions": [
+      {
+        "id": "focus-001",
+        "title": "Megan OS evolução",
+        "minutes": 50,
+        "status": "planejado",
+        "startedAt": null
+      },
+      {
+        "id": "focus-002",
+        "title": "Organização financeira",
+        "minutes": 25,
+        "status": "planejado",
+        "startedAt": null
+      }
+    ]
+  },
+  "productivity": {
+    "score": 84,
+    "completed": 7,
+    "pending": 4,
+    "actions": [
+      {
+        "id": "prod-001",
+        "title": "Priorizar tarefa principal",
+        "status": "recomendado",
+        "impact": "alto"
+      },
+      {
+        "id": "prod-002",
+        "title": "Agrupar respostas e mensagens em 2 janelas",
+        "status": "recomendado",
+        "impact": "médio"
+      },
+      {
+        "id": "prod-003",
+        "title": "Revisar plano semanal no domingo",
+        "status": "recomendado",
+        "impact": "alto"
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "id": "decision-001",
+      "title": "O que fazer primeiro hoje?",
+      "recommendation": "Começar pelo bloco de foco Megan OS antes de abrir tarefas pequenas.",
+      "confidence": 91
+    },
+    {
+      "id": "decision-002",
+      "title": "Como melhorar dinheiro?",
+      "recommendation": "Registrar gastos por 7 dias e cortar ferramentas duplicadas.",
+      "confidence": 84
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-life-001",
+      "level": "atenção",
+      "title": "Rotina com muitos blocos abertos",
+      "action": "Escolher 3 prioridades reais para hoje."
+    },
+    {
+      "id": "alert-life-002",
+      "level": "oportunidade",
+      "title": "Alta energia detectada",
+      "action": "Usar a manhã para decisões difíceis."
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-life-001",
+      "type": "personal_life_boot",
+      "title": "Personal Life OS 5.3 iniciado",
+      "detail": "Rotina, metas, saúde, dinheiro, foco e produtividade carregados.",
+      "createdAt": "2026-04-24T15:13:26.182Z"
+    }
+  ]
+}

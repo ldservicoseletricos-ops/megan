@@ -1,0 +1,308 @@
+{
+  "version": "4.6.0",
+  "status": "active_supervised",
+  "title": "Megan OS 4.6 — AGENTES AUTÔNOMOS REAIS",
+  "focus": "Agentes executam ciclos recorrentes sem depender de comando manual, com limites de segurança e supervisão.",
+  "autonomyLevel": 82,
+  "safetyMode": "supervisionado",
+  "agents": [
+    {
+      "id": "sales-agent",
+      "name": "Agente Vendas",
+      "area": "vendas",
+      "status": "running",
+      "cadence": "a cada 15 minutos",
+      "lastRun": "2026-04-26T03:10:31.315Z",
+      "nextAction": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "permissions": [
+        "crm.read",
+        "crm.write",
+        "proposal.create",
+        "message.draft"
+      ],
+      "requiresApprovalFor": [
+        "send_message",
+        "charge_customer"
+      ]
+    },
+    {
+      "id": "support-agent",
+      "name": "Agente Suporte",
+      "area": "suporte",
+      "status": "running",
+      "cadence": "a cada 10 minutos",
+      "lastRun": "2026-04-26T03:10:31.315Z",
+      "nextAction": "ler solicitações, responder dúvidas comuns e escalar casos críticos",
+      "permissions": [
+        "inbox.read",
+        "ticket.write",
+        "message.draft"
+      ],
+      "requiresApprovalFor": [
+        "refund",
+        "contract_change"
+      ]
+    },
+    {
+      "id": "deploy-agent",
+      "name": "Agente Deploy",
+      "area": "deploy",
+      "status": "running",
+      "cadence": "sob mudança aprovada",
+      "lastRun": "2026-04-26T03:10:31.315Z",
+      "nextAction": "validar build, preparar publicação e acompanhar Render/Vercel/GitHub",
+      "permissions": [
+        "github.read",
+        "render.status",
+        "vercel.status"
+      ],
+      "requiresApprovalFor": [
+        "production_deploy",
+        "rollback"
+      ]
+    },
+    {
+      "id": "finance-agent",
+      "name": "Agente Financeiro",
+      "area": "financeiro",
+      "status": "running",
+      "cadence": "diário às 08:00",
+      "lastRun": "2026-04-26T03:10:31.315Z",
+      "nextAction": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "permissions": [
+        "stripe.read",
+        "billing.read",
+        "invoice.draft"
+      ],
+      "requiresApprovalFor": [
+        "send_invoice",
+        "cancel_subscription"
+      ]
+    }
+  ],
+  "queue": [
+    {
+      "id": "task-sales-001",
+      "agentId": "sales-agent",
+      "title": "Qualificar leads quentes",
+      "priority": 96,
+      "status": "waiting_approval",
+      "action": "separar leads por intenção de compra e criar proposta inicial"
+    },
+    {
+      "id": "task-support-001",
+      "agentId": "support-agent",
+      "title": "Responder solicitações pendentes",
+      "priority": 91,
+      "status": "waiting_approval",
+      "action": "gerar respostas seguras para dúvidas comuns"
+    },
+    {
+      "id": "task-deploy-001",
+      "agentId": "deploy-agent",
+      "title": "Verificar saúde de produção",
+      "priority": 88,
+      "status": "waiting_approval",
+      "action": "checar backend, frontend, logs e variáveis críticas"
+    },
+    {
+      "id": "task-finance-001",
+      "agentId": "finance-agent",
+      "title": "Acompanhar caixa e cobrança",
+      "priority": 93,
+      "status": "waiting_approval",
+      "action": "identificar pagamentos atrasados e preparar lembretes"
+    }
+  ],
+  "executions": [
+    {
+      "id": "exec-approved-1777173032955-ccc990",
+      "agentId": "finance-agent",
+      "agentName": "Agente Financeiro",
+      "area": "supervisionado",
+      "status": "approved_executed",
+      "taskTitle": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "action": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "result": "Ação aprovada e marcada para execução real pelo conector correspondente.",
+      "createdAt": "2026-04-26T03:10:32.955Z"
+    },
+    {
+      "id": "exec-1777173031315-21d481",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "area": "vendas",
+      "status": "draft_ready",
+      "taskTitle": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "action": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "exec-1777173031315-0f13d0",
+      "agentId": "support-agent",
+      "agentName": "Agente Suporte",
+      "area": "suporte",
+      "status": "draft_ready",
+      "taskTitle": "ler solicitações, responder dúvidas comuns e escalar casos críticos",
+      "action": "ler solicitações, responder dúvidas comuns e escalar casos críticos",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "exec-1777173031315-d81aa7",
+      "agentId": "deploy-agent",
+      "agentName": "Agente Deploy",
+      "area": "deploy",
+      "status": "draft_ready",
+      "taskTitle": "Verificar saúde de produção",
+      "action": "checar backend, frontend, logs e variáveis críticas",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "exec-1777173031315-5683fe",
+      "agentId": "finance-agent",
+      "agentName": "Agente Financeiro",
+      "area": "financeiro",
+      "status": "draft_ready",
+      "taskTitle": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "action": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "exec-1777171927561-65c63c",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "area": "vendas",
+      "status": "draft_ready",
+      "taskTitle": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "action": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T02:52:07.561Z"
+    },
+    {
+      "id": "exec-1777171920494-99a5e6",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "area": "vendas",
+      "status": "draft_ready",
+      "taskTitle": "Qualificar leads quentes",
+      "action": "separar leads por intenção de compra e criar proposta inicial",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    },
+    {
+      "id": "exec-1777171920494-288a01",
+      "agentId": "support-agent",
+      "agentName": "Agente Suporte",
+      "area": "suporte",
+      "status": "draft_ready",
+      "taskTitle": "Responder solicitações pendentes",
+      "action": "gerar respostas seguras para dúvidas comuns",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    },
+    {
+      "id": "exec-1777171920494-718193",
+      "agentId": "finance-agent",
+      "agentName": "Agente Financeiro",
+      "area": "financeiro",
+      "status": "draft_ready",
+      "taskTitle": "Acompanhar caixa e cobrança",
+      "action": "identificar pagamentos atrasados e preparar lembretes",
+      "result": "Ação preparada como rascunho supervisionado.",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "approval-1777173031315-e8942c",
+      "executionId": "exec-1777173031315-5683fe",
+      "agentId": "finance-agent",
+      "agentName": "Agente Financeiro",
+      "title": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "requestedAction": "acompanhar caixa, cobranças, vencimentos e alertas financeiros",
+      "status": "approved",
+      "createdAt": "2026-04-26T03:10:31.315Z",
+      "decidedAt": "2026-04-26T03:10:32.955Z"
+    },
+    {
+      "id": "approval-1777173031315-d991ac",
+      "executionId": "exec-1777173031315-d81aa7",
+      "agentId": "deploy-agent",
+      "agentName": "Agente Deploy",
+      "title": "Verificar saúde de produção",
+      "requestedAction": "checar backend, frontend, logs e variáveis críticas",
+      "status": "pending",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "approval-1777173031315-0ebc18",
+      "executionId": "exec-1777173031315-0f13d0",
+      "agentId": "support-agent",
+      "agentName": "Agente Suporte",
+      "title": "ler solicitações, responder dúvidas comuns e escalar casos críticos",
+      "requestedAction": "ler solicitações, responder dúvidas comuns e escalar casos críticos",
+      "status": "pending",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "approval-1777173031315-1c4279",
+      "executionId": "exec-1777173031315-21d481",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "title": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "requestedAction": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "status": "pending",
+      "createdAt": "2026-04-26T03:10:31.315Z"
+    },
+    {
+      "id": "approval-1777171927561-252a5a",
+      "executionId": "exec-1777171927561-65c63c",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "title": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "requestedAction": "captar leads, qualificar oportunidades e iniciar follow-up",
+      "status": "pending",
+      "createdAt": "2026-04-26T02:52:07.561Z"
+    },
+    {
+      "id": "approval-1777171920494-2afe1d",
+      "executionId": "exec-1777171920494-718193",
+      "agentId": "finance-agent",
+      "agentName": "Agente Financeiro",
+      "title": "Acompanhar caixa e cobrança",
+      "requestedAction": "identificar pagamentos atrasados e preparar lembretes",
+      "status": "pending",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    },
+    {
+      "id": "approval-1777171920494-ccefa1",
+      "executionId": "exec-1777171920494-288a01",
+      "agentId": "support-agent",
+      "agentName": "Agente Suporte",
+      "title": "Responder solicitações pendentes",
+      "requestedAction": "gerar respostas seguras para dúvidas comuns",
+      "status": "pending",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    },
+    {
+      "id": "approval-1777171920494-77b2e4",
+      "executionId": "exec-1777171920494-99a5e6",
+      "agentId": "sales-agent",
+      "agentName": "Agente Vendas",
+      "title": "Qualificar leads quentes",
+      "requestedAction": "separar leads por intenção de compra e criar proposta inicial",
+      "status": "pending",
+      "createdAt": "2026-04-26T02:52:00.494Z"
+    }
+  ],
+  "policies": [
+    "Nunca enviar cobrança real sem aprovação.",
+    "Nunca publicar deploy de produção sem aprovação.",
+    "Nunca apagar dados de clientes automaticamente.",
+    "Mensagens externas podem ser geradas como rascunho antes do envio.",
+    "Toda execução autônoma deve gerar log auditável."
+  ]
+}

@@ -1,0 +1,45 @@
+MEGAN OS 17.1 AUTO LOGIN FIX
+
+Objetivo:
+Corrigir o problema em que a Megan OS voltava para a tela de login toda vez que a página era atualizada.
+
+Causa encontrada:
+O token era salvo em localStorage, mas as chamadas para /api/auth/session não enviavam o header Authorization: Bearer <token>.
+Assim, ao atualizar a página, o backend rejeitava a sessão como inválida e o frontend removia o usuário da tela.
+
+Arquivos alterados:
+- frontend/src/lib/api.js
+- frontend/src/lib/authApi.js
+- frontend/src/hooks/useAuth.js
+- frontend/src/components/ProtectedRoute.jsx
+- frontend/package.json
+- backend/package.json
+
+Correções aplicadas:
+1. api.js agora injeta automaticamente Authorization: Bearer megan_token em todas as chamadas autenticadas.
+2. authApi.js agora salva token e usuário em localStorage.
+3. useAuth.js agora restaura usuário salvo ao abrir a página e valida a sessão com o backend.
+4. Logout remove token e usuário corretamente.
+5. Tratamento robusto para localStorage bloqueado ou corrompido.
+
+Como testar:
+1. Backend:
+   cd C:\megan\backend
+   npm install
+   npm start
+
+2. Frontend:
+   cd C:\megan\frontend
+   npm install
+   npm run dev
+
+3. Acesse http://localhost:5173
+4. Faça login.
+5. Atualize a página com F5.
+6. Resultado esperado: a Megan OS permanece logada.
+
+Validação realizada:
+- Estrutura preservada.
+- Arquivos principais de autenticação conferidos.
+- Build do frontend executado.
+- ZIP final testado com unzip -t.

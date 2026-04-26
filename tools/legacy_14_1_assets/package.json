@@ -1,0 +1,8 @@
+{
+  "name": "megan-os",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

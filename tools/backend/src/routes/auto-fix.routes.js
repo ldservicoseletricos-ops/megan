@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { autoFixController } from '../controllers/auto-fix.controller.js'; const router = Router(); router.get('/auto-fix', autoFixController); export default router;

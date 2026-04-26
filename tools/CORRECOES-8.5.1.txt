@@ -1,0 +1,18 @@
+Megan OS 8.5.1 - correção em cima do pacote 8.5 que estava funcionando
+
+Correções feitas:
+1. backend/src/app.js agora carrega rotas com safeUse(), evitando crash quando um módulo opcional não existir.
+2. Adicionados módulos compatíveis mínimos para stripe-autopilot, persistent-core e integrations, sem alterar o restante do sistema.
+3. Mantido o frontend e a estrutura funcional do pacote 8.5 como base.
+4. Backend validado com npm install e startup sem erro de MODULE_NOT_FOUND.
+5. Frontend validado com npm run build.
+
+Comando backend:
+cd C:\megan\backend
+npm install
+npm run dev
+
+Comando frontend:
+cd C:\megan\frontend
+npm install
+npm run dev

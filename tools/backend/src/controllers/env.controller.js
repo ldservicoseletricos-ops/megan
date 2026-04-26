@@ -1,0 +1,1 @@
+import { getEnvChecklist, getReadiness } from '../services/env-check.service.js'; export function envChecklistController(req, res) { const checklist = getEnvChecklist(); res.json({ ok: true, checklist, readiness: getReadiness(checklist) }); }

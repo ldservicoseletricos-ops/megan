@@ -1,0 +1,724 @@
+{
+  "project": "Megan OS",
+  "category": "IA",
+  "status": "Ativa",
+  "activeMission": "Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima",
+  "currentProblem": "Missão recebida e em análise adaptativa",
+  "nextStep": "Executar primeiro a ação com maior score. Referência: operational / operational_runtime_patch / Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+  "lastUserMessage": "Quero evoluir a Megan para autonomia máxima",
+  "lastReply": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+  "runtimeMode": "Adaptive Priority Loop Integration",
+  "activeBrain": "operational",
+  "brainConfidence": 86,
+  "brainReason": "Missão roteada inicialmente para Operational Brain por classificação operational.",
+  "memoryDrivenDecision": {
+    "usedStablePattern": "operational / operational_runtime_patch / Executar missão com priorização adaptativa: Resuma o estado atual da Megan OS",
+    "avoidedPattern": "Nenhum padrão instável registrado",
+    "decisionReason": "O loop usou o padrão estável mais recente como referência de decisão."
+  },
+  "fallbackDecision": {
+    "triggered": false,
+    "reason": "Nenhum fallback necessário. Estratégia atual mantida.",
+    "previousStrategy": "operational",
+    "nextStrategy": "operational",
+    "confidence": 78
+  },
+  "adaptivePriority": {
+    "highestPriorityAction": "brain_routing",
+    "downgradedActions": [
+      "self_healing",
+      "fallback_strategy"
+    ],
+    "priorityReason": "Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.",
+    "actionScores": {
+      "brain_routing": 100,
+      "self_healing": 48,
+      "patch_generation": 100,
+      "execution_plan": 100,
+      "fallback_strategy": 0
+    }
+  },
+  "systemHealth": "stable",
+  "priorityNow": "brain_routing",
+  "currentExecution": "running",
+  "lastLoopSummary": "Executando: Executar prioridade adaptativa máxima do ciclo",
+  "bottleneckNow": "Loop autônomo aparenta estar parado ou sem progresso.",
+  "suggestedImprovement": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+  "riskLevel": "médio",
+  "evolutionProgress": 88,
+  "validationScore": 96,
+  "autoLoopEnabled": false,
+  "lastValidationResult": "Validação com priorização adaptativa integrada aprovada com score 96.",
+  "selfHealing": {
+    "enabled": true,
+    "lastDetectedIssue": "Loop autônomo aparenta estar parado ou sem progresso.",
+    "currentRecommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+    "suggestedFiles": [
+      "backend/src/services/runtime.scheduler.service.js"
+    ],
+    "patchDraft": {
+      "type": "stability_micro_patch",
+      "objective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "risk": "médio",
+      "sourceSignals": [
+        "loop_stalled"
+      ]
+    },
+    "lastScanAt": "2026-04-19T02:14:09.104Z"
+  },
+  "patchEngine": {
+    "lastPatchType": "supervised_stability_patch",
+    "patchObjective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+    "patchRisk": "médio",
+    "patchStatus": "draft_ready",
+    "targetFiles": [
+      "backend/src/services/runtime.scheduler.service.js"
+    ],
+    "patchDraft": {
+      "summary": "Microcorreção supervisionada pronta para dry-run, aplicação segura e rollback.",
+      "sourceSignals": [
+        "loop_stalled"
+      ],
+      "steps": [
+        "Registrar contexto do ciclo atual",
+        "Escrever patch seguro em arquivo isolado",
+        "Avaliar resultado e score evolutivo",
+        "Promover apenas se o resultado continuar estável"
+      ],
+      "payload": {
+        "recommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+        "targetFiles": [
+          "backend/src/services/runtime.scheduler.service.js"
+        ],
+        "generatedAt": "2026-04-19T02:14:09.110Z",
+        "safeTarget": "app.self-healing.patch.txt"
+      }
+    },
+    "lastGeneratedAt": "2026-04-19T02:14:09.110Z"
+  },
+  "executionPlan": {
+    "activePlanId": "plan_1776564849116_ntuk9r",
+    "planTitle": "Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima",
+    "planStatus": "running",
+    "currentStepIndex": 0,
+    "steps": [
+      {
+        "id": "step_1",
+        "title": "Analisar estado atual",
+        "status": "pending",
+        "objective": "Revisar missão, brain ativo e gargalos do momento"
+      },
+      {
+        "id": "step_2",
+        "title": "Aplicar melhoria sugerida",
+        "status": "pending",
+        "objective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover."
+      },
+      {
+        "id": "step_3",
+        "title": "Validar resultado",
+        "status": "pending",
+        "objective": "Confirmar se a execução melhorou o estado central"
+      },
+      {
+        "id": "step_4",
+        "title": "Fechar execução",
+        "status": "pending",
+        "objective": "Encerrar ciclo do brain operational"
+      }
+    ],
+    "lastExecutionSummary": "Plano criado com 4 etapas."
+  },
+  "autonomyStrategist": {
+    "strategistScore": 61,
+    "goalClarity": 64,
+    "initiativeReadiness": 67,
+    "strategicFocus": "stabilize-and-learn",
+    "primaryObjective": "Consolidar memória técnica e preparar metas supervisionadas.",
+    "expansionVector": "Incremental supervision",
+    "strategistDirective": "Coletar sinais, validar mudanças pequenas e só então ampliar o escopo.",
+    "nextStrategicMove": "Revisar aprendizado recente e definir um objetivo curto.",
+    "lastStrategistAt": "2026-04-19T02:14:09.143Z"
+  },
+  "metaGoalEngine": {
+    "metaGoalScore": 59,
+    "goalPortfolioHealth": 57,
+    "autonomyAim": "stability-first",
+    "goalTimeHorizon": "imediato",
+    "primaryMetaGoal": "Reduzir risco e consolidar aprendizado validado.",
+    "secondaryMetaGoal": "Preparar novos ciclos de evolução supervisionada.",
+    "goalDirective": "Manter metas pequenas, reversíveis e orientadas por validação.",
+    "nextGoalReview": "Aguardar novo ciclo do estrategista antes de revisar metas.",
+    "lastMetaGoalAt": "2026-04-19T02:14:09.143Z"
+  },
+  "goalDecomposer": {
+    "decomposerScore": 58,
+    "goalBreakdownReadiness": 57,
+    "subgoalCount": 4,
+    "executionComplexity": 45,
+    "primarySubgoal": "Mapear a meta principal em uma etapa reversível e validável.",
+    "secondarySubgoal": "Preparar observabilidade mínima antes de ampliar o escopo.",
+    "nextSubgoal": "Selecionar um ajuste pequeno com rollback garantido.",
+    "resourceNeed": "baixo",
+    "timePressure": "moderada",
+    "dependencyLoad": 4,
+    "criticalBlocker": "Nenhum bloqueio crítico detectado.",
+    "decomposerDirective": "Executar a decomposição em submetas pequenas, sequenciais e reversíveis.",
+    "lastDecomposerAt": "2026-04-19T02:14:09.143Z"
+  },
+  "executionRoadmap": {
+    "roadmapScore": 62,
+    "planReadiness": 66,
+    "milestoneCount": 6,
+    "executionWindow": "janela curta com contenção",
+    "currentMilestone": "Consolidar decomposição e reduzir bloqueios antes de executar.",
+    "nextMilestone": "Selecionar um ajuste pequeno com rollback garantido.",
+    "criticalPath": "Validação → sandbox → promoção supervisionada → observabilidade",
+    "resourceAllocation": "leve",
+    "roadmapDirective": "Segurar execução, reduzir bloqueios e só então abrir os marcos do roadmap.",
+    "lastRoadmapAt": "2026-04-19T02:14:09.143Z"
+  },
+  "tacticalExecutor": {
+    "executorScore": 65,
+    "executionReadiness": 69,
+    "actionQueueDepth": 8,
+    "tacticalMode": "staged-supervision",
+    "currentAction": "Segurar avanço e reduzir risco antes da primeira execução tática.",
+    "nextAction": "Reforçar validação, diminuir bloqueios e revisar o roadmap.",
+    "executionGuard": "Containment ativo, rollback imediato e revisão antes de executar.",
+    "throughputTarget": "controlado",
+    "tacticalDirective": "Congelar execução, estabilizar o núcleo e só então retomar o plano.",
+    "lastTacticalAt": "2026-04-19T02:14:09.143Z"
+  },
+  "executionFeedbackLoop": {
+    "feedbackScore": 75,
+    "loopReadiness": 73,
+    "signalFreshness": 90,
+    "correctionRate": 100,
+    "feedbackMode": "queue-pressure-control",
+    "currentFeedback": "Fila tática pressionada em Segurar avanço e reduzir risco antes da primeira execução tática.. Feedback deve reduzir profundidade antes da próxima ação.",
+    "nextAdjustment": "Reduzir fila ativa, confirmar feedback válido e só então liberar nova ação.",
+    "confidencePulse": "alta",
+    "feedbackDirective": "Usar feedback para aliviar pressão da fila, reordenar ações e preservar reversibilidade.",
+    "lastFeedbackAt": "2026-04-19T02:14:09.143Z"
+  },
+  "tacticalAdjuster": {
+    "adjusterScore": 63,
+    "adjustmentReadiness": 67,
+    "adaptationPressure": 96,
+    "adjustmentMode": "contain-and-correct",
+    "currentAdjustment": "Reduzir pressão adaptativa e segurar mudanças de maior risco.",
+    "nextAdjustment": "Diminuir a fila ativa antes da próxima correção tática.",
+    "stabilityGuard": "armado",
+    "precisionIndex": 70,
+    "responseLatency": 27,
+    "riskCompensation": "contenção ativa",
+    "adjusterDirective": "Priorizar estabilidade, conter a pressão e adiar mudanças agressivas.",
+    "lastAdjusterAt": "2026-04-19T02:14:09.143Z"
+  },
+  "autonomyCommander": {
+    "commanderScore": 65,
+    "commandReadiness": 68,
+    "commandMode": "containment-command",
+    "operationalTempo": "contenção",
+    "currentCommand": "Conter pressão operacional, segurar expansão e preservar rollback.",
+    "nextCommand": "Reordenar fila, reduzir ruído do ciclo e promover apenas ações de baixo risco.",
+    "authorityGuard": "restrito",
+    "alignmentIndex": 63,
+    "commanderDirective": "Conter o comando, proteger estabilidade e liberar apenas microdecisões reversíveis.",
+    "lastCommanderAt": "2026-04-19T02:14:09.143Z"
+  },
+  "telemetry": {
+    "totalLoops": 66,
+    "successfulValidations": 66,
+    "failedValidations": 0,
+    "lastLoopAt": "2026-04-19T02:14:09.143Z"
+  },
+  "learningMemory": {
+    "wins": [
+      {
+        "notes": "Validação do loop com patch aprovada com score 100.",
+        "mission": "Executar missão operacional: Quero evoluir a Megan para autonomia máxima",
+        "createdAt": "2026-04-17T16:35:06.119Z"
+      },
+      {
+        "notes": "Validação do loop com patch aprovada com score 100.",
+        "mission": "Executar missão operacional: Quero evoluir a Megan para autonomia máxima",
+        "createdAt": "2026-04-17T16:33:36.397Z"
+      },
+      {
+        "notes": "Validação do loop com patch aprovada com score 100.",
+        "mission": "Executar missão operacional: Resuma o estado atual da Megan OS",
+        "createdAt": "2026-04-17T16:33:18.956Z"
+      },
+      {
+        "notes": "Validação do loop com patch aprovada com score 100.",
+        "mission": "Executar missão operacional: Sugira a próxima melhoria da Megan OS",
+        "createdAt": "2026-04-16T23:06:43.407Z"
+      },
+      {
+        "notes": "Validação orquestrada aprovada com score 92.",
+        "mission": "Executar missão operacional: Sugira a próxima melhoria da Megan OS",
+        "createdAt": "2026-04-16T22:59:06.417Z"
+      },
+      {
+        "notes": "Validação integrada aprovada com score 96.",
+        "mission": "Executar a missão atual: vamos criar um livro",
+        "createdAt": "2026-04-16T22:48:52.661Z"
+      },
+      {
+        "notes": "Validação integrada aprovada com score 96.",
+        "mission": "Receber e orientar o próximo objetivo do Luiz",
+        "createdAt": "2026-04-16T22:48:41.028Z"
+      },
+      {
+        "notes": "Validação integrada aprovada com score 96.",
+        "mission": "Executar a missão atual: Resuma o estado atual da Megan OS",
+        "createdAt": "2026-04-16T22:47:39.857Z"
+      },
+      {
+        "notes": "Validação integrada aprovada com score 96.",
+        "mission": "Elevar a Megan OS para autonomia supervisionada máxima",
+        "createdAt": "2026-04-16T22:46:35.861Z"
+      },
+      {
+        "notes": "Validação integrada aprovada com score 96.",
+        "mission": "Elevar a Megan OS para autonomia supervisionada máxima",
+        "createdAt": "2026-04-16T18:24:43.613Z"
+      },
+      {
+        "notes": "Loop executou a tarefa prioritária: Integrar Gemini ao núcleo central da Megan OS",
+        "mission": "Integrar Gemini ao núcleo central da Megan OS",
+        "createdAt": "2026-04-16T16:22:58.427Z"
+      },
+      {
+        "notes": "Loop executou a tarefa prioritária: Criar ciclo: detectar gargalo → hipótese → plano → validação → memória.",
+        "mission": "Receber e orientar o próximo objetivo do Luiz",
+        "createdAt": "2026-04-16T16:22:38.936Z"
+      }
+    ],
+    "failures": [],
+    "lastValidatedChange": {
+      "notes": "Validação com priorização adaptativa integrada aprovada com score 96.",
+      "mission": "Executar missão com priorização adaptativa: Quero evoluir a Megan para autonomia máxima",
+      "createdAt": "2026-04-19T02:14:09.143Z"
+    }
+  },
+  "updatedAt": "2026-04-19T02:14:09.149Z",
+  "history": [
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T13:03:39.103Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T13:03:39.122Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T13:03:40.415Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T13:03:40.432Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T13:06:13.514Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T13:06:13.534Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T13:06:13.570Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T13:06:13.598Z"
+    },
+    {
+      "role": "user",
+      "content": "Resuma o estado atual da Megan OS",
+      "createdAt": "2026-04-18T14:53:40.615Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T14:53:40.666Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T14:54:00.973Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T14:54:01.028Z"
+    },
+    {
+      "role": "user",
+      "content": "Resuma o estado atual da Megan OS",
+      "createdAt": "2026-04-18T15:30:36.924Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T15:30:36.982Z"
+    },
+    {
+      "role": "user",
+      "content": "Quero evoluir a Megan para autonomia máxima",
+      "createdAt": "2026-04-18T19:44:16.357Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T19:44:16.429Z"
+    },
+    {
+      "role": "user",
+      "content": "Quero evoluir a Megan para autonomia máxima",
+      "createdAt": "2026-04-18T19:44:19.403Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T19:44:19.434Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T23:46:37.046Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T23:46:37.119Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-18T23:46:38.518Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-18T23:46:38.575Z"
+    },
+    {
+      "role": "user",
+      "content": "Quero evoluir a Megan para autonomia máxima",
+      "createdAt": "2026-04-19T00:14:25.662Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-19T00:14:25.730Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-19T00:20:03.214Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-19T00:20:03.275Z"
+    },
+    {
+      "role": "user",
+      "content": "Sugira a próxima melhoria da Megan OS",
+      "createdAt": "2026-04-19T02:14:05.624Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano running.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-19T02:14:05.684Z"
+    },
+    {
+      "role": "user",
+      "content": "Quero evoluir a Megan para autonomia máxima",
+      "createdAt": "2026-04-19T02:14:09.085Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação: Validação com priorização adaptativa integrada aprovada com score 96..",
+      "createdAt": "2026-04-19T02:14:09.149Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1776564849084_d4s57g",
+      "title": "Executar prioridade adaptativa máxima do ciclo",
+      "type": "adaptive_priority",
+      "priority": 100,
+      "status": "running",
+      "createdAt": "2026-04-19T02:14:09.084Z",
+      "startedAt": "2026-04-19T02:14:09.143Z"
+    },
+    {
+      "id": "task_1776541459403_np6whq",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-18T19:44:19.403Z"
+    },
+    {
+      "id": "task_1776555997045_xpvult",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-18T23:46:37.045Z"
+    },
+    {
+      "id": "task_1776555998518_9qo8ou",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-18T23:46:38.518Z"
+    },
+    {
+      "id": "task_1776557665661_k0hq5y",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-19T00:14:25.661Z"
+    },
+    {
+      "id": "task_1776558003214_81hpyc",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-19T00:20:03.214Z"
+    },
+    {
+      "id": "task_1776564845623_9sn8ru",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-19T02:14:05.623Z"
+    },
+    {
+      "id": "task_1776564849084_bg71vg",
+      "title": "Consultar memória consolidada e fallback inteligente",
+      "type": "decision_fallback",
+      "priority": 99,
+      "status": "pending",
+      "createdAt": "2026-04-19T02:14:09.084Z"
+    }
+  ],
+  "improvementHistory": [
+    {
+      "id": "improvement_1776526236976",
+      "status": "validated",
+      "notes": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "bottleneck": "Nenhum problema crítico detectado na última varredura.",
+      "suggestion": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-18T15:30:36.976Z"
+    },
+    {
+      "id": "improvement_1776356578427_pfwbco",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Integrar Gemini ao núcleo central da Megan OS",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T16:22:58.427Z"
+    },
+    {
+      "id": "improvement_1776356558936_wvymb1",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Criar ciclo: detectar gargalo → hipótese → plano → validação → memória.",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T16:22:38.936Z"
+    },
+    {
+      "id": "improvement_1776356357645_bl9mxs",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Manter monitoramento contínuo e registrar novos sinais.",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T16:19:17.645Z"
+    },
+    {
+      "id": "improvement_1776353325851_1vefwc",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Executar a missão atual: Resuma o estado atual da Megan OS",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T15:28:45.851Z"
+    },
+    {
+      "id": "improvement_1776352051436_oql2hk",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Detectar gargalo principal da Megan OS",
+      "bottleneck": "O núcleo ainda precisa validar melhor hipóteses de melhoria antes de agir.",
+      "suggestion": "Criar ciclo: detectar gargalo → hipótese → plano → validação → memória.",
+      "riskLevel": "médio",
+      "createdAt": "2026-04-16T15:07:31.436Z"
+    },
+    {
+      "id": "improvement_1776351783166_qc3l6o",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Executar a missão atual: Mostre o gargalo principal agora",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T15:03:03.166Z"
+    },
+    {
+      "id": "improvement_1776351780307_kw7vlw",
+      "status": "validated",
+      "notes": "Loop executou a tarefa prioritária: Executar a missão atual: Mostre o gargalo principal agora",
+      "bottleneck": "Nenhum gargalo crítico detectado no momento.",
+      "suggestion": "Manter monitoramento contínuo e registrar novos sinais.",
+      "riskLevel": "baixo",
+      "createdAt": "2026-04-16T15:03:00.307Z"
+    }
+  ],
+  "ultraBrainBoard": [
+    {
+      "id": "strategic",
+      "name": "Cérebro Estratégico",
+      "status": "monitorando",
+      "score": 86,
+      "focus": "brain routing"
+    },
+    {
+      "id": "operational",
+      "name": "Cérebro Operacional",
+      "status": "ativo",
+      "score": 96,
+      "focus": "Executar fila prioritária"
+    },
+    {
+      "id": "guardian",
+      "name": "Cérebro Guardião",
+      "status": "alerta",
+      "score": 74,
+      "focus": "Nenhum problema crítico detectado na últi…"
+    },
+    {
+      "id": "recovery",
+      "name": "Cérebro de Recuperação",
+      "status": "reserva",
+      "score": 98,
+      "focus": "Executar patch supervisionado antes do pr…"
+    }
+  ],
+  "operationalFeed": [
+    {
+      "id": "feed_1776526236982_x6aeq3",
+      "kind": "info",
+      "title": "Resposta da Megan registrada",
+      "detail": "Brain ativo: operational (86). Prioridade do ciclo: brain_routing. Motivo: Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.. Validação…",
+      "createdAt": "2026-04-18T15:30:36.982Z"
+    },
+    {
+      "id": "feed_1776526236976_irpgy1",
+      "kind": "success",
+      "title": "Validação do ciclo",
+      "detail": "Validação com priorização adaptativa integrada aprovada com score 96.",
+      "createdAt": "2026-04-18T15:30:36.976Z"
+    },
+    {
+      "id": "feed_1776526236975_q9gt5u",
+      "kind": "warn",
+      "title": "Self-healing analisado",
+      "detail": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "createdAt": "2026-04-18T15:30:36.975Z"
+    },
+    {
+      "id": "feed_1776526236975_fam2zi",
+      "kind": "success",
+      "title": "Fallback estável",
+      "detail": "Nenhum fallback necessário. Estratégia atual mantida.",
+      "createdAt": "2026-04-18T15:30:36.975Z"
+    },
+    {
+      "id": "feed_1776526236975_g4uxzj",
+      "kind": "info",
+      "title": "Patch supervisionado",
+      "detail": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "createdAt": "2026-04-18T15:30:36.975Z"
+    },
+    {
+      "id": "feed_1776526236975_6kg3gj",
+      "kind": "success",
+      "title": "Loop executado",
+      "detail": "Prioridade atual: brain_routing",
+      "createdAt": "2026-04-18T15:30:36.975Z"
+    },
+    {
+      "id": "feed_1776526236975_kp4244",
+      "kind": "info",
+      "title": "Modo de estabilidade",
+      "detail": "Modo atual: repairing",
+      "createdAt": "2026-04-18T15:30:36.975Z"
+    },
+    {
+      "id": "feed_1776526236923_n8zxec",
+      "kind": "info",
+      "title": "Nova missão recebida",
+      "detail": "Resuma o estado atual da Megan OS",
+      "createdAt": "2026-04-18T15:30:36.923Z"
+    },
+    {
+      "id": "feed_1776526236923_fhl2en",
+      "kind": "success",
+      "title": "Brain roteado",
+      "detail": "Missão detectada como operacional por envolver execução e andamento geral.",
+      "createdAt": "2026-04-18T15:30:36.923Z"
+    },
+    {
+      "id": "feed_1776526236923_eb1es8",
+      "kind": "info",
+      "title": "Prioridade recalculada",
+      "detail": "Ação priorizada: brain_routing, baseada em validação 96, patch draft_ready e plano completed.",
+      "createdAt": "2026-04-18T15:30:36.923Z"
+    }
+  ],
+  "queueMetrics": {
+    "total": 3,
+    "pending": 1,
+    "running": 1,
+    "done": 1,
+    "blocked": 0
+  },
+  "predictiveSignals": {
+    "queuePressure": 20,
+    "missionClarity": 100,
+    "autonomyReadiness": 92,
+    "riskScore": 25,
+    "nextLikelyFailure": "Nenhum problema crítico detectado na última varredura.",
+    "operatorAdvice": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+    "stabilityIndex": 100,
+    "futureBottleneck": "Nenhum problema crítico detectado na última varredura.",
+    "recoveryMode": "repairing",
+    "recoveryAdvice": "Executar patch supervisionado antes do próximo ganho evolutivo."
+  },
+  "usedGemini": true,
+  "usedModel": "gemini-2.5-flash"
+}

@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getGoalsController, createGoalController } from '../controllers/goals.controller.js'; const router = Router(); router.get('/goals', getGoalsController); router.post('/goals', createGoalController); export default router;

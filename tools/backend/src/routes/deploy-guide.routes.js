@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { deployGuideController } from '../controllers/deploy-guide.controller.js'; const router = Router(); router.get('/deploy-guide', deployGuideController); export default router;

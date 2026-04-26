@@ -1,0 +1,184 @@
+{
+  "updatedAt": "2026-04-26T00:21:42.492Z",
+  "version": "5.5.0",
+  "title": "Megan OS 5.5 — MEGAN APP STORE",
+  "focus": "Loja de módulos para temas, agentes, automações e integrações.",
+  "mode": "app_store_marketplace",
+  "readiness": {
+    "score": 95,
+    "status": "pronto_para_venda_de_modulos",
+    "billing": "compatível com planos mensais e compra por módulo",
+    "governance": "instalações críticas ficam em modo supervisionado"
+  },
+  "catalog": {
+    "themes": [
+      {
+        "id": "theme-executive-dark",
+        "type": "tema",
+        "name": "Executive Dark",
+        "price": 0,
+        "status": "instalavel",
+        "category": "visual",
+        "description": "Tema premium escuro para painéis empresariais e comando global."
+      },
+      {
+        "id": "theme-personal-life",
+        "type": "tema",
+        "name": "Personal Life Focus",
+        "price": 9,
+        "status": "instalavel",
+        "category": "visual",
+        "description": "Tema pessoal para rotina, foco, saúde e produtividade."
+      },
+      {
+        "id": "theme-white-label-clean",
+        "type": "tema",
+        "name": "White-label Clean",
+        "price": 29,
+        "status": "instalavel",
+        "category": "white_label",
+        "description": "Tema limpo para revenda com marca de empresas clientes."
+      }
+    ],
+    "agents": [
+      {
+        "id": "agent-sales-pro",
+        "type": "agente",
+        "name": "Agente Vendas PRO",
+        "price": 49,
+        "status": "instalavel",
+        "category": "vendas",
+        "description": "Capta leads, qualifica oportunidades, cria propostas e agenda follow-up."
+      },
+      {
+        "id": "agent-support-pro",
+        "type": "agente",
+        "name": "Agente Suporte PRO",
+        "price": 39,
+        "status": "instalavel",
+        "category": "suporte",
+        "description": "Responde clientes, classifica tickets e escala casos críticos."
+      },
+      {
+        "id": "agent-finance-pro",
+        "type": "agente",
+        "name": "Agente Financeiro PRO",
+        "price": 59,
+        "status": "instalavel",
+        "category": "financeiro",
+        "description": "Acompanha caixa, cobranças, recorrência e alertas de risco."
+      },
+      {
+        "id": "agent-marketing-pro",
+        "type": "agente",
+        "name": "Agente Marketing PRO",
+        "price": 45,
+        "status": "instalavel",
+        "category": "marketing",
+        "description": "Cria campanhas, calendário editorial e análise de conversão."
+      }
+    ],
+    "automations": [
+      {
+        "id": "auto-lead-to-crm",
+        "type": "automacao",
+        "name": "Lead para CRM Vivo",
+        "price": 19,
+        "status": "instalavel",
+        "category": "crm",
+        "description": "Envia novos leads para o CRM, cria tarefa e notifica o time."
+      },
+      {
+        "id": "auto-billing-followup",
+        "type": "automacao",
+        "name": "Cobrança + Follow-up",
+        "price": 25,
+        "status": "instalavel",
+        "category": "financeiro",
+        "description": "Gera lembretes de cobrança e follow-ups automáticos supervisionados."
+      },
+      {
+        "id": "auto-daily-briefing",
+        "type": "automacao",
+        "name": "Briefing Diário",
+        "price": 15,
+        "status": "instalavel",
+        "category": "produtividade",
+        "description": "Resume agenda, metas, alertas e tarefas prioritárias do dia."
+      }
+    ],
+    "integrations": [
+      {
+        "id": "integration-gmail",
+        "type": "integracao",
+        "name": "Gmail",
+        "price": 0,
+        "status": "conectavel",
+        "category": "google_workspace",
+        "description": "Conecta e-mail para leitura, respostas assistidas e follow-up."
+      },
+      {
+        "id": "integration-calendar",
+        "type": "integracao",
+        "name": "Google Calendar",
+        "price": 0,
+        "status": "conectavel",
+        "category": "google_workspace",
+        "description": "Conecta agenda para eventos, foco diário e lembretes reais."
+      },
+      {
+        "id": "integration-whatsapp",
+        "type": "integracao",
+        "name": "WhatsApp Business",
+        "price": 29,
+        "status": "conectavel",
+        "category": "mensagens",
+        "description": "Conecta atendimento e vendas por WhatsApp com confirmação humana."
+      },
+      {
+        "id": "integration-stripe",
+        "type": "integracao",
+        "name": "Stripe",
+        "price": 19,
+        "status": "conectavel",
+        "category": "pagamentos",
+        "description": "Conecta planos, assinaturas, cobrança e métricas financeiras."
+      }
+    ]
+  },
+  "installed": [
+    {
+      "id": "install-core-001",
+      "moduleId": "theme-executive-dark",
+      "name": "Executive Dark",
+      "type": "tema",
+      "category": "visual",
+      "status": "ativo",
+      "installedAt": "2026-04-26T00:21:42.492Z"
+    },
+    {
+      "id": "install-core-002",
+      "moduleId": "integration-gmail",
+      "name": "Gmail",
+      "type": "integracao",
+      "category": "google_workspace",
+      "status": "conectado",
+      "installedAt": "2026-04-26T00:21:42.492Z"
+    }
+  ],
+  "purchases": [],
+  "activeTheme": "Executive Dark",
+  "connectedIntegrations": [
+    "Gmail"
+  ],
+  "enabledAutomations": [],
+  "activity": [
+    {
+      "id": "store-act-001",
+      "type": "store_boot",
+      "title": "Megan App Store 5.5 iniciada",
+      "detail": "Loja de temas, agentes, automações e integrações criada.",
+      "createdAt": "2026-04-26T00:21:42.492Z"
+    }
+  ]
+}

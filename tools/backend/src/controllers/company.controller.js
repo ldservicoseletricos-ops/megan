@@ -1,0 +1,1 @@
+import { company } from '../config/company.js'; export function getCompany(req, res) { res.json({ company }); } export function getDepartments(req, res) { res.json({ departments: company.departments }); }

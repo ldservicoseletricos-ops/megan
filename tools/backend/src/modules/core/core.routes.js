@@ -1,0 +1,13 @@
+const express = require('express');
+const controller = require('./core.controller');
+const router = express.Router();
+router.get('/status', controller.status);
+router.get('/dashboard', controller.dashboard);
+router.get('/priorities', controller.priorities);
+router.get('/recommendations', controller.recommendations);
+router.get('/context/live', controller.liveContext);
+router.get('/life', controller.life);
+router.get('/enterprise', controller.enterprise);
+router.get('/cognition/unified', controller.unified);
+router.post('/execute', controller.execute);
+module.exports = router;

@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getCompany, getDepartments } from '../controllers/company.controller.js'; const router = Router(); router.get('/company', getCompany); router.get('/company/departments', getDepartments); export default router;

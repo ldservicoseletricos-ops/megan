@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "mission": "Estabilizar e evoluir a Megan OS",
+  "currentFocus": "Consolidar runtime do backend",
+  "executiveSummary": "Nenhum ciclo executivo registrado ainda.",
+  "criticalTasks": [
+    "Validar rotas reais do backend",
+    "Manter visual premium estável",
+    "Adicionar evolução sem reintroduzir 404"
+  ],
+  "persistentPriorities": [
+    "Estabilidade do runtime",
+    "Continuidade da missão",
+    "Evolução controlada"
+  ],
+  "contextNotes": [
+    "Base atual trabalha com Auto Delegation e Strategic Forecast.",
+    "Novos módulos devem entrar sem quebrar o frontend."
+  ],
+  "lastDecision": "Priorizar estabilidade antes da próxima expansão"
+}

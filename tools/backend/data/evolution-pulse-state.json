@@ -1,0 +1,19 @@
+{
+  "version": "92.0.0",
+  "updatedAt": "2026-04-15T20:28:16.746Z",
+  "users": {
+    "luiz": {
+      "userId": "luiz",
+      "totalPulses": 0,
+      "lastPulse": null,
+      "history": [],
+      "patterns": {
+        "missions": {},
+        "lowMomentumCount": 0,
+        "deadlockCount": 0
+      },
+      "updatedAt": "2026-04-15T20:28:16.746Z",
+      "createdAt": "2026-04-15T20:28:16.746Z"
+    }
+  }
+}

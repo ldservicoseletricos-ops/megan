@@ -1,0 +1,22 @@
+MEGAN AUTONOMY CORE 1.4
+
+PACOTE FONTE COMPLETO, SEM NODE_MODULES, PARA EVITAR O MESMO PROBLEMA DE ZIP CORROMPIDO/DEPENDÊNCIA EMPACOTADA.
+
+PRINCIPAIS ADIÇÕES:
+- backend/src/modules/autonomy/...
+- frontend/src/features/autonomy/...
+- frontend/src/App.jsx
+- frontend/src/styles.css
+
+ROTAS NOVAS:
+- GET /api/autonomy/status
+- GET /api/autonomy/snapshot
+- GET /api/autonomy/history
+- POST /api/autonomy/goal
+- POST /api/autonomy/policy/mode
+- POST /api/autonomy/decision/simulate
+- POST /api/autonomy/cycle/run
+
+OBSERVAÇÃO IMPORTANTE:
+O node_modules/vite que veio no pacote original estava vazio/inconsistente.
+Por isso este pacote é entregue como FONTE LIMPA. Rode npm install novamente no backend e frontend.

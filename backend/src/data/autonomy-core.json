@@ -223,7 +223,7 @@
       "summary": "Validação aprovada para continuidade segura.",
       "createdAt": "2026-04-24T03:50:42.685Z"
     },
-    "updatedAt": "2026-04-25T23:42:41.791Z",
+    "updatedAt": "2026-04-26T05:12:22.636Z",
     "humanAdaptationMode": "balanced_support",
     "lastHumanPressureScore": 0,
     "communicationScore": 100,
@@ -1075,6 +1075,17 @@
   ],
   "missions": [
     {
+      "id": "mission-ui-approval-1",
+      "title": "Conectar aprovação e rollback ao painel",
+      "summary": "Dar visibilidade executiva para aprovar, rejeitar e reverter ações sensíveis.",
+      "status": "active",
+      "priority": "high",
+      "progress": 8,
+      "owner": "autonomy",
+      "createdAt": "2026-04-23T12:42:45.113Z",
+      "updatedAt": "2026-04-24T11:54:57.924Z"
+    },
+    {
       "id": "mission-stability-1",
       "title": "Blindar estabilidade do núcleo autônomo",
       "summary": "Executar ciclos seguros, manter rollback pronto e reduzir falhas recorrentes.",
@@ -1084,17 +1095,6 @@
       "owner": "autonomy",
       "createdAt": "2026-04-23T12:42:45.113Z",
       "updatedAt": "2026-04-24T11:40:55.249Z"
-    },
-    {
-      "id": "mission-ui-approval-1",
-      "title": "Conectar aprovação e rollback ao painel",
-      "summary": "Dar visibilidade executiva para aprovar, rejeitar e reverter ações sensíveis.",
-      "status": "completed",
-      "priority": "high",
-      "progress": 100,
-      "owner": "autonomy",
-      "createdAt": "2026-04-23T12:42:45.113Z",
-      "updatedAt": "2026-04-25T23:42:41.597Z"
     },
     {
       "id": "mission-1777030860946",
@@ -1752,28 +1752,12 @@
   ],
   "interactionMemory": [
     {
-      "id": "interaction-1777160561791",
+      "id": "interaction-1777180342636",
       "type": "human_context_analysis",
       "summary": "Contexto humano analisado em modo balanced_support",
       "contextMode": "balanced_support",
       "pressureScore": 0,
-      "createdAt": "2026-04-25T23:42:41.791Z"
-    },
-    {
-      "id": "interaction-1777160556738",
-      "type": "human_context_analysis",
-      "summary": "Contexto humano analisado em modo balanced_support",
-      "contextMode": "balanced_support",
-      "pressureScore": 0,
-      "createdAt": "2026-04-25T23:42:36.738Z"
-    },
-    {
-      "id": "interaction-1777160556732",
-      "type": "human_context_analysis",
-      "summary": "Contexto humano analisado em modo balanced_support",
-      "contextMode": "balanced_support",
-      "pressureScore": 0,
-      "createdAt": "2026-04-25T23:42:36.732Z"
+      "createdAt": "2026-04-26T05:12:22.636Z"
     },
     {
       "id": "interaction-1777031936315",

@@ -1,0 +1,308 @@
+{
+  "updatedAt": "2026-04-26T00:20:24.270Z",
+  "version": "5.1.0",
+  "title": "Megan OS 5.1 — MARKETPLACE DE AGENTES",
+  "focus": "Usuários compram, instalam, agregam e operam agentes especializados por área de negócio.",
+  "mode": "agent_marketplace_supervised",
+  "readiness": {
+    "score": 93,
+    "status": "pronto_para_venda_de_agentes",
+    "risk": "controlado_com_confirmacao_humana",
+    "nextRelease": "5.2 billing automático por uso e comissão de criadores"
+  },
+  "metrics": {
+    "publishedAgents": 7,
+    "installedAgents": 31,
+    "activeSubscriptions": 14,
+    "monthlyAgentRevenue": 6843,
+    "averageRating": 4.8,
+    "supervisedRuns": 128,
+    "categories": 7
+  },
+  "categories": [
+    "vendas",
+    "suporte",
+    "financeiro",
+    "marketing",
+    "jurídico",
+    "saúde",
+    "logística"
+  ],
+  "customers": [
+    {
+      "id": "tenant-luiz-master",
+      "name": "Luiz Rosa Holding",
+      "plan": "Enterprise Global",
+      "installedAgents": [
+        "agent-sales-pro",
+        "agent-finance-cash",
+        "agent-marketing-growth"
+      ]
+    },
+    {
+      "id": "tenant-b2b-alpha",
+      "name": "Empresa Alpha",
+      "plan": "Business Pro",
+      "installedAgents": [
+        "agent-sales-pro",
+        "agent-support-omni"
+      ]
+    },
+    {
+      "id": "tenant-health",
+      "name": "Megan Health Unit",
+      "plan": "Vertical Health",
+      "installedAgents": [
+        "agent-health-routine"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent-sales-pro",
+      "name": "Agente Vendas Pro",
+      "category": "vendas",
+      "price": 297,
+      "billing": "mensal",
+      "status": "published",
+      "installs": 9,
+      "rating": 4.9,
+      "risk": "baixo",
+      "description": "Capta leads, qualifica contatos, agenda reuniões, cria propostas e faz follow-up.",
+      "capabilities": [
+        "captação de leads",
+        "qualificação",
+        "propostas",
+        "follow-up",
+        "CRM vivo"
+      ],
+      "requiresApproval": [
+        "desconto acima de 15%",
+        "envio de contrato",
+        "alteração de preço"
+      ]
+    },
+    {
+      "id": "agent-support-omni",
+      "name": "Agente Suporte Omnicanal",
+      "category": "suporte",
+      "price": 247,
+      "billing": "mensal",
+      "status": "published",
+      "installs": 7,
+      "rating": 4.8,
+      "risk": "baixo",
+      "description": "Responde clientes em canais integrados, classifica tickets e escala casos críticos.",
+      "capabilities": [
+        "resposta automática",
+        "triagem",
+        "SLA",
+        "base de conhecimento",
+        "handoff humano"
+      ],
+      "requiresApproval": [
+        "reembolso",
+        "cancelamento",
+        "mensagem sensível"
+      ]
+    },
+    {
+      "id": "agent-finance-cash",
+      "name": "Agente Financeiro Caixa",
+      "category": "financeiro",
+      "price": 227,
+      "billing": "mensal",
+      "status": "published",
+      "installs": 5,
+      "rating": 4.7,
+      "risk": "médio",
+      "description": "Acompanha caixa, cobranças, vencimentos, inadimplência e previsões financeiras.",
+      "capabilities": [
+        "fluxo de caixa",
+        "cobrança",
+        "alertas",
+        "relatórios",
+        "previsão"
+      ],
+      "requiresApproval": [
+        "envio de cobrança formal",
+        "baixa manual",
+        "alteração de vencimento"
+      ]
+    },
+    {
+      "id": "agent-marketing-growth",
+      "name": "Agente Marketing Growth",
+      "category": "marketing",
+      "price": 267,
+      "billing": "mensal",
+      "status": "published",
+      "installs": 4,
+      "rating": 4.8,
+      "risk": "baixo",
+      "description": "Planeja campanhas, cria variações, acompanha métricas e sugere ações de crescimento.",
+      "capabilities": [
+        "campanhas",
+        "conteúdo",
+        "funil",
+        "métricas",
+        "testes A/B"
+      ],
+      "requiresApproval": [
+        "publicação paga",
+        "mudança de orçamento",
+        "promessa comercial"
+      ]
+    },
+    {
+      "id": "agent-legal-safe",
+      "name": "Agente Jurídico Seguro",
+      "category": "jurídico",
+      "price": 397,
+      "billing": "mensal",
+      "status": "supervised",
+      "installs": 2,
+      "rating": 4.6,
+      "risk": "alto",
+      "description": "Organiza documentos, identifica riscos e prepara minutas para revisão humana.",
+      "capabilities": [
+        "análise documental",
+        "checklist",
+        "minutas",
+        "riscos",
+        "prazos"
+      ],
+      "requiresApproval": [
+        "parecer final",
+        "assinatura",
+        "notificação extrajudicial"
+      ]
+    },
+    {
+      "id": "agent-health-routine",
+      "name": "Agente Saúde Rotina",
+      "category": "saúde",
+      "price": 197,
+      "billing": "mensal",
+      "status": "supervised",
+      "installs": 3,
+      "rating": 4.7,
+      "risk": "médio",
+      "description": "Acompanha hábitos, lembretes, sinais gerais e organização de rotina saudável.",
+      "capabilities": [
+        "hábitos",
+        "lembretes",
+        "rotina",
+        "registro",
+        "alertas não clínicos"
+      ],
+      "requiresApproval": [
+        "orientação médica",
+        "diagnóstico",
+        "mudança de medicação"
+      ]
+    },
+    {
+      "id": "agent-logistics-flow",
+      "name": "Agente Logística Flow",
+      "category": "logística",
+      "price": 287,
+      "billing": "mensal",
+      "status": "published",
+      "installs": 1,
+      "rating": 4.5,
+      "risk": "médio",
+      "description": "Monitora entregas, rotas, estoque, prioridades e atrasos operacionais.",
+      "capabilities": [
+        "rotas",
+        "entregas",
+        "estoque",
+        "alertas",
+        "priorização"
+      ],
+      "requiresApproval": [
+        "cancelar entrega",
+        "trocar transportadora",
+        "ajustar custo"
+      ]
+    }
+  ],
+  "installed": [
+    {
+      "id": "inst-001",
+      "agentId": "agent-sales-pro",
+      "customerId": "tenant-luiz-master",
+      "seat": "equipe_vendas",
+      "status": "active",
+      "monthlyValue": 297,
+      "installedAt": "2026-04-26T00:20:24.270Z"
+    },
+    {
+      "id": "inst-002",
+      "agentId": "agent-support-omni",
+      "customerId": "tenant-b2b-alpha",
+      "seat": "suporte_n1",
+      "status": "active",
+      "monthlyValue": 247,
+      "installedAt": "2026-04-26T00:20:24.270Z"
+    },
+    {
+      "id": "inst-003",
+      "agentId": "agent-finance-cash",
+      "customerId": "tenant-luiz-master",
+      "seat": "financeiro",
+      "status": "active",
+      "monthlyValue": 227,
+      "installedAt": "2026-04-26T00:20:24.270Z"
+    }
+  ],
+  "workflow": [
+    {
+      "id": "wf-001",
+      "title": "Descobrir agente",
+      "status": "ready",
+      "detail": "Usuário navega por categoria, preço, risco e avaliação."
+    },
+    {
+      "id": "wf-002",
+      "title": "Comprar ou agregar",
+      "status": "ready",
+      "detail": "Assinatura mensal por agente, vinculada à empresa cliente."
+    },
+    {
+      "id": "wf-003",
+      "title": "Instalar no tenant",
+      "status": "ready",
+      "detail": "Agente recebe escopo, canal, permissões e limites."
+    },
+    {
+      "id": "wf-004",
+      "title": "Rodar supervisionado",
+      "status": "ready",
+      "detail": "Execuções reais ficam em log e ações críticas pedem aprovação."
+    },
+    {
+      "id": "wf-005",
+      "title": "Medir resultado",
+      "status": "ready",
+      "detail": "Métricas de receita, uso, satisfação e risco por agente."
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-001",
+      "type": "marketplace_boot",
+      "title": "Marketplace de agentes iniciado",
+      "detail": "Catálogo 5.1 carregado com 7 categorias vendáveis.",
+      "createdAt": "2026-04-26T00:20:24.270Z"
+    },
+    {
+      "id": "act-002",
+      "type": "agent_published",
+      "title": "Agentes publicados",
+      "detail": "Vendas, suporte, financeiro, marketing, jurídico, saúde e logística disponíveis.",
+      "createdAt": "2026-04-26T00:20:24.270Z"
+    }
+  ],
+  "demoRuns": []
+}

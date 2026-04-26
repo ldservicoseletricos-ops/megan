@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { getMarketingOverview } from '../controllers/marketing.controller.js'; const router = Router(); router.get('/marketing/overview', getMarketingOverview); export default router;

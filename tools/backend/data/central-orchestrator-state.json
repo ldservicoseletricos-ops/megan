@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "updatedAt": null,
+  "leaderModule": "Controlled Autonomy",
+  "nextModule": "Tactical Executor",
+  "standbyModules": [
+    "Strategic Forecast",
+    "Auto Delegation"
+  ],
+  "activeModules": [
+    "Executive Memory",
+    "Bottleneck Detector",
+    "Controlled Autonomy"
+  ],
+  "reason": "Maior necessidade atual é decidir e agir com baixo risco."
+}

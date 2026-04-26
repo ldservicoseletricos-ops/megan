@@ -1,0 +1,17 @@
+Megan Autonomy Core 3.6
+
+Evolucao adicionada mantendo a base existente:
+- autopriorizacao de metas humanas
+- assistente executivo real
+- foco diario inteligente
+- calendario de prioridades
+- ledger executivo
+
+Rotas novas:
+GET  /api/autonomy/goals/human
+POST /api/autonomy/goals/human
+GET  /api/autonomy/executive/today
+POST /api/autonomy/executive/plan
+GET  /api/autonomy/focus
+GET  /api/autonomy/calendar/priorities
+GET  /api/autonomy/executive/ledger

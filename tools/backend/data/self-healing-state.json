@@ -1,0 +1,256 @@
+{
+  "enabled": true,
+  "lastScanAt": "2026-04-19T02:14:09.104Z",
+  "lastPatchSuggestionAt": "2026-04-19T02:14:09.104Z",
+  "lastDetectedIssue": "Loop autônomo aparenta estar parado ou sem progresso.",
+  "currentRecommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+  "severity": "high",
+  "signals": [
+    {
+      "code": "loop_stalled",
+      "severity": "high",
+      "message": "Loop autônomo aparenta estar parado ou sem progresso.",
+      "file": "backend/src/services/runtime.scheduler.service.js",
+      "createdAt": "2026-04-19T02:14:09.103Z"
+    }
+  ],
+  "suggestedFiles": [
+    "backend/src/services/runtime.scheduler.service.js"
+  ],
+  "patchDraft": {
+    "type": "stability_micro_patch",
+    "objective": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+    "risk": "médio",
+    "sourceSignals": [
+      "loop_stalled"
+    ]
+  },
+  "history": [
+    {
+      "createdAt": "2026-04-19T02:14:09.104Z",
+      "severity": "high",
+      "issue": "Loop autônomo aparenta estar parado ou sem progresso.",
+      "recommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "signals": [
+        {
+          "code": "loop_stalled",
+          "severity": "high",
+          "message": "Loop autônomo aparenta estar parado ou sem progresso.",
+          "file": "backend/src/services/runtime.scheduler.service.js",
+          "createdAt": "2026-04-19T02:14:09.103Z"
+        }
+      ],
+      "files": [
+        "backend/src/services/runtime.scheduler.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-19T02:14:05.639Z",
+      "severity": "high",
+      "issue": "Loop autônomo aparenta estar parado ou sem progresso.",
+      "recommendation": "Gerar microcorreção supervisionada, validar em dry-run e medir estabilidade antes de promover.",
+      "signals": [
+        {
+          "code": "loop_stalled",
+          "severity": "high",
+          "message": "Loop autônomo aparenta estar parado ou sem progresso.",
+          "file": "backend/src/services/runtime.scheduler.service.js",
+          "createdAt": "2026-04-19T02:14:05.639Z"
+        }
+      ],
+      "files": [
+        "backend/src/services/runtime.scheduler.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-19T01:34:12.042Z",
+      "issue": "Loop autônomo com sinais de estagnação ou fila represada.",
+      "recommendation": "Ajustar scheduler, reduzir sobreposição de ciclos e priorizar a próxima microação segura.",
+      "files": [
+        "backend/src/services/runtime.scheduler.service.js",
+        "backend/src/controllers/autonomy.controller.js"
+      ],
+      "confidence": 88,
+      "severity": "medium",
+      "signals": {
+        "queueDepth": 8,
+        "pendingTasks": 6,
+        "failedValidations": 0,
+        "totalLoops": 63,
+        "lastPatchOutcome": "none",
+        "stalledLoop": true,
+        "validationScore": 96
+      }
+    },
+    {
+      "createdAt": "2026-04-18T02:09:38.457Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:52:38.612Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:41:39.254Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:41:37.002Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:55.232Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:53.668Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:35:50.443Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:24:27.495Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T01:17:14.597Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-18T00:46:49.760Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:35:06.109Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:33:36.388Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-17T16:33:18.947Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T23:06:43.353Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T22:59:06.414Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T22:48:52.659Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T22:48:41.026Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T22:47:39.853Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T22:46:35.857Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    },
+    {
+      "createdAt": "2026-04-16T18:24:43.611Z",
+      "issue": "Nenhum problema crítico detectado na última varredura.",
+      "recommendation": "Continuar monitorando gargalos e validar novas mudanças antes de aplicar patch.",
+      "files": [
+        "backend/src/services/autonomy-core.service.js"
+      ]
+    }
+  ],
+  "confidence": 88,
+  "technicalSignals": {
+    "queueDepth": 8,
+    "failedValidations": 0,
+    "totalLoops": 63,
+    "lastPatchOutcome": "none",
+    "stalledLoop": true,
+    "pendingTasks": 6,
+    "validationScore": 96
+  }
+}

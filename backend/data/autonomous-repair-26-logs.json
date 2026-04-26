@@ -1,0 +1,15 @@
+[
+  {
+    "ok": true,
+    "executedAt": "2026-04-26T03:48:52.917Z",
+    "beforeScore": 86,
+    "afterScore": 86,
+    "actions": [
+      "frontend/.env higienizado"
+    ],
+    "remainingCritical": [
+      "1 arquivo(s) de ambiente com alertas",
+      "4 import(s) relativo(s) quebrado(s)"
+    ]
+  }
+]
