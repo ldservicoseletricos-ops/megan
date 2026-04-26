@@ -12,7 +12,7 @@ app.get('/api/health', (_req, res) => {
   res.json({
     ok: true,
     service: 'Megan OS Backend',
-    version: '27.0-dev-studio-unified',
+    version: '28.0-chat-central-memory-realtime',
     status: 'online',
     autonomy: 'Self Growth AI com carregamento seguro de módulos',
     timestamp: new Date().toISOString()
@@ -78,6 +78,9 @@ safeUse('/api/system-health-25', './modules/system-health-25/system-health-25.ro
 safeUse('/api/autonomous-repair-26', './modules/autonomous-repair-26/autonomous-repair-26.routes');
 // Megan OS 27.0 — Área de Desenvolvimento e Criação.
 safeUse('/api/dev-studio', './routes/dev-studio.routes');
+
+// Megan OS 28.0 — Chat Central + Memória + Tempo Real.
+safeUse('/api/chat-central-28', './routes/chat-central-28.routes');
 
 app.use((req, res) => {
   res.status(404).json({

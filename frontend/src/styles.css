@@ -680,3 +680,35 @@ a { color: inherit; }
   .autonomy-card { padding: 16px; border-radius: 20px; }
   .omega-quick-actions { grid-template-columns: 1fr; }
 }
+
+
+/* MEGAN OS 28.0 — Chat Central + Memória + Tempo Real */
+.chat28-page { display: grid; gap: 22px; }
+.chat28-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 420px); gap: 22px; padding: 28px; overflow: hidden; position: relative; }
+.chat28-hero::after { content: ''; position: absolute; width: 280px; height: 280px; right: -90px; top: -120px; background: radial-gradient(circle, rgba(101, 213, 255, 0.26), transparent 66%); pointer-events: none; }
+.chat28-hero h2 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 46px); letter-spacing: -0.04em; }
+.chat28-hero p { max-width: 760px; color: var(--text-soft); line-height: 1.7; }
+.chat28-status-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; align-self: center; }
+.chat28-status-grid article { padding: 18px; border-radius: 20px; border: 1px solid var(--stroke); background: rgba(255, 255, 255, 0.055); }
+.chat28-status-grid span, .chat28-card li, .chat28-message span { color: var(--text-soft); }
+.chat28-status-grid strong { display: block; margin-top: 8px; font-size: 24px; color: var(--text); }
+.chat28-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.75fr); gap: 22px; align-items: start; }
+.chat28-console, .chat28-card { padding: 22px; }
+.chat28-messages { min-height: 420px; max-height: 560px; overflow: auto; display: flex; flex-direction: column; gap: 14px; padding-right: 6px; }
+.chat28-message { max-width: 86%; padding: 15px 16px; border-radius: 20px; border: 1px solid var(--stroke); background: rgba(255, 255, 255, 0.055); }
+.chat28-message.user { align-self: flex-end; background: linear-gradient(135deg, rgba(101, 213, 255, 0.18), rgba(154, 130, 255, 0.14)); }
+.chat28-message.assistant { align-self: flex-start; }
+.chat28-message p { margin: 6px 0 0; line-height: 1.65; }
+.chat28-thinking, .chat28-error { color: var(--amber); padding: 10px 2px; }
+.chat28-input-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; margin-top: 18px; }
+.chat28-input-row input { width: 100%; min-height: 54px; border-radius: 18px; border: 1px solid var(--stroke-strong); background: rgba(255, 255, 255, 0.065); color: var(--text); padding: 0 18px; outline: none; }
+.chat28-input-row button, .chat28-command-list button { border: 0; border-radius: 18px; background: linear-gradient(135deg, var(--cyan), var(--violet)); color: #06101f; font-weight: 800; padding: 0 22px; min-height: 54px; }
+.chat28-side-stack { display: grid; gap: 18px; }
+.chat28-card h3 { margin: 0 0 12px; }
+.chat28-card p { color: var(--text-soft); line-height: 1.65; }
+.chat28-card ul { margin: 14px 0 0; padding-left: 20px; display: grid; gap: 8px; }
+.chat28-command-list, .chat28-module-list { display: grid; gap: 10px; }
+.chat28-command-list button { text-align: left; color: var(--text); background: rgba(255, 255, 255, 0.07); border: 1px solid var(--stroke); font-weight: 700; }
+.chat28-module-list span { display: flex; align-items: center; gap: 9px; color: var(--text-soft); padding: 10px 0; border-bottom: 1px solid var(--stroke); }
+.chat28-module-list i { width: 9px; height: 9px; border-radius: 999px; background: var(--emerald); box-shadow: 0 0 18px rgba(104, 224, 164, 0.8); }
+@media (max-width: 980px) { .chat28-hero, .chat28-grid { grid-template-columns: 1fr; } .chat28-status-grid { grid-template-columns: 1fr; } }

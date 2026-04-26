@@ -41,6 +41,7 @@ import RealActionEngine24Page from './features/realActionEngine24/RealActionEngi
 import SystemHealth25Page from './features/systemHealth25/SystemHealth25Page';
 import AutonomousRepair26Page from './features/autonomousRepair26/AutonomousRepair26Page';
 import DevStudio27Page from './features/devStudio27/DevStudio27Page';
+import ChatCentral28Page from './features/chatCentral28/ChatCentral28Page';
 
 const tabs = [
   { id: 'core', label: 'Megan OS 4.2', badge: 'Core', category: 'Base', accent: 'emerald', description: 'Painel principal da Megan OS.' },
@@ -74,6 +75,7 @@ const tabs = [
   { id: 'systemHealth250', label: 'System Health 25.0', badge: 'Health', category: 'Sistema', accent: 'cyan', description: 'Saúde e diagnóstico do sistema.' },
   { id: 'autonomousRepair260', label: 'Autonomous Repair 26.0', badge: 'Repair', category: 'Sistema', accent: 'emerald', description: 'Reparo autônomo assistido.' },
   { id: 'devStudio270', label: 'Dev Studio 27.0', badge: 'Studio', category: 'Criação', accent: 'violet', description: 'Desenvolvimento, criação e publicação.' },
+  { id: 'chatCentral280', label: 'Chat Central 28.0', badge: 'Live IA', category: 'Comando', accent: 'cyan', description: 'Chat central com memória e tempo real.' },
   { id: 'autonomy', label: 'Autonomy Center', badge: 'Central', category: 'Autonomia', accent: 'violet', description: 'Centro completo de autonomia.' },
   { id: 'planos', label: 'Planos', badge: 'Planos', category: 'Conta', accent: 'cyan', description: 'Planos disponíveis.' },
   { id: 'meu-plano', label: 'Meu Plano', badge: 'Billing', category: 'Conta', accent: 'violet', description: 'Assinatura e acesso.' },
@@ -90,7 +92,7 @@ function ShellLoading() {
     <div className="omega-loading-shell">
       <div className="omega-loading-card premium-glass">
         <span className="omega-orb" />
-        <span className="omega-kicker">MEGAN OS 27.0</span>
+        <span className="omega-kicker">MEGAN OS 28.0</span>
         <h2>Preparando sua central inteligente</h2>
         <p>Carregando módulos, permissões, dados de operação e visual premium.</p>
       </div>
@@ -142,6 +144,7 @@ function QuickActions({ onSelect }) {
   const actions = [
     { label: 'Criar projeto', target: 'devStudio270', icon: '⚡' },
     { label: 'Ver saúde', target: 'systemHealth250', icon: '🛡️' },
+    { label: 'Chat Central', target: 'chatCentral280', icon: '💬' },
     { label: 'Comando', target: 'operatorCommand170', icon: '🧠' },
     { label: 'Deploy', target: 'deployAutopilot70', icon: '🚀' },
   ];
@@ -257,6 +260,7 @@ export default function App() {
     systemHealth250: <SystemHealth25Page />,
     autonomousRepair260: <AutonomousRepair26Page />,
     devStudio270: <DevStudio27Page />,
+    chatCentral280: <ChatCentral28Page />,
     autonomy: <AutonomyCenterPage />,
     planos: (
       <PlanosPage
@@ -342,9 +346,9 @@ export default function App() {
             </div>
 
             <div className="omega-topbar-pills">
-              <span className="omega-top-pill">Megan OS 27.0</span>
+              <span className="omega-top-pill">Megan OS 28.0</span>
               <span className="omega-top-pill">Fusion Live</span>
-              <span className="omega-top-pill">Frontend Premium</span>
+              <span className="omega-top-pill">Chat + Memória + Tempo Real</span>
             </div>
           </header>
 

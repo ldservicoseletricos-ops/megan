@@ -1,7 +1,7 @@
 {
   "name": "megan-os-supreme-frontend",
   "private": true,
-  "version": "27.0.0",
+  "version": "28.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,7 +21,7 @@
     "vite": "^5.4.10",
     "@vitejs/plugin-react": "^4.3.3"
   },
-  "description": "Megan OS 27.0 frontend unificado com todos os módulos de fase preservados + Dev Studio",
+  "description": "Megan OS 28.0 frontend premium com Chat Central, memória e tempo real",
   "engines": {
     "node": ">=20"
   }

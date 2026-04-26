@@ -1,4 +1,4 @@
-const DEFAULT_API_URL = "http://localhost:10000";
+const DEFAULT_API_URL = "https://megan-ai.onrender.com";
 const TOKEN_STORAGE_KEY = "megan_token";
 
 function getBaseUrl() {
@@ -58,12 +58,8 @@ async function request(path, options = {}) {
   return data;
 }
 
-/* novos nomes */
 export const apiFetch = request;
-
-export const apiGet = (path) =>
-  request(path, { method: "GET" });
-
+export const apiGet = (path) => request(path, { method: "GET" });
 export const apiPost = (path, body = {}) =>
   request(path, {
     method: "POST",
@@ -76,10 +72,8 @@ export const apiPut = (path, body = {}) =>
     body: body instanceof FormData ? body : JSON.stringify(body),
   });
 
-export const apiDelete = (path) =>
-  request(path, { method: "DELETE" });
+export const apiDelete = (path) => request(path, { method: "DELETE" });
 
-/* compatibilidade antiga */
 export const getJson = apiGet;
 export const postJson = apiPost;
 export const putJson = apiPut;

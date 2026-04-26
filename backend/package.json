@@ -1,7 +1,7 @@
 {
   "name": "megan-os-supreme-backend",
   "private": true,
-  "version": "27.0.0",
+  "version": "28.0.0",
   "main": "src/server.js",
   "scripts": {
     "dev": "node src/server.js",
@@ -21,7 +21,7 @@
     "jsonwebtoken": "^9.0.3",
     "uuid": "^14.0.0"
   },
-  "description": "Megan OS 27.0 backend unificado com todos os módulos de fase preservados + Dev Studio",
+  "description": "Megan OS 28.0 backend unificado com Chat Central, memória e tempo real",
   "engines": {
     "node": ">=20"
   }
