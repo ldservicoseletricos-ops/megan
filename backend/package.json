@@ -1,7 +1,7 @@
 {
   "name": "megan-os-supreme-backend",
   "private": true,
-  "version": "26.0.0",
+  "version": "27.0.0",
   "main": "src/server.js",
   "scripts": {
     "dev": "node src/server.js",
@@ -15,9 +15,13 @@
     "@supabase/supabase-js": "^2.49.1",
     "dotenv": "^16.4.7",
     "multer": "^1.4.5-lts.1",
-    "stripe": "^17.5.0"
+    "stripe": "^17.5.0",
+    "axios": "^1.15.2",
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "uuid": "^14.0.0"
   },
-  "description": "Megan OS 26.0 backend com Autonomous Repair Engine consolidado",
+  "description": "Megan OS 27.0 backend unificado com todos os módulos de fase preservados + Dev Studio",
   "engines": {
     "node": ">=20"
   }

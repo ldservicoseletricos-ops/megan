@@ -12,7 +12,7 @@ app.get('/api/health', (_req, res) => {
   res.json({
     ok: true,
     service: 'Megan OS Backend',
-    version: '26.0-autonomous-repair-engine',
+    version: '27.0-dev-studio-unified',
     status: 'online',
     autonomy: 'Self Growth AI com carregamento seguro de módulos',
     timestamp: new Date().toISOString()
@@ -76,6 +76,8 @@ safeUse('/api/operator-sovereign-mind-22', './modules/operator-sovereign-mind-22
 safeUse('/api/real-action-engine-24', './modules/real-action-engine-24/real-action-engine-24.routes');
 safeUse('/api/system-health-25', './modules/system-health-25/system-health-25.routes');
 safeUse('/api/autonomous-repair-26', './modules/autonomous-repair-26/autonomous-repair-26.routes');
+// Megan OS 27.0 — Área de Desenvolvimento e Criação.
+safeUse('/api/dev-studio', './routes/dev-studio.routes');
 
 app.use((req, res) => {
   res.status(404).json({

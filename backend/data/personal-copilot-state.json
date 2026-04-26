@@ -1,0 +1,101 @@
+{
+  "agenda": [
+    {
+      "id": "agenda_001",
+      "title": "Revisar prioridades da Megan OS",
+      "time": "09:00",
+      "type": "foco",
+      "status": "planned",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "agenda_002",
+      "title": "Bloco de saúde e pausa ativa",
+      "time": "12:30",
+      "type": "saude",
+      "status": "planned",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "agenda_003",
+      "title": "Organizar finanças pessoais do dia",
+      "time": "18:00",
+      "type": "financas",
+      "status": "planned",
+      "date": "2026-04-26"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_001",
+      "title": "Evoluir Megan OS com segurança",
+      "area": "projeto",
+      "progress": 68,
+      "priority": "alta",
+      "nextStep": "executar fase 4.4 com copiloto pessoal total"
+    },
+    {
+      "id": "goal_002",
+      "title": "Melhorar rotina diária",
+      "area": "vida",
+      "progress": 42,
+      "priority": "media",
+      "nextStep": "definir foco principal de hoje"
+    }
+  ],
+  "health": [
+    {
+      "id": "health_001",
+      "mood": "focado",
+      "energy": 78,
+      "sleepHours": 7,
+      "water": 4,
+      "note": "Base inicial saudável para operação do dia.",
+      "createdAt": "2026-04-26T14:24:21.792Z"
+    }
+  ],
+  "finances": [
+    {
+      "id": "fin_001",
+      "title": "Reserva operacional",
+      "type": "income",
+      "amount": 1500,
+      "category": "projeto",
+      "dueDate": "2026-04-26",
+      "status": "planned"
+    },
+    {
+      "id": "fin_002",
+      "title": "Assinaturas e ferramentas",
+      "type": "expense",
+      "amount": 320,
+      "category": "software",
+      "dueDate": "2026-04-26",
+      "status": "pending"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem_001",
+      "title": "Checar agenda do dia",
+      "when": "2026-04-26T09:00:00.000Z",
+      "channel": "in_app",
+      "status": "scheduled"
+    }
+  ],
+  "decisions": [],
+  "activity": [
+    {
+      "id": "act_001",
+      "type": "focus",
+      "text": "Foco diário preparado para execução pessoal.",
+      "createdAt": "2026-04-26T14:24:21.792Z"
+    },
+    {
+      "id": "act_002",
+      "type": "life",
+      "text": "Copiloto pessoal 4.4 inicializado.",
+      "createdAt": "2026-04-26T14:24:21.792Z"
+    }
+  ]
+}
